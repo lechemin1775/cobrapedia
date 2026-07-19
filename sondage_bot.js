@@ -103,9 +103,13 @@ async function executerRituelQuotidien() {
             // ==========================================
             // MARCHE 2 (10h00) : ENVOI DE LA CITATION
             // ==========================================
-            const messageCitation = `⚡ <b>La Pensée du Jour</b>\n\n` +
-                                    `<i>"${citationChoisie.texte_fr}"</i>\n\n` +
-                                    `✍️ <b>Cobrapédia</b>` +
+            
+            const titreCentre = `⚡ <b>— LA PENSÉE DU JOUR —</b>`;
+            
+            // Utilisation de la balise <blockquote> pour un effet de citation élégant
+            const messageCitation = titreCentre + `\n\n` +
+                                    `<blockquote><i>"${citationChoisie.texte_fr}"</i></blockquote>\n` +
+                                    `<b>✍️ — Cobrapédia —</b>` +
                                     footerHTML;
 
             const paramsCitation = {
@@ -117,11 +121,10 @@ async function executerRituelQuotidien() {
 
             const reponseTelegram = await envoyerAITelegram('sendMessage', paramsCitation);
             if (reponseTelegram.ok) {
-                console.log("📜 Succès : Pensée du jour publiée !");
+                console.log("📜 Succès : Pensée du jour publiée (Version Blockquote) !");
             } else {
                 console.error("🕸️ Erreur Telegram (Citation) :", reponseTelegram.description);
             }
-
         } else {
             // ==========================================
             // MARCHE 3 (20h00) : ENVOI DE LA RÉSOLUTION
