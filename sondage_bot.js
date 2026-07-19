@@ -11,7 +11,7 @@ async function executerRituelQuotidien() {
         // 1. Chargement des bases (On ajoute les citations)
         const quiz_db_raw = JSON.parse(fs.readFileSync('quete_ascension.json', 'utf8'));
         const cobrapedia_db_raw = JSON.parse(fs.readFileSync('cobrapedia.json', 'utf8'));
-        const citations_db_raw = JSON.parse(fs.readFileSync('citations.json', 'utf8'));
+        const citations_db_raw = JSON.parse(fs.readFileSync('citations_cobrapedia.json', 'utf8'));
 
         // 2. Préparation des questions
         let quiz_db = quiz_db_raw.map(q => ({
