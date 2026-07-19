@@ -67,7 +67,7 @@ async function executerRituelQuotidien() {
         const footerHTML = `\n\n🌐 <a href="${urlSite}">Le Portail de Lumière</a>\n📱 <a href="${urlApp}">Application Cobrapédia pour Android</a>`;
 
         // 4. Détermination du moment (Trois marches distinctes)
-        const heureActuelleParis = 10; 
+        const heureActuelleParis = new Date().getUTCHours() + 2; 
         
         if (heureActuelleParis < 9) {
             // ==========================================
