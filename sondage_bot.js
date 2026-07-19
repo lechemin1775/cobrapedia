@@ -1,0 +1,137 @@
+const fs = require('fs');
+
+// ==========================================
+// 1. CONFIGURATION DU BOT 
+// ==========================================
+const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN; // La clé du BotFather
+const CHAT_ID = "-1004485957788"; // Votre ID avec le tiret récupéré via l'astuce web
+
+async function executerRituelQuotidien() {
+    try {
+        // 1. Chargement des bases
+        const quiz_db_raw = JSON.parse(fs.readFileSync('quete_ascension_VERIFIEE.json', 'utf8'));
+        const cobrapedia_db_raw = JSON.parse(fs.readFileSync('cobrapedia.json', 'utf8'));
+
+        // 2. Préparation des questions
+        let quiz_db = quiz_db_raw.map(q => ({
+            texte: q.texte, 
+            propositions: q.propositions, 
+            reponse: q.reponse, 
+            explication: q.explication || q.indice || ""
+        }));
+
+        let cobra_terms = cobrapedia_db_raw.map(c => c.fr ? c.fr.terme : c.terme);
+        let cobrapedia_db = cobrapedia_db_raw.map(c => {
+            let terme = c.fr ? c.fr.terme : c.terme;
+            let definition = c.fr ? c.fr.definition : c.definition;
+            definition = definition.replace(/\[\d+\]/g, '').replace(/^[^a-zA-ZÀ-ÿ0-9]+/, '').trim();
+
+            let distractors = cobra_terms.filter(t => t !== terme);
+            let props = [terme];
+            for(let i=0; i<3; i++) {
+                let rIdx = Math.floor(Math.random() * distractors.length);
+                props.push(distractors.splice(rIdx, 1)[0]);
+            }
+            props.sort();
+
+            let extrait = definition.length > 240 ? definition.substring(0, 240) + "..." : definition;
+            return {
+                texte: `Quel concept correspond à cette transmission ?\n\n"${extrait}"`,
+                propositions: props, 
+                reponse: terme, 
+                explication: definition
+            };
+        });
+
+        const full_db = [...quiz_db, ...cobrapedia_db];
+
+        // 3. Sélection déterministe (Même question le matin et le soir)
+        const joursEcoules = Math.floor(Date.now() / (1000 * 60 * 60 * 24));
+        const indexDuJour = joursEcoules % full_db.length;
+        const questionChoisie = full_db[indexDuJour];
+        const indexBonneReponse = questionChoisie.propositions.indexOf(questionChoisie.reponse);
+
+        // CORRECTION : Ciseau automatique pour la limite des 100 caractères sur les réponses
+        const optionsSafe = questionChoisie.propositions.map(prop => 
+            prop.length > 100 ? prop.substring(0, 97) + "..." : prop
+        );
+
+        // Signature commune
+        const urlSite = "https://leportaildelumiere.com";
+        const urlApp = "https://play.google.com/store/apps/details?id=votre.id.app"; // Pensez à mettre votre lien
+        const footerHTML = `\n\n🌐 <a href="${urlSite}">Le Portail de Lumière</a>\n📱 <a href="${urlApp}">Application Cobrapédia pour Android</a>`;
+
+        // 4. Détermination du moment : Matin (Quiz) ou Soir (Résolution) ?
+        const heureActuelleParis = new Date().getUTCHours() + 2; 
+        
+        if (heureActuelleParis < 14) {
+            // --- MATIN (8h00) : ENVOI DU SONDAGE ---
+            // 1. Création de la signature HTML optimisée
+            const footerMatin = `\n\n<a href="${urlSite}">🌐 Le Portail</a> | <a href="${urlApp}">📱 Appli Android</a>`;
+            const longueurFooterVisible = 35; // Le texte visible par le joueur prend 35 caractères
+
+            // 2. Sécurité : on empêche les caractères spéciaux de faire planter le mode HTML
+            let texteBrut = questionChoisie.explication.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            
+            // 3. Calcul dynamique de l'espace (200 max - 35 de footer - 3 points de suspension = 162 caractères pour le texte)
+            let maxTexte = 200 - longueurFooterVisible - 3;
+            let explicationFinale = texteBrut.length > maxTexte 
+                ? texteBrut.substring(0, maxTexte) + "..." + footerMatin 
+                : texteBrut + footerMatin;
+            
+            const paramsQuiz = {
+                chat_id: CHAT_ID,
+                question: questionChoisie.texte.substring(0, 300),
+                options: JSON.stringify(optionsSafe),
+                type: 'quiz',
+                correct_option_id: indexBonneReponse,
+                explanation: explicationFinale,
+                explanation_parse_mode: 'HTML' // On réactive la magie des liens cachés !
+            };
+
+            const reponseTelegram = await envoyerAITelegram('sendPoll', paramsQuiz);
+            if (reponseTelegram.ok) {
+                console.log("✨ Succès : Épreuve du matin publiée (Version Longue) !");
+            } else {
+                console.error("🕸️ Erreur Telegram (Matin) :", reponseTelegram.description);
+            }
+
+        } else {
+
+            // --- SOIR (20h00) : ENVOI DE LA RÉSOLUTION ---
+            const messageResolution = `✨ <b>Résolution de l'Épreuve du Jour</b>\n\n` +
+                                      `La bonne réponse était : <b>${questionChoisie.reponse}</b>\n\n` +
+                                      `📚 <b>Transmission complète :</b>\n<i>${questionChoisie.explication}</i>` + 
+                                      footerHTML;
+
+            const paramsResolution = {
+                chat_id: CHAT_ID,
+                text: messageResolution,
+                parse_mode: 'HTML',
+                disable_web_page_preview: true 
+            };
+
+            const reponseTelegram = await envoyerAITelegram('sendMessage', paramsResolution);
+            if (reponseTelegram.ok) {
+                console.log("🌌 Succès : Résolution du soir publiée !");
+            } else {
+                console.error("🕸️ Erreur Telegram (Soir) :", reponseTelegram.description);
+            }
+        }
+
+    } catch (error) {
+        console.error("Interférence majeure :", error);
+    }
+}
+
+async function envoyerAITelegram(methode, corps) {
+    const url = `https://api.telegram.org/bot${TELEGRAM_TOKEN}/${methode}`;
+    const response = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(corps)
+    });
+    return await response.json();
+}
+
+executerRituelQuotidien();
