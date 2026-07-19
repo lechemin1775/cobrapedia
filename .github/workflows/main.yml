@@ -8,11 +8,10 @@ jobs:
   lancement:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 18
-      - run: npm install node-fetch@2 # Au cas où GitHub ait besoin de la bibliothèque fetch
+          node-version: 20
       - run: node sondage_bot.js
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
