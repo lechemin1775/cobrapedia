@@ -104,8 +104,8 @@ async function executerRituelQuotidien() {
             // MARCHE 2 (10h00) : ENVOI DE LA CITATION
             // ==========================================
             const messageCitation = `⚡ <b>La Pensée du Jour</b>\n\n` +
-                                    `<i>"${citationChoisie.texte}"</i>\n\n` +
-                                    `✍️ <b>${citationChoisie.auteur}</b>` +
+                                    `<i>"${citationChoisie.texte_fr}"</i>\n\n` +
+                                    `✍️ <b>Cobrapédia</b>` +
                                     footerHTML;
 
             const paramsCitation = {
