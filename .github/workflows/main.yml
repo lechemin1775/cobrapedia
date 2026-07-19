@@ -1,0 +1,18 @@
+name: Écosystème Rituel Quotidien
+on:
+  schedule:
+    - cron: '0 6,18 * * *' 
+  workflow_dispatch:
+
+jobs:
+  lancement:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm install node-fetch@2 # Au cas où GitHub ait besoin de la bibliothèque fetch
+      - run: node sondage_bot.js
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
