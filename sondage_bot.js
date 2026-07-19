@@ -9,7 +9,7 @@ const CHAT_ID = "-1004485957788"; // Votre ID avec le tiret récupéré via l'as
 async function executerRituelQuotidien() {
     try {
         // 1. Chargement des bases
-        const quiz_db_raw = JSON.parse(fs.readFileSync('quete_ascension_VERIFIEE.json', 'utf8'));
+        const quiz_db_raw = JSON.parse(fs.readFileSync('quete_ascension.json', 'utf8'));
         const cobrapedia_db_raw = JSON.parse(fs.readFileSync('cobrapedia.json', 'utf8'));
 
         // 2. Préparation des questions
