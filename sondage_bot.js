@@ -106,9 +106,9 @@ async function executerRituelQuotidien() {
             
             const titreCentre = `⚡ <b>— LA PENSÉE DU JOUR —</b>`;
             
-            // Utilisation de la balise <blockquote> pour un effet de citation élégant
+            // On a retiré les guillemets "" manuels pour laisser Telegram faire son design propre
             const messageCitation = titreCentre + `\n\n` +
-                                    `<blockquote><i>"${citationChoisie.texte_fr}"</i></blockquote>\n` +
+                                    `<blockquote><i>${citationChoisie.texte_fr}</i></blockquote>\n` +
                                     `<b>✍️ — Cobrapédia —</b>` +
                                     footerHTML;
 
@@ -121,7 +121,7 @@ async function executerRituelQuotidien() {
 
             const reponseTelegram = await envoyerAITelegram('sendMessage', paramsCitation);
             if (reponseTelegram.ok) {
-                console.log("📜 Succès : Pensée du jour publiée (Version Blockquote) !");
+                console.log("📜 Succès : Pensée du jour publiée (Design Parfait) !");
             } else {
                 console.error("🕸️ Erreur Telegram (Citation) :", reponseTelegram.description);
             }
