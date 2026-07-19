@@ -8,9 +8,10 @@ const CHAT_ID = "-1004485957788"; // Votre ID avec le tiret récupéré via l'as
 
 async function executerRituelQuotidien() {
     try {
-        // 1. Chargement des bases
+        // 1. Chargement des bases (On ajoute les citations)
         const quiz_db_raw = JSON.parse(fs.readFileSync('quete_ascension.json', 'utf8'));
         const cobrapedia_db_raw = JSON.parse(fs.readFileSync('cobrapedia.json', 'utf8'));
+        const citations_db_raw = JSON.parse(fs.readFileSync('citations.json', 'utf8'));
 
         // 2. Préparation des questions
         let quiz_db = quiz_db_raw.map(q => ({
@@ -45,35 +46,37 @@ async function executerRituelQuotidien() {
 
         const full_db = [...quiz_db, ...cobrapedia_db];
 
-        // 3. Sélection déterministe (Même question le matin et le soir)
+        // 3. Sélection déterministe basée sur le jour unique
         const joursEcoules = Math.floor(Date.now() / (1000 * 60 * 60 * 24));
+        
+        // Sélection de la question du jour
         const indexDuJour = joursEcoules % full_db.length;
         const questionChoisie = full_db[indexDuJour];
         const indexBonneReponse = questionChoisie.propositions.indexOf(questionChoisie.reponse);
-
-        // CORRECTION : Ciseau automatique pour la limite des 100 caractères sur les réponses
         const optionsSafe = questionChoisie.propositions.map(prop => 
             prop.length > 100 ? prop.substring(0, 97) + "..." : prop
         );
 
-        // Signature commune
+        // Sélection de la citation du jour
+        const indexCitation = joursEcoules % citations_db_raw.length;
+        const citationChoisie = citations_db_raw[indexCitation];
+
+        // Signatures communes
         const urlSite = "https://leportaildelumiere.com";
-        const urlApp = "https://play.google.com/store/apps/details?id=votre.id.app"; // Pensez à mettre votre lien
+        const urlApp = "https://play.google.com/store/apps/details?id=votre.id.app"; 
         const footerHTML = `\n\n🌐 <a href="${urlSite}">Le Portail de Lumière</a>\n📱 <a href="${urlApp}">Application Cobrapédia pour Android</a>`;
 
-        // 4. Détermination du moment : Matin (Quiz) ou Soir (Résolution) ?
+        // 4. Détermination du moment (Trois marches distinctes)
         const heureActuelleParis = new Date().getUTCHours() + 2; 
         
-        if (heureActuelleParis < 14) {
-            // --- MATIN (8h00) : ENVOI DU SONDAGE ---
-            // 1. Création de la signature HTML optimisée
+        if (heureActuelleParis < 9) {
+            // ==========================================
+            // MARCHE 1 (08h00) : ENVOI DU SONDAGE
+            // ==========================================
             const footerMatin = `\n\n<a href="${urlSite}">🌐 Le Portail</a> | <a href="${urlApp}">📱 Appli Android</a>`;
-            const longueurFooterVisible = 35; // Le texte visible par le joueur prend 35 caractères
+            const longueurFooterVisible = 35;
 
-            // 2. Sécurité : on empêche les caractères spéciaux de faire planter le mode HTML
             let texteBrut = questionChoisie.explication.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-            
-            // 3. Calcul dynamique de l'espace (200 max - 35 de footer - 3 points de suspension = 162 caractères pour le texte)
             let maxTexte = 200 - longueurFooterVisible - 3;
             let explicationFinale = texteBrut.length > maxTexte 
                 ? texteBrut.substring(0, maxTexte) + "..." + footerMatin 
@@ -86,19 +89,43 @@ async function executerRituelQuotidien() {
                 type: 'quiz',
                 correct_option_id: indexBonneReponse,
                 explanation: explicationFinale,
-                explanation_parse_mode: 'HTML' // On réactive la magie des liens cachés !
+                explanation_parse_mode: 'HTML'
             };
 
             const reponseTelegram = await envoyerAITelegram('sendPoll', paramsQuiz);
             if (reponseTelegram.ok) {
-                console.log("✨ Succès : Épreuve du matin publiée (Version Longue) !");
+                console.log("✨ Succès : Épreuve du matin publiée !");
             } else {
                 console.error("🕸️ Erreur Telegram (Matin) :", reponseTelegram.description);
             }
 
-        } else {
+        } else if (heureActuelleParis < 14) {
+            // ==========================================
+            // MARCHE 2 (10h00) : ENVOI DE LA CITATION
+            // ==========================================
+            const messageCitation = `⚡ <b>La Pensée du Jour</b>\n\n` +
+                                    `<i>"${citationChoisie.texte}"</i>\n\n` +
+                                    `✍️ <b>${citationChoisie.auteur}</b>` +
+                                    footerHTML;
 
-            // --- SOIR (20h00) : ENVOI DE LA RÉSOLUTION ---
+            const paramsCitation = {
+                chat_id: CHAT_ID,
+                text: messageCitation,
+                parse_mode: 'HTML',
+                disable_web_page_preview: true 
+            };
+
+            const reponseTelegram = await envoyerAITelegram('sendMessage', paramsCitation);
+            if (reponseTelegram.ok) {
+                console.log("📜 Succès : Pensée du jour publiée !");
+            } else {
+                console.error("🕸️ Erreur Telegram (Citation) :", reponseTelegram.description);
+            }
+
+        } else {
+            // ==========================================
+            // MARCHE 3 (20h00) : ENVOI DE LA RÉSOLUTION
+            // ==========================================
             const messageResolution = `✨ <b>Résolution de l'Épreuve du Jour</b>\n\n` +
                                       `La bonne réponse était : <b>${questionChoisie.reponse}</b>\n\n` +
                                       `📚 <b>Transmission complète :</b>\n<i>${questionChoisie.explication}</i>` + 
