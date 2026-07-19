@@ -8,12 +8,16 @@ const CHAT_ID = "-1004485957788"; // Votre ID avec le tiret récupéré via l'as
 
 async function executerRituelQuotidien() {
     try {
-        // 1. Chargement des bases (On ajoute les citations)
+        // ==========================================
+        // 1. CHARGEMENT DES BASES
+        // ==========================================
         const quiz_db_raw = JSON.parse(fs.readFileSync('quete_ascension.json', 'utf8'));
         const cobrapedia_db_raw = JSON.parse(fs.readFileSync('cobrapedia.json', 'utf8'));
         const citations_db_raw = JSON.parse(fs.readFileSync('citations_cobrapedia.json', 'utf8'));
 
-        // 2. Préparation des questions
+        // ==========================================
+        // 2. PRÉPARATION DES QUESTIONS
+        // ==========================================
         let quiz_db = quiz_db_raw.map(q => ({
             texte: q.texte, 
             propositions: q.propositions, 
@@ -46,7 +50,9 @@ async function executerRituelQuotidien() {
 
         const full_db = [...quiz_db, ...cobrapedia_db];
 
-        // 3. Sélection déterministe basée sur le jour unique
+        // ==========================================
+        // 3. SÉLECTION DÉTERMINISTE (JOUR UNIQUE)
+        // ==========================================
         const joursEcoules = Math.floor(Date.now() / (1000 * 60 * 60 * 24));
         
         // Sélection de la question du jour
@@ -66,13 +72,14 @@ async function executerRituelQuotidien() {
         const urlApp = "https://play.google.com/store/apps/details?id=votre.id.app"; 
         const footerHTML = `\n\n🌐 <a href="${urlSite}">Le Portail de Lumière</a>\n📱 <a href="${urlApp}">Application Cobrapédia pour Android</a>`;
 
-        // 4. Détermination du moment (Trois marches distinctes)
-        const heureActuelleParis = new Date().getUTCHours() + 2; 
+        // ==========================================
+        // 4. DÉTERMINATION DU MOMENT (FENÊTRES UTC)
+        // ==========================================
+        const heureUTC = new Date().getUTCHours(); 
         
-        if (heureActuelleParis < 9) {
-            // ==========================================
-            // MARCHE 1 (08h00) : ENVOI DU SONDAGE
-            // ==========================================
+        // --- MARCHE 1 : MATIN (Sondage) ---
+        // Cible le CRON de 06:00 UTC (08:00 Paris). Fenêtre active de 04h00 à 07h59 UTC.
+        if (heureUTC >= 4 && heureUTC < 8) {
             const footerMatin = `\n\n<a href="${urlSite}">🌐 Le Portail</a> | <a href="${urlApp}">📱 Appli Android</a>`;
             const longueurFooterVisible = 35;
 
@@ -99,15 +106,12 @@ async function executerRituelQuotidien() {
                 console.error("🕸️ Erreur Telegram (Matin) :", reponseTelegram.description);
             }
 
-        } else if (heureActuelleParis < 14) {
-            // ==========================================
-            // MARCHE 2 (10h00) : ENVOI DE LA CITATION
-            // ==========================================
+        // --- MARCHE 2 : MIDI (Citation) ---
+        // Cible le CRON de 08:00 UTC (10:00 Paris). Fenêtre active de 08h00 à 13h59 UTC.
+        } else if (heureUTC >= 8 && heureUTC < 14) {
             
             const titreCentre = `⚡ <b>— LA PENSÉE DU JOUR —</b>`;
             
-            // On retire le cadre (blockquote) pour des guillemets purs.
-            // On utilise \u2003 (un espace large invisible) pour décaler élégamment la signature.
             const messageCitation = titreCentre + `\n\n` +
                                     `<i>"${citationChoisie.texte_fr}"</i>\n\n` +
                                     `\u2003\u2003<b>✍️ — Cobrapédia —</b>` +
@@ -122,14 +126,14 @@ async function executerRituelQuotidien() {
 
             const reponseTelegram = await envoyerAITelegram('sendMessage', paramsCitation);
             if (reponseTelegram.ok) {
-                console.log("📜 Succès : Pensée du jour publiée (Version pure) !");
+                console.log("📜 Succès : Pensée du jour publiée !");
             } else {
                 console.error("🕸️ Erreur Telegram (Citation) :", reponseTelegram.description);
             }
+
+        // --- MARCHE 3 : SOIR (Résolution) ---
+        // Cible le CRON de 18:00 UTC (20:00 Paris). Fenêtre active à partir de 14h00 UTC.
         } else {
-            // ==========================================
-            // MARCHE 3 (20h00) : ENVOI DE LA RÉSOLUTION
-            // ==========================================
             const messageResolution = `✨ <b>Résolution de l'Épreuve du Jour</b>\n\n` +
                                       `La bonne réponse était : <b>${questionChoisie.reponse}</b>\n\n` +
                                       `📚 <b>Transmission complète :</b>\n<i>${questionChoisie.explication}</i>` + 
@@ -155,6 +159,9 @@ async function executerRituelQuotidien() {
     }
 }
 
+// ==========================================
+// 5. MOTEUR DE COMMUNICATION TELEGRAM
+// ==========================================
 async function envoyerAITelegram(methode, corps) {
     const url = `https://api.telegram.org/bot${TELEGRAM_TOKEN}/${methode}`;
     const response = await fetch(url, {
@@ -165,4 +172,5 @@ async function envoyerAITelegram(methode, corps) {
     return await response.json();
 }
 
+// Lancement du script
 executerRituelQuotidien();
