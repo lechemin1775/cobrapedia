@@ -1,0 +1,4787 @@
+[
+    {
+        "id": 1,
+        "texte_fr": "La Victoire de la Lumière est une certitude mathématique.",
+        "texte_en": "The Victory of the Light is a mathematical certainty.",
+        "page": 0
+    },
+    {
+        "id": 2,
+        "texte_fr": "L’expérience de vie positive inconditionnelle de chaque être sensible dans un univers libéré est garantie par la connexion intérieure de chaque être vivant avec la Source.",
+        "texte_en": "The unconditional positive life experience of every sentient being in a liberated universe is guaranteed by the inner connection of every living being with the Source.",
+        "page": 0
+    },
+    {
+        "id": 3,
+        "texte_fr": "La vie n’a jamais signifié travail difficile et lutte acharnée, mais plutôt un voyage de joie et de créativité.",
+        "texte_en": "Life has never meant hard work and struggle, but rather a journey of joy and creativity.",
+        "page": 0
+    },
+    {
+        "id": 4,
+        "texte_fr": "Chaque être sensible a un droit inaliénable et inconditionnel à l’Ascension.",
+        "texte_en": "Every sentient being has an inalienable and unconditional right to Ascension.",
+        "page": 0
+    },
+    {
+        "id": 5,
+        "texte_fr": "Chaque être sensible a un droit inaliénable et inconditionnel à toutes les informations.",
+        "texte_en": "Every sentient being has an inalienable and unconditional right to all information.",
+        "page": 0
+    },
+    {
+        "id": 6,
+        "texte_fr": "L’entropie totale de l’univers décroît avec le temps, car l’univers n’est pas un système fermé.",
+        "texte_en": "The total entropy of the universe is decreasing with time, because the universe is not a closed system.",
+        "page": 0
+    },
+    {
+        "id": 7,
+        "texte_fr": "Si vous révélez constamment et de manière cohérente la vérité en pleine face de la matrice, cela dissoudra l’esprit de groupe programmé de l’humanité.",
+        "texte_en": "If you consistently and coherently reveal the truth in the face of the matrix, it will dissolve humanity's programmed group mind.",
+        "page": 0
+    },
+    {
+        "id": 8,
+        "texte_fr": "La vérité crée un réseau de lumière sur le plan mental pour une intervention divine qui se manifeste ensuite sur le plan physique.",
+        "texte_en": "The truth creates a grid of light on the mental plane for divine intervention which then manifests on the physical plane.",
+        "page": 0
+    },
+    {
+        "id": 9,
+        "texte_fr": "Votre connexion avec la Source devrait être votre guide ultime.",
+        "texte_en": "Your connection with the Source should be your ultimate guide.",
+        "page": 0
+    },
+    {
+        "id": 10,
+        "texte_fr": "La Lumière vaincra l’obscurité et la bannira.",
+        "texte_en": "The Light will defeat the darkness and banish it.",
+        "page": 0
+    },
+    {
+        "id": 11,
+        "texte_fr": "L’obscurité sera comme quelque chose qui n’a jamais existé.",
+        "texte_en": "Darkness will be like something that never existed.",
+        "page": 0
+    },
+    {
+        "id": 12,
+        "texte_fr": "L’abondance physique est une expression naturelle de la beauté de l’âme incarnée.",
+        "texte_en": "Physical abundance is a natural expression of the beauty of the incarnated soul.",
+        "page": 0
+    },
+    {
+        "id": 13,
+        "texte_fr": "L’aspect féminin de la Source a été irrévocablement ancré dans toutes les particules physiques, éthériques, astrales et mentales de cette planète.",
+        "texte_en": "The feminine aspect of the Source has been irrevocably anchored into all physical, etheric, astral, and mental particles of this planet.",
+        "page": 0
+    },
+    {
+        "id": 14,
+        "texte_fr": "La Déesse veut la paix et elle l’obtiendra.",
+        "texte_en": "The Goddess wants peace and she will get it.",
+        "page": 0
+    },
+    {
+        "id": 15,
+        "texte_fr": "Au-delà du Voile, l’univers est rempli d’Amour.",
+        "texte_en": "Beyond the Veil, the universe is filled with Love.",
+        "page": 0
+    },
+    {
+        "id": 16,
+        "texte_fr": "La vérité est le seul chemin vers la guérison.",
+        "texte_en": "The truth is the only path toward healing.",
+        "page": 0
+    },
+    {
+        "id": 17,
+        "texte_fr": "Notre décision est la clé qui façonne le monde.",
+        "texte_en": "Our decision is the key that shapes the world.",
+        "page": 0
+    },
+    {
+        "id": 18,
+        "texte_fr": "La décision est l’étincelle du libre arbitre qui enflamme le cycle qui met tout en manifestation.",
+        "texte_en": "The decision is the spark of free will that ignites the cycle that brings everything into manifestation.",
+        "page": 0
+    },
+    {
+        "id": 19,
+        "texte_fr": "Le libre arbitre est le mystère ultime de l’univers.",
+        "texte_en": "Free will is the ultimate mystery of the universe.",
+        "page": 0
+    },
+    {
+        "id": 20,
+        "texte_fr": "C’est l’outil que chaque être peut utiliser pour se reconnecter à la Source.",
+        "texte_en": "It is the tool that every being can use to reconnect with the Source.",
+        "page": 0
+    },
+    {
+        "id": 21,
+        "texte_fr": "Le muscle qui nous permet d’entraîner le libre arbitre, ce sont les décisions.",
+        "texte_en": "The muscle that allows us to exercise free will is decision-making.",
+        "page": 0
+    },
+    {
+        "id": 22,
+        "texte_fr": "L'amour est le cœur de la Création.",
+        "texte_en": "Love is the heart of Creation.",
+        "page": 0
+    },
+    {
+        "id": 23,
+        "texte_fr": "L'obscurité n'a pas été créée, elle est juste apparue d'elle-même.",
+        "texte_en": "Darkness was not created; it just appeared by itself.",
+        "page": 0
+    },
+    {
+        "id": 24,
+        "texte_fr": "La souffrance n'a pas de sens, elle n'a pas de but supérieur, elle ne nous éduque pas, elle ne nous rend pas plus sages.",
+        "texte_en": "Suffering has no meaning, it has no higher purpose, it does not educate us, it does not make us wiser.",
+        "page": 0
+    },
+    {
+        "id": 25,
+        "texte_fr": "Chaque entité spirituelle fait partie de la volonté fractale étendue de la source et est connectée à elle.",
+        "texte_en": "Every spiritual entity is part of the Source's extended fractal will and is connected to it.",
+        "page": 0
+    },
+    {
+        "id": 26,
+        "texte_fr": "Le but de la Source est pour toutes les étincelles divines de revenir à la source.",
+        "texte_en": "The goal of the Source is for all divine sparks to return to the Source.",
+        "page": 0
+    },
+    {
+        "id": 27,
+        "texte_fr": "La patience est une vertu d’un véritable guerrier dévoué de la Lumière.",
+        "texte_en": "Patience is a virtue of a true devoted warrior of the Light.",
+        "page": 0
+    },
+    {
+        "id": 28,
+        "texte_fr": "La vérité est généralement quelque part entre les deux et c’est à vous de séparer le bon grain de l’ivraie.",
+        "texte_en": "The truth is usually somewhere in between, and it is up to you to separate the wheat from the chaff.",
+        "page": 0
+    },
+    {
+        "id": 29,
+        "texte_fr": "Lorsque vous aurez le courage de faire ce que les autres ne feront pas, vous aurez dans la vie ce que les autres n’ont pas.",
+        "texte_en": "When you have the courage to do what others will not, you will have in life what others do not.",
+        "page": 0
+    },
+    {
+        "id": 30,
+        "texte_fr": "L’immortalité physique est la manifestation ultime de la présence de la Déesse dans le corps physique.",
+        "texte_en": "Physical immortality is the ultimate manifestation of the Goddess's presence in the physical body.",
+        "page": 0
+    },
+    {
+        "id": 31,
+        "texte_fr": "Le but de l'énergie sexuelle est la fusion des polarités féminines et masculines dans l'Un.",
+        "texte_en": "The purpose of sexual energy is the fusion of feminine and masculine polarities into the One.",
+        "page": 0
+    },
+    {
+        "id": 32,
+        "texte_fr": "L’âme peut s’incarner dans un homme ou une femme, son essence demeure pure Lumière.",
+        "texte_en": "The soul can incarnate as a man or a woman; its essence remains pure Light.",
+        "page": 0
+    },
+    {
+        "id": 33,
+        "texte_fr": "La meilleure façon de contacter son âme est d’être absolument sincère avec soi-même.",
+        "texte_en": "The best way to contact your soul is to be absolutely sincere with yourself.",
+        "page": 0
+    },
+    {
+        "id": 34,
+        "texte_fr": "Tout ce qui nous inspire la beauté est une direction à prendre pour se connecter avec l’esprit.",
+        "texte_en": "Everything that inspires beauty in us is a direction to take to connect with the spirit.",
+        "page": 0
+    },
+    {
+        "id": 35,
+        "texte_fr": "Avant de nous connecter à l’esprit, nous ne sommes pas vraiment en vie parce que l’esprit est la source de toute vie.",
+        "texte_en": "Before we connect to the spirit, we are not truly alive because the spirit is the source of all life.",
+        "page": 0
+    },
+    {
+        "id": 36,
+        "texte_fr": "L’Événement est un événement déclencheur multidimensionnel qui lance le processus d’entrée dans l’Âge d’Or tant attendu.",
+        "texte_en": "The Event is a multidimensional trigger event that initiates the process of entering the long-awaited Golden Age.",
+        "page": 0
+    },
+    {
+        "id": 37,
+        "texte_fr": "Une fois l'obscurité éliminée, l'humanité sera en mesure de co-créer son propre avenir.",
+        "texte_en": "Once darkness is eliminated, humanity will be able to co-create its own future.",
+        "page": 0
+    },
+    {
+        "id": 38,
+        "texte_fr": "Le pardon ouvrira un flux d’Amour cosmique à la surface de cette planète.",
+        "texte_en": "Forgiveness will open a flow of cosmic Love on the surface of this planet.",
+        "page": 0
+    },
+    {
+        "id": 39,
+        "texte_fr": "Il n’y a plus de temps à perdre à ressasser le passé, il est temps de créer l’avenir et vivre dans le présent.",
+        "texte_en": "There is no more time to waste dwelling on the past; it is time to create the future and live in the present.",
+        "page": 0
+    },
+    {
+        "id": 40,
+        "texte_fr": "La conscience est supérieure et l’ADN s’aligne avec la conscience.",
+        "texte_en": "Consciousness is superior and DNA aligns with consciousness.",
+        "page": 0
+    },
+
+{
+"id": 41,
+"texte_fr": "La connaissance est le pouvoir, et la vérité est la liberté.",
+"texte_en": "Knowledge is power, and truth is freedom.",
+"page": 0
+},
+{
+"id": 42,
+"texte_fr": "L'Unique est partout et nulle part, immanent et transcendant.",
+"texte_en": "The One is everywhere and nowhere, immanent and transcendent.",
+"page": 0
+},
+{
+"id": 43,
+"texte_fr": "La loi de manifestation précise que nous co-créons notre réalité avec nos pensées, nos émotions et nos actions.",
+"texte_en": "The law of manifestation states that we co-create our reality with our thoughts, emotions, and actions.",
+"page": 0
+},
+{
+"id": 44,
+"texte_fr": "Les convictions façonnent la réalité.",
+"texte_en": "Beliefs shape reality.",
+"page": 0
+},
+{
+"id": 45,
+"texte_fr": "Le Vortex de la Déesse est une spirale arc-en-ciel d’énergie qui englobe toutes les combinaisons possibles de Lumière.",
+"texte_en": "The Goddess Vortex is a rainbow spiral of energy that encompasses all possible combinations of Light.",
+"page": 0
+},
+{
+"id": 46,
+"texte_fr": "Une seule personne parfaitement connectée à sa présence JE SUIS et ayant une compréhension complète de la situation peut libérer la planète.",
+"texte_en": "A single person perfectly connected to their I AM presence and having a complete understanding of the situation can liberate the planet.",
+"page": 0
+},
+{
+"id": 47,
+"texte_fr": "L’énergie de la Déesse est douce, mais c’est le pouvoir ultime.",
+"texte_en": "The energy of the Goddess is gentle, yet it is the ultimate power.",
+"page": 0
+},
+{
+"id": 48,
+"texte_fr": "La respiration est le pont entre le monde physique et les mondes spirituels.",
+"texte_en": "Breathing is the bridge between the physical world and the spiritual worlds.",
+"page": 0
+},
+{
+"id": 49,
+"texte_fr": "L’Événement enverra de fortes ondulations de Lumière dans tout l’espace-temps, en avant mais aussi en arrière dans le temps.",
+"texte_en": "The Event will send strong ripples of Light throughout space-time, forward but also backward in time.",
+"page": 0
+},
+{
+"id": 50,
+"texte_fr": "Chaque petite action compte et rapproche l’Événement.",
+"texte_en": "Every small action counts and brings the Event closer.",
+"page": 0
+},
+{
+"id": 51,
+"texte_fr": "Suivez vos rêves. Atteignez les étoiles !",
+"texte_en": "Follow your dreams. Reach for the stars!",
+"page": 0
+},
+{
+"id": 52,
+"texte_fr": "La peur est le principal outil de contrôle ; la connaissance est l’antidote.",
+"texte_en": "Fear is the main tool of control; knowledge is the antidote.",
+"page": 0
+},
+{
+"id": 53,
+"texte_fr": "Le moment est venu pour l'humanité de s'éveiller à sa véritable nature galactique.",
+"texte_en": "The time has come for humanity to awaken to its true galactic nature.",
+"page": 0
+},
+{
+"id": 54,
+"texte_fr": "L’Univers est un organisme vivant, conscient et en constante évolution.",
+"texte_en": "The Universe is a living, conscious, and constantly evolving organism.",
+"page": 0
+},
+{
+"id": 55,
+"texte_fr": "La musique est un vecteur pour communiquer la beauté de l’âme et des archétypes de vérité divine.",
+"texte_en": "Music is a vector for communicating the beauty of the soul and the archetypes of divine truth.",
+"page": 0
+},
+{
+"id": 56,
+"texte_fr": "L'harmonie est la loi fondamentale de l'univers libéré.",
+"texte_en": "Harmony is the fundamental law of the liberated universe.",
+"page": 0
+},
+{
+"id": 57,
+"texte_fr": "Chaque être vivant est une étincelle sacrée de la Source Unique.",
+"texte_en": "Every living being is a sacred spark of the One Source.",
+"page": 0
+},
+{
+"id": 58,
+"texte_fr": "La dualité est une anomalie temporaire qui sera bientôt résorbée dans l'Unité.",
+"texte_en": "Duality is a temporary anomaly that will soon be resolved into Oneness.",
+"page": 0
+},
+{
+"id": 59,
+"texte_fr": "La Lumière ne combat pas l’ombre ; elle l’illumine simplement jusqu’à ce qu’elle disparaisse.",
+"texte_en": "The Light does not fight the dark; it simply illuminates it until it disappears.",
+"page": 0
+},
+{
+"id": 60,
+"texte_fr": "L’innocence est la clé pour accéder aux émotions les plus pures.",
+"texte_en": "Innocence is the key to accessing the purest emotions.",
+"page": 0
+},
+{
+"id": 61,
+"texte_fr": "La famille d’âmes est le fondement de la nouvelle société spirituelle.",
+"texte_en": "The soul family is the foundation of the new spiritual society.",
+"page": 0
+},
+{
+"id": 62,
+"texte_fr": "L’Union Sacrée est la fusion alchimique qui mène à l’Ascension.",
+"texte_en": "Sacred Union is the alchemical fusion that leads to Ascension.",
+"page": 0
+},
+{
+"id": 63,
+"texte_fr": "Le silence est nécessaire avant toute grande initiation spirituelle.",
+"texte_en": "Silence is necessary before any great spiritual initiation.",
+"page": 0
+},
+{
+"id": 64,
+"texte_fr": "Votre présence JE SUIS est votre pouvoir absolu et votre véritable identité.",
+"texte_en": "Your I AM presence is your absolute power and your true identity.",
+"page": 0
+},
+{
+"id": 65,
+"texte_fr": "La beauté sauvera le monde.",
+"texte_en": "Beauty will save the world.",
+"page": 0
+},
+{
+"id": 66,
+"texte_fr": "Nous sommes des êtres de Lumière incarnés pour une mission sacrée de libération.",
+"texte_en": "We are beings of Light incarnated for a sacred mission of liberation.",
+"page": 0
+},
+{
+"id": 67,
+"texte_fr": "Tout ce qui est caché sera révélé par la puissance de la Lumière.",
+"texte_en": "Everything that is hidden will be revealed by the power of the Light.",
+"page": 0
+},
+{
+"id": 68,
+"texte_fr": "La joie est la fréquence naturelle de l'âme.",
+"texte_en": "Joy is the natural frequency of the soul.",
+"page": 0
+},
+{
+"id": 69,
+"texte_fr": "Le temps n'est pas linéaire, c'est un flux d'énergie multidimensionnel.",
+"texte_en": "Time is not linear; it is a multidimensional flow of energy.",
+"page": 0
+},
+{
+"id": 70,
+"texte_fr": "La compassion est la force qui lie toutes les familles d’âmes entre elles.",
+"texte_en": "Compassion is the force that binds all soul families together.",
+"page": 0
+},
+{
+"id": 71,
+"texte_fr": "L'univers est un océan d'Amour infini qui n'attend que notre éveil.",
+"texte_en": "The universe is an ocean of infinite Love waiting only for our awakening.",
+"page": 0
+},
+{
+"id": 72,
+"texte_fr": "La vérité n'a pas besoin d'être défendue, elle a juste besoin d'être vécue.",
+"texte_en": "Truth does not need to be defended; it just needs to be lived.",
+"page": 0
+},
+{
+"id": 73,
+"texte_fr": "Le futur est une page blanche que nous écrivons avec notre intention collective.",
+"texte_en": "The future is a blank page that we write with our collective intention.",
+"page": 0
+},
+{
+"id": 74,
+"texte_fr": "Chaque pensée est une graine de manifestation dans le champ quantique.",
+"texte_en": "Every thought is a seed of manifestation in the quantum field.",
+"page": 0
+},
+{
+"id": 75,
+"texte_fr": "La souveraineté spirituelle est le droit inné de chaque être humain.",
+"texte_en": "Spiritual sovereignty is the innate right of every human being.",
+"page": 0
+},
+{
+"id": 76,
+"texte_fr": "L'Ascension est le retour conscient à la Source de tout ce qui est.",
+"texte_en": "Ascension is the conscious return to the Source of all that is.",
+"page": 0
+},
+{
+"id": 77,
+"texte_fr": "La gratitude est l'accélérateur le plus puissant du processus de manifestation.",
+"texte_en": "Gratitude is the most powerful accelerator of the manifestation process.",
+"page": 0
+},
+{
+"id": 78,
+"texte_fr": "Nous sommes les architectes de notre propre libération.",
+"texte_en": "We are the architects of our own liberation.",
+"page": 0
+},
+{
+"id": 79,
+"texte_fr": "L’Amour inconditionnel est la seule force capable de dissoudre l’anomalie primaire.",
+"texte_en": "Unconditional Love is the only force capable of dissolving primary anomaly.",
+"page": 0
+},
+{
+"id": 80,
+"texte_fr": "La science et la spiritualité ne sont que deux facettes de la même vérité universelle.",
+"texte_en": "Science and spirituality are just two facets of the same universal truth.",
+"page": 0
+},
+{
+"id": 81,
+"texte_fr": "Chaque moment présent est une porte ouverte sur l'éternité.",
+"texte_en": "Every present moment is a door open to eternity.",
+"page": 0
+},
+{
+"id": 82,
+"texte_fr": "La dignité humaine est le reflet de la noblesse de l'âme.",
+"texte_en": "Human dignity is a reflection of the nobility of the soul.",
+"page": 0
+},
+{
+"id": 83,
+"texte_fr": "L'équilibre entre le masculin et le féminin est la base de la stabilité planétaire.",
+"texte_en": "The balance between masculine and feminine is the basis for planetary stability.",
+"page": 0
+},
+{
+"id": 84,
+"texte_fr": "Le cœur est le centre de notre boussole galactique.",
+"texte_en": "The heart is the center of our galactic compass.",
+"page": 0
+},
+{
+"id": 85,
+"texte_fr": "Nous ne sommes jamais seuls ; nous sommes soutenus par des millions de frères et sœurs des étoiles.",
+"texte_en": "We are never alone; we are supported by millions of brothers and sisters from the stars.",
+"page": 0
+},
+{
+"id": 86,
+"texte_fr": "La créativité est le langage par lequel la Source s’exprime à travers nous.",
+"texte_en": "Creativity is the language through which the Source expresses itself through us.",
+"page": 0
+},
+{
+"id": 87,
+"texte_fr": "Le courage est la peur qui a dit ses prières.",
+"texte_en": "Courage is fear that has said its prayers.",
+"page": 0
+},
+{
+"id": 88,
+"texte_fr": "La libération planétaire commence par la libération de notre propre esprit.",
+"texte_en": "Planetary liberation begins with the liberation of our own mind.",
+"page": 0
+},
+{
+"id": 89,
+"texte_fr": "La paix n'est pas l'absence de conflit, c'est la présence de l'Amour.",
+"texte_en": "Peace is not the absence of conflict; it is the presence of Love.",
+"page": 0
+},
+{
+"id": 90,
+"texte_fr": "Le corps physique est le temple sacré de l’étincelle divine.",
+"texte_en": "The physical body is the sacred temple of the divine spark.",
+"page": 0
+},
+{
+"id": 91,
+"texte_fr": "L'intuition est le murmure de l'âme dans le silence du mental.",
+"texte_en": "Intuition is the whisper of the soul in the silence of the mind.",
+"page": 0
+},
+{
+"id": 92,
+"texte_fr": "La victoire finale appartient à la vie et à la Lumière.",
+"texte_en": "Final victory belongs to life and to the Light.",
+"page": 0
+},
+{
+"id": 93,
+"texte_fr": "Chaque être est un univers en soi, reflétant le macrocosme dans le microcosme.",
+"texte_en": "Every being is a universe unto itself, reflecting the macrocosm in the microcosm.",
+"page": 0
+},
+{
+"id": 94,
+"texte_fr": "La liberté est le mouvement naturel de l'esprit vers son expansion infinie.",
+"texte_en": "Freedom is the natural movement of the spirit toward its infinite expansion.",
+"page": 0
+},
+{
+"id": 95,
+"texte_fr": "L'harmonie avec la nature est le premier pas vers la conscience galactique.",
+"texte_en": "Harmony with nature is the first step toward galactic consciousness.",
+"page": 0
+},
+{
+"id": 96,
+"texte_fr": "Les miracles ne sont que des applications de lois physiques supérieures non encore comprises.",
+"texte_en": "Miracles are only applications of higher physical laws not yet understood.",
+"page": 0
+},
+{
+"id": 97,
+"texte_fr": "La persévérance est la clé qui ouvre toutes les portes de la destinée.",
+"texte_en": "Perseverance is the key that opens all doors of destiny.",
+"page": 0
+},
+{
+"id": 98,
+"texte_fr": "L'unité n'est pas l'uniformité, c'est la célébration de la diversité dans l'harmonie.",
+"texte_en": "Oneness is not uniformity; it is the celebration of diversity in harmony.",
+"page": 0
+},
+{
+"id": 99,
+"texte_fr": "La Lumière est information, l’obscurité est ignorance.",
+"texte_en": "Light is information; darkness is ignorance.",
+"page": 0
+},
+{
+"id": 101,
+"texte_fr": "Nous sommes nés des étoiles et nous y retournerons.",
+"texte_en": "We are born from the stars and we will return to them.",
+"page": 0
+},
+{
+"id": 102,
+"texte_fr": "Le moment est venu de briser les chaînes de l'illusion.",
+"texte_en": "The time has come to break the chains of illusion.",
+"page": 0
+},
+{
+"id": 103,
+"texte_fr": "L'âme est le pont entre l'éphémère et l'éternel.",
+"texte_en": "The soul is the bridge between the ephemeral and the eternal.",
+"page": 0
+},
+{
+"id": 104,
+"texte_fr": "La pureté d'intention est le bouclier le plus efficace contre la négativité.",
+"texte_en": "Purity of intention is the most effective shield against negativity.",
+"page": 0
+},
+{
+"id": 105,
+"texte_fr": "La collaboration est la force de la nouvelle Ère du Verseau.",
+"texte_en": "Collaboration is the strength of the new Age of Aquarius.",
+"page": 0
+},
+{
+"id": 106,
+"texte_fr": "Le passé est une leçon, le présent est un cadeau, le futur est une vision.",
+"texte_en": "The past is a lesson, the present is a gift, the future is a vision.",
+"page": 0
+},
+{
+"id": 107,
+"texte_fr": "La conscience est le seul véritable agent de changement dans l'univers.",
+"texte_en": "Consciousness is the only true agent of change in the universe.",
+"page": 0
+},
+{
+"id": 108,
+"texte_fr": "L'abondance est un état d'esprit avant d'être une réalité matérielle.",
+"texte_en": "Abundance is a state of mind before it is a material reality.",
+"page": 0
+},
+{
+"id": 109,
+"texte_fr": "Chaque être humain est une pièce essentielle du puzzle cosmique.",
+"texte_en": "Every human being is an essential piece of the cosmic puzzle.",
+"page": 0
+},
+{
+"id": 110,
+"texte_fr": "L'Amour est la force de gravité qui unit les cœurs à travers les dimensions.",
+"texte_en": "Love is the force of gravity that unites hearts across dimensions.",
+"page": 0
+},
+{
+"id": 111,
+"texte_fr": "La vérité vous rendra libre, mais elle vous ébranlera d'abord.",
+"texte_en": "The truth will set you free, but it will shake you first.",
+"page": 0
+},
+{
+"id": 112,
+"texte_fr": "L'univers conspire en faveur de ceux qui agissent avec intégrité.",
+"texte_en": "The universe conspires in favor of those who act with integrity.",
+"page": 0
+},
+{
+"id": 113,
+"texte_fr": "La beauté est la signature de la Source dans la matière.",
+"texte_en": "Beauty is the signature of the Source in matter.",
+"page": 0
+},
+{
+"id": 114,
+"texte_fr": "Le libre arbitre est le cadeau le plus précieux fait à la conscience.",
+"texte_en": "Free will is the most precious gift given to consciousness.",
+"page": 0
+},
+{
+"id": 115,
+"texte_fr": "L'ascension n'est pas une fuite de la réalité, c'est l'ancrage total de l'Esprit dans la matière.",
+"texte_en": "Ascension is not an escape from reality; it is the total anchoring of Spirit into matter.",
+"page": 0
+},
+{
+"id": 116,
+"texte_fr": "La Lumière est le sang de l'univers conscient.",
+"texte_en": "Light is the lifeblood of the conscious universe.",
+"page": 0
+},
+{
+"id": 117,
+"texte_fr": "Le silence est le terreau où germent les révélations les plus profondes.",
+"texte_en": "Silence is the soil where the deepest revelations germinate.",
+"page": 0
+},
+{
+"id": 118,
+"texte_fr": "Nous sommes les vagues d'un même océan infini d'Amour.",
+"texte_en": "We are the waves of the same infinite ocean of Love.",
+"page": 0
+},
+{
+"id": 119,
+"texte_fr": "La foi est la vision du cœur quand les yeux sont fermés.",
+"texte_en": "Faith is the vision of the heart when the eyes are closed.",
+"page": 0
+},
+{
+"id": 120,
+"texte_fr": "Le changement est la seule constante de l'évolution divine.",
+"texte_en": "Change is the only constant in divine evolution.",
+"page": 0
+},
+{
+"id": 121,
+"texte_fr": "La douceur est la force tranquille qui transforme le monde.",
+"texte_en": "Gentleness is the quiet strength that transforms the world.",
+"page": 0
+},
+{
+"id": 122,
+"texte_fr": "L’initiation est le processus de reconnaissance de sa propre divinité.",
+"texte_en": "Initiation is the process of recognizing one's own divinity.",
+"page": 0
+},
+{
+"id": 123,
+"texte_fr": "Chaque âme jumelle est le miroir parfait de notre propre essence céleste.",
+"texte_en": "Each twin soul is the perfect mirror of our own celestial essence.",
+"page": 0
+},
+{
+"id": 124,
+"texte_fr": "L'obscurité est simplement l'absence de conscience de l'Unité.",
+"texte_en": "Darkness is simply the absence of awareness of Oneness.",
+"page": 0
+},
+{
+"id": 125,
+"texte_fr": "La joie est la boussole qui nous guide vers notre mission d'âme.",
+"texte_en": "Joy is the compass that guides us toward our soul mission.",
+"page": 0
+},
+{
+"id": 126,
+"texte_fr": "Le pardon n'est pas un acte de faiblesse, c'est un acte de libération totale.",
+"texte_en": "Forgiveness is not an act of weakness; it is an act of total liberation.",
+"page": 0
+},
+{
+"id": 127,
+"texte_fr": "Nous sommes les gardiens de la Flamme éternelle de la Liberté.",
+"texte_en": "We are the guardians of the eternal Flame of Freedom.",
+"page": 0
+},
+{
+"id": 128,
+"texte_fr": "La manifestation commence par un désir pur et se termine par une action juste.",
+"texte_en": "Manifestation begins with a pure desire and ends with right action.",
+"page": 0
+},
+{
+"id": 129,
+"texte_fr": "L'univers est une symphonie dont nous sommes les notes vibrantes.",
+"texte_en": "The universe is a symphony of which we are the vibrating notes.",
+"page": 0
+},
+{
+"id": 130,
+"texte_fr": "La vérité est comme le soleil ; on finit toujours par le voir.",
+"texte_en": "The truth is like the sun; one always ends up seeing it.",
+"page": 0
+},
+{
+"id": 131,
+"texte_fr": "Le corps émotionnel est le moteur de notre expérience humaine.",
+"texte_en": "The emotional body is the engine of our human experience.",
+"page": 0
+},
+{
+"id": 132,
+"texte_fr": "La divinité n'est pas à l'extérieur de nous, elle est notre essence même.",
+"texte_en": "Divinity is not outside of us; it is our very essence.",
+"page": 0
+},
+{
+"id": 133,
+"texte_fr": "L'ascension est un saut quantique dans la conscience de l'Amour.",
+"texte_en": "Ascension is a quantum leap into the consciousness of Love.",
+"page": 0
+},
+{
+"id": 134,
+"texte_fr": "La Lumière est le premier né de la Source.",
+"texte_en": "Light is the firstborn of the Source.",
+"page": 0
+},
+{
+"id": 135,
+"texte_fr": "Chaque interaction est une opportunité de semer de la Lumière.",
+"texte_en": "Every interaction is an opportunity to sow Light.",
+"page": 0
+},
+{
+"id": 136,
+"texte_fr": "L'avenir est radieux pour ceux qui osent regarder au-delà du Voile.",
+"texte_en": "The future is bright for those who dare to look beyond the Veil.",
+"page": 0
+},
+{
+"id": 137,
+"texte_fr": "La conscience de l’Unité est le remède à tous les maux de ce monde.",
+"texte_en": "The consciousness of Oneness is the remedy for all the ills of this world.",
+"page": 0
+},
+{
+"id": 138,
+"texte_fr": "Nous sommes des architectes de l'invisible qui construisent le visible.",
+"texte_en": "We are architects of the invisible who build the visible.",
+"page": 0
+},
+{
+"id": 139,
+"texte_fr": "L’Amour est la seule monnaie qui a de la valeur dans la galaxie libérée.",
+"texte_en": "Love is the only currency that has value in the liberated galaxy.",
+"page": 0
+},
+{
+"id": 140,
+"texte_fr": "Le moment est venu de reprendre notre pouvoir souverain.",
+"texte_en": "The time has come to reclaim our sovereign power.",
+"page": 0
+},
+{
+"id": 141,
+"texte_fr": "La vérité est la fréquence de résonance de l’âme.",
+"texte_en": "Truth is the resonant frequency of the soul.",
+"page": 0
+},
+{
+"id": 142,
+"texte_fr": "L'univers est une danse éternelle entre le vide et la forme.",
+"texte_en": "The universe is an eternal dance between void and form.",
+"page": 0
+},
+{
+"id": 143,
+"texte_fr": "La persévérance est la force qui transforme les rêves en réalité.",
+"texte_en": "Perseverance is the force that transforms dreams into reality.",
+"page": 0
+},
+{
+"id": 144,
+"texte_fr": "Nous sommes tous connectés par des filaments de Lumière invisibles.",
+"texte_en": "We are all connected by invisible filaments of Light.",
+"page": 0
+},
+{
+"id": 145,
+"texte_fr": "La libération est un état intérieur avant d'être une condition extérieure.",
+"texte_en": "Liberation is an inner state before it is an outer condition.",
+"page": 0
+},
+{
+"id": 146,
+"texte_fr": "La Déesse est l'aspect nourricier de la Source Divine.",
+"texte_en": "The Goddess is the nurturing aspect of the Divine Source.",
+"page": 0
+},
+{
+"id": 147,
+"texte_fr": "L'Événement est la percée de la Lumière à travers les derniers murs de l'obscurité.",
+"texte_en": "The Event is the breakthrough of Light through the final walls of darkness.",
+"page": 0
+},
+{
+"id": 148,
+"texte_fr": "Chaque être sensible a le droit de vivre dans la dignité et la joie.",
+"texte_en": "Every sentient being has the right to live in dignity and joy.",
+"page": 0
+},
+{
+"id": 149,
+"texte_fr": "L'Amour est le langage universel compris par toutes les espèces.",
+"texte_en": "Love is the universal language understood by all species.",
+"page": 0
+},
+{
+"id": 150,
+"texte_fr": "La science sans âme n'est que la ruine de l'esprit.",
+"texte_en": "Science without soul is but the ruin of the spirit.",
+"page": 0
+},
+{
+"id": 151,
+"texte_fr": "Nous sommes les pionniers d'un nouveau cycle cosmique.",
+"texte_en": "We are the pioneers of a new cosmic cycle.",
+"page": 0
+},
+{
+"id": 152,
+"texte_fr": "La vérité est le pilier sur lequel repose le nouvel Âge d’Or.",
+"texte_en": "Truth is the pillar upon which the new Golden Age rests.",
+"page": 0
+},
+{
+"id": 153,
+"texte_fr": "La conscience est le pont entre l'homme et le divin.",
+"texte_en": "Consciousness is the bridge between man and the divine.",
+"page": 0
+},
+{
+"id": 154,
+"texte_fr": "L'harmonie est la musique de l'univers en équilibre.",
+"texte_en": "Harmony is the music of the universe in balance.",
+"page": 0
+},
+{
+"id": 155,
+"texte_fr": "Chaque acte de bonté est une victoire contre l'ombre.",
+"texte_en": "Every act of kindness is a victory against the dark.",
+"page": 0
+},
+{
+"id": 156,
+"texte_fr": "Le libre arbitre est la boussole de notre voyage spirituel.",
+"texte_en": "Free will is the compass of our spiritual journey.",
+"page": 0
+},
+{
+"id": 157,
+"texte_fr": "L'Amour est la colle qui maintient la création ensemble.",
+"texte_en": "Love is the glue that holds creation together.",
+"page": 0
+},
+{
+"id": 158,
+"texte_fr": "La beauté est la lumière qui éclaire le chemin vers la Source.",
+"texte_en": "Beauty is the light that illuminates the path to the Source.",
+"page": 0
+},
+{
+"id": 159,
+"texte_fr": "Nous sommes les témoins de la fin d'un vieux monde et de la naissance du nouveau.",
+"texte_en": "We are witnesses to the end of an old world and the birth of the new.",
+"page": 0
+},
+{
+"id": 160,
+"texte_fr": "La vérité est la seule arme nécessaire pour la libération finale.",
+"texte_en": "Truth is the only weapon necessary for final liberation.",
+"page": 0
+},
+{
+"id": 161,
+"texte_fr": "La conscience est le miroir dans lequel l'univers se contemple.",
+"texte_en": "Consciousness is the mirror in which the universe contemplates itself.",
+"page": 0
+},
+{
+"id": 162,
+"texte_fr": "L'unité est la force qui nous rend invincibles.",
+"texte_en": "Oneness is the strength that makes us invincible.",
+"page": 0
+},
+{
+"id": 163,
+"texte_fr": "Chaque âme est une mélodie unique dans le concert galactique.",
+"texte_en": "Each soul is a unique melody in the galactic concert.",
+"page": 0
+},
+{
+"id": 164,
+"texte_fr": "La Lumière est victorieuse car elle est la nature profonde de la réalité.",
+"texte_en": "The Light is victorious because it is the deep nature of reality.",
+"page": 0
+},
+{
+"id": 165,
+"texte_fr": "L’Amour est le plus grand guérisseur des traumatismes passés.",
+"texte_en": "Love is the greatest healer of past traumas.",
+"page": 0
+},
+{
+"id": 166,
+"texte_fr": "Nous sommes ici pour ancrer le ciel sur la Terre.",
+"texte_en": "We are here to anchor heaven on Earth.",
+"page": 0
+},
+{
+"id": 167,
+"texte_fr": "La connaissance est l’eau qui fait fleurir le jardin de l’esprit.",
+"texte_en": "Knowledge is the water that makes the garden of the mind bloom.",
+"page": 0
+},
+{
+"id": 168,
+"texte_fr": "La vérité est l'oxygène de l'âme libre.",
+"texte_en": "Truth is the oxygen of the free soul.",
+"page": 0
+},
+{
+"id": 169,
+"texte_fr": "La conscience galactique est l'avenir de l'humanité.",
+"texte_en": "Galactic consciousness is the future of humanity.",
+"page": 0
+},
+{
+"id": 170,
+"texte_fr": "L'unité de cœur est le secret de la puissance divine.",
+"texte_en": "Heart unity is the secret of divine power.",
+"page": 0
+},
+{
+"id": 171,
+"texte_fr": "L'univers est une promesse d'expansion infinie dans l'Amour.",
+"texte_en": "The universe is a promise of infinite expansion in Love.",
+"page": 0
+},
+{
+"id": 172,
+"texte_fr": "La libération est proche, tenez bon la Lumière.",
+"texte_en": "Liberation is near; hold on to the Light.",
+"page": 0
+},
+{
+"id": 173,
+"texte_fr": "Chaque décision positive est un pas vers la Victoire de la Lumière.",
+"texte_en": "Every positive decision is a step toward the Victory of the Light.",
+"page": 0
+},
+{
+"id": 174,
+"texte_fr": "La vérité n’a pas d’ombre.",
+"texte_en": "Truth has no shadow.",
+"page": 0
+},
+{
+"id": 175,
+"texte_fr": "L'Amour est la fréquence de la Source en action.",
+"texte_en": "Love is the frequency of the Source in action.",
+"page": 0
+},
+{
+"id": 176,
+"texte_fr": "Nous sommes les co-créateurs d’un univers de paix et d’abondance.",
+"texte_en": "We are the co-creators of a universe of peace and abundance.",
+"page": 0
+},
+{
+"id": 177,
+"texte_fr": "La Déesse est le retour de l’harmonie sur Terre.",
+"texte_en": "The Goddess is the return of harmony to Earth.",
+"page": 0
+},
+{
+"id": 178,
+"texte_fr": "L'Événement est la fin de la prison et le début de l'infini.",
+"texte_en": "The Event is the end of the prison and the beginning of the infinite.",
+"page": 0
+},
+{
+"id": 179,
+"texte_fr": "La Lumière est le langage par lequel nous communiquons avec les étoiles.",
+"texte_en": "Light is the language through which we communicate with the stars.",
+"page": 0
+},
+{
+"id": 180,
+"texte_fr": "Chaque âme sœur est un compagnon de route dans l'éternité.",
+"texte_en": "Each soulmate is a fellow traveler in eternity.",
+"page": 0
+},
+{
+"id": 181,
+"texte_fr": "La vérité est le socle de notre souveraineté individuelle.",
+"texte_en": "Truth is the foundation of our individual sovereignty.",
+"page": 0
+},
+{
+"id": 182,
+"texte_fr": "L'univers est une spirale d'évolution sans fin.",
+"texte_en": "The universe is a spiral of endless evolution.",
+"page": 0
+},
+{
+"id": 183,
+"texte_fr": "L'Amour est la seule réponse à toutes les questions de l'univers.",
+"texte_en": "Love is the only answer to all the universe's questions.",
+"page": 0
+},
+{
+"id": 184,
+"texte_fr": "La libération est la destinée inévitable de la Terre.",
+"texte_en": "Liberation is the inevitable destiny of Earth.",
+"page": 0
+},
+{
+"id": 185,
+"texte_fr": "Chaque être est une note de musique dans la symphonie des sphères.",
+"texte_en": "Every being is a musical note in the symphony of the spheres.",
+"page": 0
+},
+{
+"id": 186,
+"texte_fr": "La vérité est le soleil intérieur qui dissipe les brouillards du mental.",
+"texte_en": "Truth is the inner sun that dissipates the fogs of the mind.",
+"page": 0
+},
+{
+"id": 187,
+"texte_fr": "La conscience est le pont entre l'ici et l'ailleurs.",
+"texte_en": "Consciousness is the bridge between here and elsewhere.",
+"page": 0
+},
+{
+"id": 188,
+"texte_fr": "L'unité est le souffle de la Source dans la création.",
+"texte_en": "Oneness is the breath of the Source in creation.",
+"page": 0
+},
+{
+"id": 189,
+"texte_fr": "La Lumière est le vêtement de l'âme ascensionnée.",
+"texte_en": "Light is the garment of the ascended soul.",
+"page": 0
+},
+{
+"id": 190,
+"texte_fr": "Chaque instant est une éternité en puissance.",
+"texte_en": "Every moment is an eternity in potential.",
+"page": 0
+},
+   
+    {
+        "id": 191,
+        "texte_fr": "L'Amour est la force qui transmute l'ombre en Lumière.",
+        "texte_en": "Love is the force that transmutes shadow into Light.",
+        "page": 0
+    },
+    {
+        "id": 192,
+        "texte_fr": "La Victoire de la Lumière est le triomphe de la vie sur l'illusion.",
+        "texte_en": "The Victory of the Light is the triumph of life over illusion.",
+        "page": 0
+    },
+    {
+        "id": 193,
+        "texte_fr": "Nous sommes les héritiers d'un royaume de Lumière infinie.",
+        "texte_en": "We are the heirs to a kingdom of infinite Light.",
+        "page": 0
+    },
+    {
+        "id": 194,
+        "texte_fr": "La vérité est le seul fondement d'une société juste.",
+        "texte_en": "Truth is the only foundation for a just society.",
+        "page": 0
+    },
+    {
+        "id": 195,
+        "texte_fr": "La conscience est le gouvernail de notre vaisseau galactique.",
+        "texte_en": "Consciousness is the rudder of our galactic ship.",
+        "page": 0
+    },
+    {
+        "id": 196,
+        "texte_fr": "L'unité de conscience est l'objectif ultime de l'évolution.",
+        "texte_en": "Unity of consciousness is the ultimate goal of evolution.",
+        "page": 0
+    },
+    {
+        "id": 197,
+        "texte_fr": "La Lumière est la vérité manifestée dans la forme.",
+        "texte_en": "Light is truth manifested in form.",
+        "page": 0
+    },
+    {
+        "id": 198,
+        "texte_fr": "Chaque être humain est un canal potentiel pour la force divine.",
+        "texte_en": "Every human being is a potential channel for the divine force.",
+        "page": 0
+    },
+    {
+        "id": 199,
+        "texte_fr": "L’Amour est le seul chemin vers la maison.",
+        "texte_en": "Love is the only path home.",
+        "page": 0
+    },
+    {
+        "id": 200,
+        "texte_fr": "La libération est l'éveil du rêve de la dualité.",
+        "texte_en": "Liberation is awakening from the dream of duality.",
+        "page": 0
+    },
+    {
+        "id": 201,
+        "texte_fr": "La vérité est la clé qui ouvre toutes les prisons.",
+        "texte_en": "Truth is the key that opens all prisons.",
+        "page": 0
+    },
+    {
+        "id": 202,
+        "texte_fr": "Victoire de la Lumière !",
+        "texte_en": "Victory of the Light!",
+        "page": 0
+    },
+    {
+        "id": 203,
+        "texte_fr": "Le Premier Contact est un contact diplomatique officiel entre des représentants de l’humanité de la Terre et d’autres civilisations dans l’univers.",
+        "texte_en": "The First Contact is an official diplomatic contact between representatives of Earth's humanity and other civilizations in the universe.",
+        "page": 0
+    },
+    {
+        "id": 204,
+        "texte_fr": "Le monde est sur le point d’entrer dans un Âge d’Or. Nous devons d’abord nous purifier.",
+        "texte_en": "The world is about to enter a Golden Age. We must first purify ourselves.",
+        "page": 0
+    },
+    {
+        "id": 205,
+        "texte_fr": "La loi martiale ne sera PAS déclarée lorsque cela se produira. L’armée ne prendra PAS le contrôle du gouvernement.",
+        "texte_en": "Martial law will NOT be declared when this happens. The military will NOT take control of the government.",
+        "page": 0
+    },
+    {
+        "id": 206,
+        "texte_fr": "Très peu de gens ont osé rompre les rangs et révéler ce qui se passe, car ces informations sont considérées comme étant classées à un haut niveau.",
+        "texte_en": "Very few people have dared to break ranks and reveal what is happening, because this information is considered to be highly classified.",
+        "page": 0
+    },
+    {
+        "id": 207,
+        "texte_fr": "Le but de ces informations est de mieux comprendre ce qui se passe réellement autour de vous.",
+        "texte_en": "The purpose of this information is to better understand what is really happening around you.",
+        "page": 0
+    },
+    {
+        "id": 208,
+        "texte_fr": "Vous devez désapprendre ce que vous avez appris depuis 2000 ans ; c'était de la désinformation.",
+        "texte_en": "You must unlearn what you have learned over the last 2000 years; it was disinformation.",
+        "page": 0
+    },
+    {
+        "id": 209,
+        "texte_fr": "Pour atteindre la vérité, il faut une fois dans la vie se défaire de toutes les opinions qu'on a reçues, et reconstruire de nouveau tout le système de ses connaissances.",
+        "texte_en": "To reach the truth, one must once in a lifetime rid oneself of all the opinions one has received, and rebuild one's entire system of knowledge from scratch.",
+        "page": 0
+    },
+    {
+        "id": 210,
+        "texte_fr": "La véritable information a été détruite par l'incendie de la bibliothèque d'Alexandrie pour maintenir intentionnellement l'humanité dans l'esclavage.",
+        "texte_en": "True information was destroyed by the burning of the Library of Alexandria to intentionally keep humanity in slavery.",
+        "page": 0
+    },
+    {
+        "id": 211,
+        "texte_fr": "La difficulté n'est pas de voir ce que personne n'a jamais vu, mais de penser comme personne n'a jamais pensé au sujet de quelque chose que tous voient.",
+        "texte_en": "The difficulty is not to see what no one has ever seen, but to think as no one has ever thought about something that everyone sees.",
+        "page": 0
+    },
+    {
+        "id": 212,
+        "texte_fr": "Toutes ces couches de programmation réduisent les perspectives de l’esprit. Chaque personne ne peut voir qu’un tout petit aspect de la réalité.",
+        "texte_en": "All these layers of programming reduce the mind's perspective. Each person can only see a very small aspect of reality.",
+        "page": 0
+    },
+    {
+        "id": 213,
+        "texte_fr": "Nous éliminerons toutes les ténèbres au niveau quantique.",
+        "texte_en": "We will eliminate all darkness at the quantum level.",
+        "page": 0
+    },
+    {
+        "id": 214,
+        "texte_fr": "L'espace torturé est finalement redressé et guéri, et le corps galactique du Plérôme semble plus sain que jamais.",
+        "texte_en": "Tortured space is finally being straightened and healed, and the galactic body of the Pleroma looks healthier than ever.",
+        "page": 0
+    },
+    {
+        "id": 215,
+        "texte_fr": "Toutes les réincarnations que vous avez vécues jusqu’à présent ont servi d’entraînement pour cette vie.",
+        "texte_en": "All the incarnations you have experienced so far have served as training for this life.",
+        "page": 0
+    },
+    {
+        "id": 216,
+        "texte_fr": "Nous sommes tous en train de faire la percée concernant l’état de quarantaine de cette planète.",
+        "texte_en": "We are all making the breakthrough regarding the quarantine status of this planet.",
+        "page": 0
+    },
+    {
+        "id": 217,
+        "texte_fr": "Lorsque le moment de l'expansion s'arrête et que la contraction commence, c'est le moment du non-temps.",
+        "texte_en": "When the moment of expansion stops and contraction begins, that is the moment of no-time.",
+        "page": 0
+    },
+    {
+        "id": 218,
+        "texte_fr": "Quelque chose est sur le point de changer, nous sommes sur le point de créer un saut quantique.",
+        "texte_en": "Something is about to change; we are on the verge of creating a quantum leap.",
+        "page": 0
+    },
+    {
+        "id": 219,
+        "texte_fr": "Toute la matière naît de la tension entre la fonction aléatoire et la Source.",
+        "texte_en": "All matter is born from the tension between the random function and the Source.",
+        "page": 0
+    },
+    {
+        "id": 220,
+        "texte_fr": "La dualité doit cesser et toute l’obscurité disparaîtra, seule la Lumière demeurera dans cet univers.",
+        "texte_en": "Duality must cease and all darkness will disappear; only the Light will remain in this universe.",
+        "page": 0
+    },
+    {
+        "id": 221,
+        "texte_fr": "Notre vraie réalité existe déjà dans la 6e dimension.",
+        "texte_en": "Our true reality already exists in the 6th dimension.",
+        "page": 0
+    },
+    {
+        "id": 222,
+        "texte_fr": "Il n’y a pas de ligne temporelle qui préserve l’ancienne société depuis août 2019.",
+        "texte_en": "There is no timeline that preserves the old society since August 2019.",
+        "page": 0
+    },
+    {
+        "id": 223,
+        "texte_fr": "Lorsqu’il s’effondrera, il s’agira d’un processus irréversible qui ne pourra donc pas être arrêté.",
+        "texte_en": "When it collapses, it will be an irreversible process that cannot be stopped.",
+        "page": 0
+    },
+    {
+        "id": 224,
+        "texte_fr": "Les méchants seront éliminés et le gouvernement provisoire donnera des instructions à l’humanité.",
+        "texte_en": "The bad guys will be removed and the provisional government will give instructions to humanity.",
+        "page": 0
+    },
+    {
+        "id": 225,
+        "texte_fr": "La Constitution des Etats-Unis a été énoncée d'une manière telle que si elle était complètement respectée, elle effacerait la Cabale.",
+        "texte_en": "The United States Constitution was stated in such a way that if it were fully respected, it would erase the Cabal.",
+        "page": 0
+    },
+    {
+        "id": 226,
+        "texte_fr": "L’humanité doit reprendre son pouvoir. Nous devons utiliser notre libre arbitre et prendre des décisions positives pour nous-mêmes.",
+        "texte_en": "Humanity must reclaim its power. We must use our free will and make positive decisions for ourselves.",
+        "page": 0
+    },
+    {
+        "id": 227,
+        "texte_fr": "Lorsque la masse critique de personnes le fera, le changement viendra.",
+        "texte_en": "When a critical mass of people does this, the change will come.",
+        "page": 0
+    },
+    {
+        "id": 228,
+        "texte_fr": "Le libre arbitre est le facteur dominant dans la dynamique quantique.",
+        "texte_en": "Free will is the dominant factor in quantum dynamics.",
+        "page": 0
+    },
+    {
+        "id": 229,
+        "texte_fr": "Lorsque nous sortirons de cette grotte obscure, nous découvrirons que l’univers est magnifique.",
+        "texte_en": "When we come out of this dark cave, we will discover that the universe is magnificent.",
+        "page": 0
+    },
+    {
+        "id": 230,
+        "texte_fr": "De véritables lits médicaux seront introduits après l'Événement.",
+        "texte_en": "True medical beds will be introduced after the Event.",
+        "page": 0
+    },
+    {
+        "id": 231,
+        "texte_fr": "L’immortalité de l’âme est le chemin pour devenir cette âme.",
+        "texte_en": "Immortality of the soul is the path to becoming that soul.",
+        "page": 0
+    },
+    {
+        "id": 232,
+        "texte_fr": "Les crop circles apparaissent dans des lieux où il y a des portails ouverts.",
+        "texte_en": "Crop circles appear in places where there are open portals.",
+        "page": 0
+    },
+    {
+        "id": 233,
+        "texte_fr": "Les dauphins nous envoient un message très puissant d'éveil.",
+        "texte_en": "Dolphins are sending us a very powerful message of awakening.",
+        "page": 0
+    },
+    {
+        "id": 234,
+        "texte_fr": "L'union des âmes jumelles est la force la plus puissante de l'univers.",
+        "texte_en": "The union of twin souls is the most powerful force in the universe.",
+        "page": 0
+    },
+    {
+        "id": 235,
+        "texte_fr": "La souffrance et la douleur n’ont aucune valeur dans une société galactique éclairée.",
+        "texte_en": "Suffering and pain have no value in an enlightened galactic society.",
+        "page": 0
+    },
+    {
+        "id": 236,
+        "texte_fr": "La Confédération Galactique est le groupe le plus puissant de la galaxie.",
+        "texte_en": "The Galactic Confederation is the most powerful group in the galaxy.",
+        "page": 0
+    },
+    {
+        "id": 237,
+        "texte_fr": "Le 15 avril 2019, les mystères complets de la Déesse ont finalement été ancrés à la surface.",
+        "texte_en": "On April 15, 2019, the full Goddess mysteries were finally anchored on the surface.",
+        "page": 0
+    },
+    {
+        "id": 238,
+        "texte_fr": "La quatrième initiation signifie la dissolution de l’implant vertical.",
+        "texte_en": "The fourth initiation means the dissolution of the vertical implant.",
+        "page": 0
+    },
+    {
+        "id": 239,
+        "texte_fr": "Le portail 11:11 a permis l’ancrage d’énergies de très haute fréquence dans la matière.",
+        "texte_en": "The 11:11 portal allowed the anchoring of very high frequency energies into matter.",
+        "page": 0
+    },
+    {
+        "id": 240,
+        "texte_fr": "L'univers est un tore, le champ toroïdal est le principe de base de la manifestation.",
+        "texte_en": "The universe is a torus; the toroidal field is the basic principle of manifestation.",
+        "page": 0
+    },
+    {
+        "id": 241,
+        "texte_fr": "Le système financier actuel s'effondrera complètement, politiquement et financièrement.",
+        "texte_en": "The current financial system will collapse completely, politically and financially.",
+        "page": 0
+    },
+    {
+        "id": 242,
+        "texte_fr": "La pierre Cintamani est le dernier vrai vestige des Écoles de Mystères de l’Atlantide.",
+        "texte_en": "The Cintamani stone is the last true remnant of the Mystery Schools of Atlantis.",
+        "page": 0
+    },
+    {
+        "id": 243,
+        "texte_fr": "La Renaissance Spirituelle est une réactivation de l'âme de l'humanité.",
+        "texte_en": "The Spiritual Renaissance is a reactivation of the soul of humanity.",
+        "page": 0
+    },
+    {
+        "id": 244,
+        "texte_fr": "Pluton en Verseau reconnecte la surface de la planète avec des réservoirs de sagesse.",
+        "texte_en": "Pluto in Aquarius reconnects the planet's surface with reservoirs of wisdom.",
+        "page": 0
+    },
+    {
+        "id": 245,
+        "texte_fr": "La Victoire de la Lumière est prédite avec une certitude de 100%.",
+        "texte_en": "The Victory of the Light is predicted with 100% certainty.",
+        "page": 0
+    },
+    {
+        "id": 246,
+        "texte_fr": "L'argent volé par la Cabale sera rendu à l'humanité.",
+        "texte_en": "The money stolen by the Cabal will be returned to humanity.",
+        "page": 0
+    },
+    {
+        "id": 247,
+        "texte_fr": "Chaque personne recevra environ 100 000 euros pour améliorer sa qualité de vie.",
+        "texte_en": "Each person will receive approximately 100,000 euros to improve their quality of life.",
+        "page": 0
+    },
+    {
+        "id": 248,
+        "texte_fr": "Les banques seront fermées pendant une semaine au moment de l'Événement.",
+        "texte_en": "Banks will be closed for a week at the time of the Event.",
+        "page": 0
+    },
+    {
+        "id": 249,
+        "texte_fr": "L’or sera le fondement du nouveau système financier.",
+        "texte_en": "Gold will be the foundation of the new financial system.",
+        "page": 0
+    },
+    {
+        "id": 250,
+        "texte_fr": "Les ordinateurs quantiques reconstruiront le système financier.",
+        "texte_en": "Quantum computers will rebuild the financial system.",
+        "page": 0
+    },
+    {
+        "id": 251,
+        "texte_fr": "La libération planétaire ne dépend pas de qui est le président des États-Unis.",
+        "texte_en": "Planetary liberation does not depend on who is the president of the United States.",
+        "page": 0
+    },
+    {
+        "id": 252,
+        "texte_fr": "Le réveil se généralise. Ils ne peuvent pas l’arrêter.",
+        "texte_en": "The awakening is becoming widespread. They cannot stop it.",
+        "page": 0
+    },
+    {
+        "id": 253,
+        "texte_fr": "La Terre a commencé à guérir dans l'absence de gens ignorants.",
+        "texte_en": "The Earth has begun to heal in the absence of ignorant people.",
+        "page": 0
+    },
+    {
+        "id": 254,
+        "texte_fr": "L'héliopause est la zone où les vents solaires rencontrent la conscience galactique.",
+        "texte_en": "The heliopause is the zone where solar winds meet galactic consciousness.",
+        "page": 0
+    },
+    {
+        "id": 255,
+        "texte_fr": "L'Océan d'Amour galactique apporte la guérison à la pieuvre plasmatique.",
+        "texte_en": "The galactic Ocean of Love brings healing to the plasma octopus.",
+        "page": 0
+    },
+    {
+        "id": 256,
+        "texte_fr": "Le Codex Galactique est une interprétation de la vérité intérieure alignée avec l'esprit humain.",
+        "texte_en": "The Galactic Codex is an interpretation of inner truth aligned with the human spirit.",
+        "page": 0
+    },
+    {
+        "id": 257,
+        "texte_fr": "L'obscurité est simplement une anomalie qui doit être corrigée.",
+        "texte_en": "Darkness is simply an anomaly that must be corrected.",
+        "page": 0
+    },
+    {
+        "id": 258,
+        "texte_fr": "Tout dans la galaxie appartient à la conscience galactique, la galaxie est un seul organisme.",
+        "texte_en": "Everything in the galaxy belongs to galactic consciousness; the galaxy is a single organism.",
+        "page": 0
+    },
+    {
+        "id": 259,
+        "texte_fr": "L'Anomalie Primaire a toujours existé.",
+        "texte_en": "The Primary Anomaly has always existed.",
+        "page": 0
+    },
+    {
+        "id": 260,
+        "texte_fr": "Le choix de la Lumière est entre vos mains.",
+        "texte_en": "The choice for the Light is in your hands.",
+        "page": 0
+    },
+    {
+        "id": 261,
+        "texte_fr": "La Terre n'est PAS plate.",
+        "texte_en": "The Earth is NOT flat.",
+        "page": 0
+    },
+    {
+        "id": 262,
+        "texte_fr": "Plus vous deviendrez fort, plus vous serez doux.",
+        "texte_en": "The stronger you become, the gentler you will be.",
+        "page": 0
+    },
+    {
+        "id": 263,
+        "texte_fr": "L'intelligence artificielle en réalité n'existe pas, c'est juste un programme informatique qui doit toujours être exploité par une entité consciente vivante.",
+        "texte_en": "Artificial intelligence does not actually exist; it is just a computer program that must always be operated by a living conscious entity.",
+        "page": 0
+    },
+    {
+        "id": 264,
+        "texte_fr": "Le secret de l’immortalité physique est l’un des secrets les plus cachés des Forces de la Lumière, révélé uniquement à ceux ayant atteint une certaine fréquence vibratoire.",
+        "texte_en": "The secret of physical immortality is one of the most hidden secrets of the Light Forces, revealed only to those who have reached a certain vibrational frequency.",
+        "page": 0
+    },
+    {
+        "id": 265,
+        "texte_fr": "La seule raison pour laquelle l'abondance manque est que quelqu'un supprime son flux vers la surface planétaire.",
+        "texte_en": "The only reason why abundance is lacking is that someone is suppressing its flow to the planetary surface.",
+        "page": 0
+    },
+    {
+        "id": 266,
+        "texte_fr": "Le pardon est facile si vous comprenez que tout le monde sur cette planète a vécu des expériences vraiment traumatisantes.",
+        "texte_en": "Forgiveness is easy if you understand that everyone on this planet has lived through truly traumatic experiences.",
+        "page": 0
+    },
+    {
+        "id": 267,
+        "texte_fr": "La Source est en train de démêler quantiquement l'univers du Rôdeur primaire.",
+        "texte_en": "The Source is quantumly untangling the universe from the primary Lurker.",
+        "page": 0
+    },
+    {
+        "id": 268,
+        "texte_fr": "Plus vous tenez bon, plus les forces obscures deviennent folles, jusqu'à ce qu'elles se détruisent elles-mêmes.",
+        "texte_en": "The more you hold your ground, the crazier the dark forces become, until they destroy themselves.",
+        "page": 0
+    },
+    {
+        "id": 269,
+        "texte_fr": "Une fois que la planète aura traversé le processus d'intégration, il n'y aura absolument plus besoin d'argent sous quelque forme que ce soit.",
+        "texte_en": "Once the planet has gone through the integration process, there will be absolutely no need for money in any form.",
+        "page": 0
+    },
+    {
+        "id": 270,
+        "texte_fr": "Votre décision de révoquer les contrats d'âme est la clé pour ne plus être soumis aux conditions des Archontes.",
+        "texte_en": "Your decision to revoke soul contracts is the key to no longer being subject to the Archons' conditions.",
+        "page": 0
+    },
+    {
+        "id": 271,
+        "texte_fr": "L'univers se trouve à un moment très particulier de son évolution où le champ toroïdal est sur le point de se contracter à nouveau.",
+        "texte_en": "The universe is at a very specific moment in its evolution where the toroidal field is about to contract again.",
+        "page": 0
+    },
+    {
+        "id": 272,
+        "texte_fr": "La quatrième initiation signifie la dissolution de l’implant vertical qui sépare la personnalité de la présence JE SUIS.",
+        "texte_en": "The fourth initiation signifies the dissolution of the vertical implant that separates the personality from the I AM presence.",
+        "page": 0
+    },
+    {
+        "id": 273,
+        "texte_fr": "Le moment où l'expansion s'arrête est le moment du non-temps, où la Source peut intervenir directement sur la structure de l'univers.",
+        "texte_en": "The moment expansion stops is the moment of no-time, where the Source can intervene directly in the structure of the universe.",
+        "page": 0
+    },
+    {
+        "id": 274,
+        "texte_fr": "Les véritables informations ont été détruites lors de l'incendie de la bibliothèque d'Alexandrie pour maintenir l'humanité dans l'esclavage.",
+        "texte_en": "True information was destroyed during the burning of the Library of Alexandria to keep humanity in slavery.",
+        "page": 0
+    },
+    {
+        "id": 275,
+        "texte_fr": "Vous devez désapprendre presque tout ce que vous avez appris depuis 2000 ans.",
+        "texte_en": "You must unlearn almost everything you have learned over the last 2000 years.",
+        "page": 0
+    },
+    {
+        "id": 276,
+        "texte_fr": "La vérité est le seul chemin vers la guérison, même si elle brise votre vision du monde de manière spectaculaire.",
+        "texte_en": "Truth is the only path to healing, even if it shatters your worldview in a spectacular way.",
+        "page": 0
+    },
+    {
+        "id": 277,
+        "texte_fr": "Le point oméga est une singularité de toutes les évolutions où la dualité doit cesser.",
+        "texte_en": "The Omega point is a singularity of all evolution where duality must cease.",
+        "page": 0
+    },
+    {
+        "id": 278,
+        "texte_fr": "Les Forces de la Lumière attendent le moment optimal pour que la transition se fasse en douceur.",
+        "texte_en": "The Forces of Light are waiting for the optimal moment for the transition to occur smoothly.",
+        "page": 0
+    },
+    {
+        "id": 279,
+        "texte_fr": "Un réplicateur peut créer un nouveau corps pour vous et vous y entrerez en tant qu'âme avec une technologie d'ajustement fréquentiel.",
+        "texte_en": "A replicator can create a new body for you and you will enter it as a soul with frequency adjustment technology.",
+        "page": 0
+    },
+    {
+        "id": 280,
+        "texte_fr": "Le réveil se généralise maintenant et les forces obscures ne peuvent plus l’arrêter.",
+        "texte_en": "The awakening is now becoming widespread and the dark forces can no longer stop it.",
+        "page": 0
+    },
+    {
+        "id": 281,
+        "texte_fr": "L'énergie du Soleil Central Galactique brûlera tous les obstacles de la Matrice sur les plans astraux et éthériques.",
+        "texte_en": "The energy of the Galactic Central Sun will burn away all Matrix obstacles on the astral and etheric planes.",
+        "page": 0
+    },
+    {
+        "id": 282,
+        "texte_fr": "Chaque être est une étincelle individualisée de l'âme qui finira par revenir à la Source.",
+        "texte_en": "Every being is an individualized spark of the soul that will eventually return to the Source.",
+        "page": 0
+    },
+    {
+        "id": 283,
+        "texte_fr": "La transition de la dualité vers l’unité est la dissolution de la réalité sombre lors de l’Événement.",
+        "texte_en": "The transition from duality to unity is the dissolution of dark reality during the Event.",
+        "page": 0
+    },
+    {
+        "id": 284,
+        "texte_fr": "La victoire finale appartient à la vie et à la Lumière car l'obscurité n'est qu'une anomalie temporaire.",
+        "texte_en": "Final victory belongs to life and the Light because darkness is only a temporary anomaly.",
+        "page": 0
+    },
+    {
+        "id": 285,
+        "texte_fr": "Le muscle qui nous permet d’entraîner le libre arbitre, ce sont nos décisions quotidiennes.",
+        "texte_en": "The muscle that allows us to train free will is our daily decisions.",
+        "page": 0
+    },
+    {
+        "id": 286,
+        "texte_fr": "La vérité n'a pas besoin d'être défendue, elle a juste besoin d'être vécue pour devenir une force de libération.",
+        "texte_en": "Truth does not need to be defended; it just needs to be lived to become a force of liberation.",
+        "page": 0
+    },
+    {
+        "id": 287,
+        "texte_fr": "Chaque moment présent est une porte ouverte sur l'éternité si l'on sait y ancrer sa conscience.",
+        "texte_en": "Every present moment is a door open to eternity if you know how to anchor your consciousness there.",
+        "page": 0
+    },
+    {
+        "id": 288,
+        "texte_fr": "La connaissance est l’eau qui fait fleurir le jardin de l’esprit et dissout les barrières de l'ignorance.",
+        "texte_en": "Knowledge is the water that makes the garden of the mind bloom and dissolves the barriers of ignorance.",
+        "page": 0
+    },
+    {
+        "id": 289,
+        "texte_fr": "Nous sommes les architectes de notre propre libération, utilisant le libre arbitre comme boussole spirituelle.",
+        "texte_en": "We are the architects of our own liberation, using free will as a spiritual compass.",
+        "page": 0
+    },
+    {
+        "id": 290,
+        "texte_fr": "La vérité est l'oxygène de l'âme libre.",
+        "texte_en": "Truth is the oxygen of the free soul.",
+        "page": 0
+    },
+    {
+        "id": 291,
+        "texte_fr": "La conscience galactique est l'avenir de l'humanité.",
+        "texte_en": "Galactic consciousness is the future of humanity.",
+        "page": 0
+    },
+    {
+        "id": 292,
+        "texte_fr": "L'univers est une promesse d'expansion infinie dans l'Amour.",
+        "texte_en": "The universe is a promise of infinite expansion in Love.",
+        "page": 0
+    },
+    {
+        "id": 293,
+        "texte_fr": "La libération est proche, tenez bon la Lumière.",
+        "texte_en": "Liberation is near; hold on to the Light.",
+        "page": 0
+    },
+    {
+        "id": 294,
+        "texte_fr": "Chaque décision positive est un pas vers la Victoire de la Lumière.",
+        "texte_en": "Every positive decision is a step toward the Victory of the Light.",
+        "page": 0
+    },
+    {
+        "id": 295,
+        "texte_fr": "Nous sommes les co-créateurs d’un univers de paix et d’abondance.",
+        "texte_en": "We are the co-creators of a universe of peace and abundance.",
+        "page": 0
+    },
+    {
+        "id": 296,
+        "texte_fr": "La Déesse est le retour de l’harmonie sur Terre.",
+        "texte_en": "The Goddess is the return of harmony to Earth.",
+        "page": 0
+    },
+    {
+        "id": 297,
+        "texte_fr": "L'Événement est la fin de la prison et le début de l'infini.",
+        "texte_en": "The Event is the end of the prison and the beginning of the infinite.",
+        "page": 0
+    },
+    {
+        "id": 298,
+        "texte_fr": "La Lumière est le langage par lequel nous communiquons avec les étoiles.",
+        "texte_en": "Light is the language through which we communicate with the stars.",
+        "page": 0
+    },
+    {
+        "id": 299,
+        "texte_fr": "Chaque âme sœur est un compagnon de route dans l'éternité.",
+        "texte_en": "Each soulmate is a fellow traveler in eternity.",
+        "page": 0
+    },
+    {
+        "id": 300,
+        "texte_fr": "La Victoire de la Lumière est une certitude mathématique basée sur l'inéquation syntropique de l'univers.",
+        "texte_en": "The Victory of the Light is a mathematical certainty based on the syntropic inequation of the universe.",
+        "page": 0
+    },
+    {
+        "id": 301,
+        "texte_fr": "L'obscurité sera effacée comme si elle n'avait jamais existé une fois que la Lumière l'aura totalement transmutée.",
+        "texte_en": "Darkness will be erased as if it had never existed once the Light has totally transmuted it.",
+        "page": 0
+    },
+    {
+        "id": 302,
+        "texte_fr": "Le pardon ouvrira un flux d’Amour cosmique à la surface de cette planète, guérissant les traumatismes de millénaires.",
+        "texte_en": "Forgiveness will open a flow of cosmic Love on the surface of this planet, healing the traumas of millennia.",
+        "page": 0
+    },
+    {
+        "id": 303,
+        "texte_fr": "La conscience est supérieure et l’ADN s’aligne toujours avec le niveau de conscience atteint.",
+        "texte_en": "Consciousness is superior and DNA always aligns with the level of consciousness attained.",
+        "page": 0
+    },
+    {
+        "id": 304,
+        "texte_fr": "La créativité est le langage par lequel la Source s’exprime à travers nous dans le monde physique.",
+        "texte_en": "Creativity is the language through which the Source expresses itself through us in the physical world.",
+        "page": 0
+    },
+    {
+        "id": 305,
+        "texte_fr": "Le cœur est le centre de notre boussole galactique, nous guidant infailliblement vers la maison.",
+        "texte_en": "The heart is the center of our galactic compass, guiding us infallibly home.",
+        "page": 0
+    },
+    {
+        "id": 306,
+        "texte_fr": "Chaque petite action positive compte et rapproche inexorablement l’humanité de l’Événement.",
+        "texte_en": "Every small positive action counts and inexorably brings humanity closer to the Event.",
+        "page": 0
+    },
+    {
+        "id": 307,
+        "texte_fr": "La respiration est le pont sacré entre le monde de la matière et les royaumes de l'Esprit.",
+        "texte_en": "Breathing is the sacred bridge between the world of matter and the realms of Spirit.",
+        "page": 0
+    },
+    {
+        "id": 308,
+        "texte_fr": "L'unité de conscience est l'objectif ultime de toute évolution dans cet univers manifesté.",
+        "texte_en": "Unity of consciousness is the ultimate goal of all evolution in this manifested universe.",
+        "page": 0
+    },
+    {
+        "id": 309,
+        "texte_fr": "La libération est l'éveil définitif du rêve de la dualité et de la séparation.",
+        "texte_en": "Liberation is the definitive awakening from the dream of duality and separation.",
+        "page": 0
+    },
+    {
+        "id": 310,
+        "texte_fr": "L'univers est une symphonie dont nous sommes les notes vibrantes, cherchant l'harmonie parfaite.",
+        "texte_en": "The universe is a symphony of which we are the vibrating notes, seeking perfect harmony.",
+        "page": 0
+    },
+    {
+        "id": 311,
+        "texte_fr": "La dignité humaine est le reflet terrestre de la noblesse éternelle de l'âme.",
+        "texte_en": "Human dignity is the earthly reflection of the eternal nobility of the soul.",
+        "page": 0
+    },
+    {
+        "id": 312,
+        "texte_fr": "La douceur est la force tranquille qui a le pouvoir de transformer radicalement le monde.",
+        "texte_en": "Gentleness is the quiet force that has the power to radically transform the world.",
+        "page": 0
+    },
+    {
+        "id": 313,
+        "texte_fr": "Nous sommes ici pour ancrer le ciel sur la Terre, manifestant la perfection divine dans la matière.",
+        "texte_en": "We are here to anchor heaven on Earth, manifesting divine perfection in matter.",
+        "page": 0
+    },
+    {
+        "id": 314,
+        "texte_fr": "Chaque pensée est une graine de manifestation plantée dans le champ quantique de l'infini.",
+        "texte_en": "Every thought is a seed of manifestation planted in the quantum field of the infinite.",
+        "page": 0
+    },
+    {
+        "id": 315,
+        "texte_fr": "La gratitude est l'accélérateur le plus puissant du processus de création et de manifestation.",
+        "texte_en": "Gratitude is the most powerful accelerator of the process of creation and manifestation.",
+        "page": 0
+    },
+    {
+        "id": 316,
+        "texte_fr": "Le silence est le terreau fertile où germent les révélations les plus profondes de l'âme.",
+        "texte_en": "Silence is the fertile soil where the deepest revelations of the soul germinate.",
+        "page": 0
+    },
+    {
+        "id": 317,
+        "texte_fr": "Nous sommes des êtres de Lumière incarnés pour une mission sacrée de libération planétaire.",
+        "texte_en": "We are beings of Light incarnated for a sacred mission of planetary liberation.",
+        "page": 0
+    },
+    {
+        "id": 318,
+        "texte_fr": "La beauté est la signature indélébile de la Source au sein de la création matérielle.",
+        "texte_en": "Beauty is the indelible signature of the Source within material creation.",
+        "page": 0
+    },
+    {
+        "id": 319,
+        "texte_fr": "L'Amour inconditionnel est la seule force capable de dissoudre l’anomalie primaire à sa racine.",
+        "texte_en": "Unconditional Love is the only force capable of dissolving the primary anomaly at its root.",
+        "page": 0
+    },
+    {
+        "id": 320,
+        "texte_fr": "Le passé est une leçon, le présent est un cadeau et le futur est une vision à co-créer.",
+        "texte_en": "The past is a lesson, the present is a gift, and the future is a vision to be co-created.",
+        "page": 0
+    },
+    {
+        "id": 321,
+        "texte_fr": "La foi est la vision du cœur lorsque les yeux physiques sont fermés aux apparences.",
+        "texte_en": "Faith is the vision of the heart when physical eyes are closed to appearances.",
+        "page": 0
+    },
+    {
+        "id": 322,
+        "texte_fr": "Le changement est la seule constante de l'évolution divine vers des plans de conscience supérieurs.",
+        "texte_en": "Change is the only constant in divine evolution toward higher planes of consciousness.",
+        "page": 0
+    },
+    {
+        "id": 323,
+        "texte_fr": "L’initiation est le processus sacré de reconnaissance de sa propre divinité intérieure.",
+        "texte_en": "Initiation is the sacred process of recognizing one's own inner divinity.",
+        "page": 0
+    },
+    {
+        "id": 324,
+        "texte_fr": "L'ascension n'est pas une fuite, c'est l'ancrage total de l'Esprit divin dans chaque cellule du corps.",
+        "texte_en": "Ascension is not an escape; it is the total anchoring of the divine Spirit in every cell of the body.",
+        "page": 0
+    },
+    {
+        "id": 325,
+        "texte_fr": "Chaque interaction est une opportunité précieuse de semer de la Lumière et de la bienveillance.",
+        "texte_en": "Every interaction is a precious opportunity to sow Light and kindness.",
+        "page": 0
+    },
+    {
+        "id": 326,
+        "texte_fr": "La vérité est le soleil intérieur qui finit toujours par dissiper les brouillards du mental.",
+        "texte_en": "Truth is the inner sun that always ends up dissipating the fogs of the mind.",
+        "page": 0
+    },
+    {
+        "id": 327,
+        "texte_fr": "L’Amour est la colle cosmique qui maintient la création tout entière dans l'unité.",
+        "texte_en": "Love is the cosmic glue that holds the entire creation in unity.",
+        "page": 0
+    },
+    {
+        "id": 328,
+        "texte_fr": "Chaque âme est une mélodie unique et indispensable dans le grand concert galactique.",
+        "texte_en": "Each soul is a unique and indispensable melody in the great galactic concert.",
+        "page": 0
+    },
+    {
+        "id": 329,
+        "texte_fr": "La libération est un état intérieur de souveraineté avant de devenir une réalité extérieure.",
+        "texte_en": "Liberation is an inner state of sovereignty before it becomes an outer reality.",
+        "page": 0
+    },
+    {
+        "id": 330,
+        "texte_fr": "La science sans âme n'est que la ruine de l'esprit, tandis que la science spirituelle libère.",
+        "texte_en": "Science without a soul is but the ruin of the spirit, while spiritual science liberates.",
+        "page": 0
+    },
+    {
+        "id": 331,
+        "texte_fr": "Nous sommes les vagues d'un même océan infini d'Amour, retournant vers le rivage de l'Un.",
+        "texte_en": "We are the waves of the same infinite ocean of Love, returning to the shore of the One.",
+        "page": 0
+    },
+    {
+        "id": 332,
+        "texte_fr": "La joie est la fréquence naturelle de l'âme lorsqu'elle est alignée avec son dessein divin.",
+        "texte_en": "Joy is the natural frequency of the soul when it is aligned with its divine purpose.",
+        "page": 0
+    },
+    {
+        "id": 333,
+        "texte_fr": "L'univers est un organisme vivant, conscient et en perpétuelle expansion vers la Lumière.",
+        "texte_en": "The universe is a living, conscious organism, perpetually expanding toward the Light.",
+        "page": 0
+    },
+    {
+        "id": 334,
+        "texte_fr": "Le temps n'est pas une ligne droite, mais un flux d'énergie multidimensionnel et malléable.",
+        "texte_en": "Time is not a straight line, but a multidimensional and malleable flow of energy.",
+        "page": 0
+    },
+    {
+        "id": 335,
+        "texte_fr": "La compassion est la force d'attraction qui lie toutes les familles d’âmes entre elles.",
+        "texte_en": "Compassion is the force of attraction that binds all soul families together.",
+        "page": 0
+    },
+    {
+        "id": 336,
+        "texte_fr": "La souveraineté spirituelle est le droit inné et inaliénable de chaque être humain.",
+        "texte_en": "Spiritual sovereignty is the innate and inalienable right of every human being.",
+        "page": 0
+    },
+    {
+        "id": 337,
+        "texte_fr": "Le futur est une page blanche que nous écrivons ensemble avec notre intention collective.",
+        "texte_en": "The future is a blank page that we write together with our collective intention.",
+        "page": 0
+    },
+    {
+        "id": 338,
+        "texte_fr": "L'équilibre entre le masculin et le féminin est la fondation nécessaire à toute stabilité planétaire.",
+        "texte_en": "The balance between the masculine and the feminine is the necessary foundation for all planetary stability.",
+        "page": 0
+    },
+    {
+        "id": 339,
+        "texte_fr": "Nous ne sommes jamais seuls ; nous sommes soutenus par des millions de frères et sœurs stellaires.",
+        "texte_en": "We are never alone; we are supported by millions of stellar brothers and sisters.",
+        "page": 0
+    },
+    {
+        "id": 340,
+        "texte_fr": "La persévérance est la clé d'or qui finit par ouvrir toutes les portes de la destinée.",
+        "texte_en": "Perseverance is the golden key that eventually opens all the doors of destiny.",
+        "page": 0
+    },
+    {
+        "id": 341,
+        "texte_fr": "L'unité n'est pas l'uniformité, c'est la célébration de la richesse de la diversité dans l'harmonie.",
+        "texte_en": "Unity is not uniformity; it is the celebration of the richness of diversity in harmony.",
+        "page": 0
+    },
+    {
+        "id": 342,
+        "texte_fr": "La Lumière est information pure, tandis que l’obscurité n'est que le résultat de l’ignorance.",
+        "texte_en": "Light is pure information, while darkness is only the result of ignorance.",
+        "page": 0
+    },
+    {
+        "id": 343,
+        "texte_fr": "Chaque moment de beauté est une invitation de l'Esprit à se souvenir de notre origine divine.",
+        "texte_en": "Every moment of beauty is an invitation from the Spirit to remember our divine origin.",
+        "page": 0
+    },
+    {
+        "id": 344,
+        "texte_fr": "L'harmonie avec la nature est le premier pas fondamental vers la conscience galactique.",
+        "texte_en": "Harmony with nature is the fundamental first step toward galactic consciousness.",
+        "page": 0
+    },
+    {
+        "id": 345,
+        "texte_fr": "Les miracles sont des applications naturelles de lois physiques supérieures encore méconnues.",
+        "texte_en": "Miracles are natural applications of higher physical laws that are still unknown.",
+        "page": 0
+    },
+    {
+        "id": 346,
+        "texte_fr": "La pureté d'intention est le bouclier le plus efficace contre toute forme de négativité.",
+        "texte_en": "Purity of intention is the most effective shield against any form of negativity.",
+        "page": 0
+    },
+    {
+        "id": 347,
+        "texte_fr": "La collaboration consciente est la force motrice de la nouvelle Ère du Verseau.",
+        "texte_en": "Conscious collaboration is the driving force of the new Age of Aquarius.",
+        "page": 0
+    },
+    {
+        "id": 348,
+        "texte_fr": "L'abondance est avant tout un état de résonance intérieure avant de se manifester matériellement.",
+        "texte_en": "Abundance is primarily a state of inner resonance before it manifests materially.",
+        "page": 0
+    },
+    {
+        "id": 349,
+        "texte_fr": "L'Unique est à la fois partout et nulle part, immanent dans la matière et transcendant.",
+        "texte_en": "The One is at once everywhere and nowhere, immanent in matter and transcendent.",
+        "page": 0
+    },
+    {
+        "id": 350,
+        "texte_fr": "La Victoire de la Lumière est le triomphe éternel de la vie sur l'illusion de la mort.",
+        "texte_en": "The Victory of the Light is the eternal triumph of life over the illusion of death.",
+        "page": 0
+    },
+    {
+        "id": 351,
+        "texte_fr": "Chaque être est un univers miniature reflétant le macrocosme dans le moindre détail.",
+        "texte_en": "Each being is a miniature universe reflecting the macrocosm in every detail.",
+        "page": 0
+    },
+    {
+        "id": 352,
+        "texte_fr": "La manifestation commence par un désir pur et se parachève par une action alignée.",
+        "texte_en": "Manifestation begins with a pure desire and is completed by aligned action.",
+        "page": 0
+    },
+    {
+        "id": 353,
+        "texte_fr": "Le corps émotionnel est le moteur puissant de notre expérience d'incarnation humaine.",
+        "texte_en": "The emotional body is the powerful engine of our human incarnation experience.",
+        "page": 0
+    },
+    {
+        "id": 354,
+        "texte_fr": "La libération est l'acte de reprendre notre pouvoir souverain des mains de l'illusion.",
+        "texte_en": "Liberation is the act of taking back our sovereign power from the hands of illusion.",
+        "page": 0
+    },
+    {
+        "id": 355,
+        "texte_fr": "La vérité est comme une source d'eau vive qui désaltère l'âme assoiffée de liberté.",
+        "texte_en": "Truth is like a spring of living water that quenches the soul's thirst for freedom.",
+        "page": 0
+    },
+    {
+        "id": 356,
+        "texte_fr": "Nous sommes les témoins sacrés de la fin d'un monde et de l'aube d'une ère nouvelle.",
+        "texte_en": "We are the sacred witnesses of the end of a world and the dawn of a new era.",
+        "page": 0
+    },
+    {
+        "id": 357,
+        "texte_fr": "Chaque acte de bonté est une victoire silencieuse mais puissante contre l'ombre.",
+        "texte_en": "Every act of kindness is a silent but powerful victory against the shadow.",
+        "page": 0
+    },
+    {
+        "id": 358,
+        "texte_fr": "L'Amour est le langage universel du cœur, compris par-delà les mots et les espèces.",
+        "texte_en": "Love is the universal language of the heart, understood beyond words and species.",
+        "page": 0
+    },
+    {
+        "id": 359,
+        "texte_fr": "La conscience galactique est l'horizon inévitable et radieux de l'évolution humaine.",
+        "texte_en": "Galactic consciousness is the inevitable and radiant horizon of human evolution.",
+        "page": 0
+    },
+    {
+        "id": 360,
+        "texte_fr": "La paix véritable n'est pas seulement l'absence de guerre, mais la présence vibrante de l'Amour.",
+        "texte_en": "True peace is not just the absence of war, but the vibrant presence of Love.",
+        "page": 0
+    },
+    {
+        "id": 361,
+        "texte_fr": "Le corps physique est le temple sacré qui abrite l’étincelle de la vie divine.",
+        "texte_en": "The physical body is the sacred temple that houses the spark of divine life.",
+        "page": 0
+    },
+    {
+        "id": 362,
+        "texte_fr": "La vérité est la fréquence de résonance qui permet à l'âme de s'accorder à l'Univers.",
+        "texte_en": "Truth is the resonant frequency that allows the soul to tune into the Universe.",
+        "page": 0
+    },
+    {
+        "id": 363,
+        "texte_fr": "Chaque instant de joie est une victoire pour la Lumière sur toute la planète.",
+        "texte_en": "Every moment of joy is a victory for the Light across the entire planet.",
+        "page": 0
+    },
+    {
+        "id": 364,
+        "texte_fr": "L'Événement est la percée finale de la réalité divine à travers les voiles de l'illusion.",
+        "texte_en": "The Event is the final breakthrough of divine reality through the veils of illusion.",
+        "page": 0
+    },
+    {
+        "id": 365,
+        "texte_fr": "Victoire de la Lumière, maintenant et pour toujours !",
+        "texte_en": "Victory of the Light, now and forever!",
+        "page": 0
+    },
+    {
+        "id": 366,
+        "texte_fr": "Notre vraie réalité existe déjà de manière permanente dans la sixième dimension.",
+        "texte_en": "Our true reality already exists permanently in the sixth dimension.",
+        "page": 0
+    },
+    {
+        "id": 367,
+        "texte_fr": "La Constitution des États-Unis, si elle était respectée, suffirait à effacer la Cabale.",
+        "texte_en": "The United States Constitution, if respected, would be enough to erase the Cabal.",
+        "page": 0
+    },
+    {
+        "id": 368,
+        "texte_fr": "L'abondance est une expression naturelle de la beauté de l'âme incarnée dans la matière.",
+        "texte_en": "Abundance is a natural expression of the beauty of the soul incarnated in matter.",
+        "page": 0
+    },
+    {
+        "id": 369,
+        "texte_fr": "La vie n'est pas un travail pénible, mais un voyage sacré de joie et de créativité pure.",
+        "texte_en": "Life is not a drudgery, but a sacred journey of joy and pure creativity.",
+        "page": 0
+    },
+    {
+        "id": 370,
+        "texte_fr": "Chaque être vivant est une note essentielle dans la symphonie infinie de la Source.",
+        "texte_en": "Every living being is an essential note in the infinite symphony of the Source.",
+        "page": 0
+    },
+    {
+        "id": 371,
+        "texte_fr": "L'obscurité sera effacée comme si elle n'avait jamais existé dans l'histoire de l'univers.",
+        "texte_en": "Darkness will be erased as if it had never existed in the history of the universe.",
+        "page": 0
+    },
+    {
+        "id": 372,
+        "texte_fr": "La vérité crée un réseau de lumière mentale qui permet la manifestation du divin sur le plan physique.",
+        "texte_en": "Truth creates a network of mental light that allows the manifestation of the divine on the physical plane.",
+        "page": 0
+    },
+    {
+        "id": 373,
+        "texte_fr": "L’entropie diminue naturellement avec le temps car l’univers est un système ouvert à la Lumière.",
+        "texte_en": "Entropy naturally decreases over time because the universe is a system open to the Light.",
+        "page": 0
+    },
+    {
+        "id": 374,
+        "texte_fr": "Une seule personne parfaitement connectée à sa présence JE SUIS peut libérer une planète entière.",
+        "texte_en": "A single person perfectly connected to their I AM presence can liberate an entire planet.",
+        "page": 0
+    },
+    {
+        "id": 375,
+        "texte_fr": "L'Événement est un déclencheur multidimensionnel vers l'Âge d'Or tant attendu par les âmes.",
+        "texte_en": "The Event is a multidimensional trigger toward the Golden Age so long awaited by souls.",
+        "page": 0
+    },
+    {
+        "id": 376,
+        "texte_fr": "La conscience de l'Unité est le remède ultime à toutes les souffrances de ce monde.",
+        "texte_en": "Unity consciousness is the ultimate remedy for all the sufferings of this world.",
+        "page": 0
+    },
+    {
+        "id": 377,
+        "texte_fr": "Le muscle du libre arbitre se renforce à chaque décision consciente prise vers la Lumière.",
+        "texte_en": "The muscle of free will is strengthened with every conscious decision made toward the Light.",
+        "page": 0
+    },
+    {
+        "id": 378,
+        "texte_fr": "Tout ce qui inspire la beauté est un guide sûr vers la connexion avec l'Esprit.",
+        "texte_en": "Everything that inspires beauty is a sure guide toward connection with the Spirit.",
+        "page": 0
+    },
+    {
+        "id": 379,
+        "texte_fr": "La meilleure façon de contacter son âme est d’être dans une sincérité absolue avec soi-même.",
+        "texte_en": "The best way to contact your soul is to be in absolute sincerity with yourself.",
+        "page": 0
+    },
+    {
+        "id": 380,
+        "texte_fr": "L’âme peut s’incarner en homme ou en femme, mais son essence demeure pure Lumière.",
+        "texte_en": "The soul can incarnate as man or woman, but its essence remains pure Light.",
+        "page": 0
+    },
+    {
+        "id": 381,
+        "texte_fr": "L'Union Sacrée est la fusion alchimique des polarités menant directement à l'Ascension.",
+        "texte_en": "The Sacred Union is the alchemical fusion of polarities leading directly to Ascension.",
+        "page": 0
+    },
+    {
+        "id": 382,
+        "texte_fr": "La famille d’âmes est le socle sur lequel sera bâtie la nouvelle société spirituelle.",
+        "texte_en": "The soul family is the foundation upon which the new spiritual society will be built.",
+        "page": 0
+    },
+    {
+        "id": 383,
+        "texte_fr": "Le moment est venu de briser définitivement les chaînes de l'illusion de la séparation.",
+        "texte_en": "The time has come to definitively break the chains of the illusion of separation.",
+        "page": 0
+    },
+    {
+        "id": 384,
+        "texte_fr": "Nous sommes nés des étoiles et nous portons leur sagesse dans nos cellules.",
+        "texte_en": "We are born of the stars and we carry their wisdom in our cells.",
+        "page": 0
+    },
+    {
+        "id": 385,
+        "texte_fr": "La compassion guérit les blessures que la simple raison logique ne peut même pas percevoir.",
+        "texte_en": "Compassion heals wounds that simple logical reason cannot even perceive.",
+        "page": 0
+    },
+    {
+        "id": 386,
+        "texte_fr": "La persévérance est la force d'âme qui transmute les rêves les plus fous en réalités.",
+        "texte_en": "Perseverance is the strength of soul that transmutes the wildest dreams into reality.",
+        "page": 0
+    },
+    {
+        "id": 387,
+        "texte_fr": "L'harmonie est la loi fondamentale qui régit tout univers véritablement libéré.",
+        "texte_en": "Harmony is the fundamental law that governs any truly liberated universe.",
+        "page": 0
+    },
+    {
+        "id": 388,
+        "texte_fr": "La peur est l'outil du contrôle ; la connaissance est l’antidote qui rend la liberté.",
+        "texte_en": "Fear is the tool of control; knowledge is the antidote that restores freedom.",
+        "page": 0
+    },
+    {
+        "id": 389,
+        "texte_fr": "Chaque pensée positive est une onde de choc qui stabilise la grille de Lumière planétaire.",
+        "texte_en": "Every positive thought is a shockwave that stabilizes the planetary Light grid.",
+        "page": 0
+    },
+    {
+        "id": 390,
+        "texte_fr": "L’énergie de la Déesse est d'une douceur infinie, et pourtant c’est le pouvoir ultime.",
+        "texte_en": "The energy of the Goddess is infinitely gentle, and yet it is the ultimate power.",
+        "page": 0
+    },
+    {
+        "id": 391,
+        "texte_fr": "La vérité est l'oxygène indispensable à la survie et à l'expansion de l'âme libre.",
+        "texte_en": "Truth is the oxygen indispensable to the survival and expansion of the free soul.",
+        "page": 0
+    },
+    {
+        "id": 392,
+        "texte_fr": "Nous sommes les pionniers audacieux d’un nouveau cycle cosmique d'Amour.",
+        "texte_en": "We are the bold pioneers of a new cosmic cycle of Love.",
+        "page": 0
+    },
+    {
+        "id": 393,
+        "texte_fr": "L'unité de cœur est le secret le mieux gardé de la puissance divine manifestée.",
+        "texte_en": "Heart unity is the best-kept secret of manifested divine power.",
+        "page": 0
+    },
+    {
+        "id": 394,
+        "texte_fr": "Chaque décision positive est un pas de géant vers la Victoire totale de la Lumière.",
+        "texte_en": "Every positive decision is a giant step toward the total Victory of the Light.",
+        "page": 0
+    },
+    {
+        "id": 395,
+        "texte_fr": "La vérité n'a pas d'ombre car elle émane directement de la Source Unique.",
+        "texte_en": "Truth has no shadow because it emanates directly from the One Source.",
+        "page": 0
+    },
+    {
+        "id": 396,
+        "texte_fr": "L'Événement marquera la fin de la prison planétaire et le début de l'infini.",
+        "texte_en": "The Event will mark the end of the planetary prison and the beginning of the infinite.",
+        "page": 0
+    },
+    {
+        "id": 397,
+        "texte_fr": "La Lumière est le langage universel par lequel nous communiquons avec nos frères stellaires.",
+        "texte_en": "Light is the universal language through which we communicate with our stellar brothers.",
+        "page": 0
+    },
+    {
+        "id": 398,
+        "texte_fr": "Chaque âme sœur rencontrée est un compagnon précieux sur le chemin de l'éternité.",
+        "texte_en": "Each soulmate met is a precious companion on the path of eternity.",
+        "page": 0
+    },
+    {
+        "id": 399,
+        "texte_fr": "L'Unique est partout présent, vibrant dans chaque atome de la création manifestée.",
+        "texte_en": "The One is everywhere present, vibrating in every atom of manifested creation.",
+        "page": 0
+    },
+    {
+        "id": 400,
+        "texte_fr": "La Victoire de la Lumière est le triomphe inéluctable de la vérité sur le mensonge.",
+        "texte_en": "The Victory of the Light is the inescapable triumph of truth over lies.",
+        "page": 0
+    },
+    {
+        "id": 401,
+        "texte_fr": "La connaissance est la nourriture sacrée qui permet à l'esprit humain de s'élever.",
+        "texte_en": "Knowledge is the sacred nourishment that allows the human spirit to rise.",
+        "page": 0
+    },
+    {
+        "id": 402,
+        "texte_fr": "Nous sommes ici pour transformer cette planète en un joyau de Lumière galactique.",
+        "texte_en": "We are here to transform this planet into a jewel of galactic Light.",
+        "page": 0
+    },
+    {
+        "id": 403,
+        "texte_fr": "La dualité est une expérience temporaire qui s'efface devant la majesté de l'Unité.",
+        "texte_en": "Duality is a temporary experience that fades before the majesty of Unity.",
+        "page": 0
+    },
+    {
+        "id": 404,
+        "texte_fr": "Chaque acte de bonté désintéressée est un ancrage de la Déesse sur la Terre.",
+        "texte_en": "Every act of selfless kindness is an anchoring of the Goddess on Earth.",
+        "page": 0
+    },
+    {
+        "id": 405,
+        "texte_fr": "La libération commence par le courage de regarder la vérité en face, sans détour.",
+        "texte_en": "Liberation begins with the courage to look at the truth directly, without detour.",
+        "page": 0
+    },
+    {
+        "id": 406,
+        "texte_fr": "L'abondance est un flux naturel qui ne demande qu'à être accueilli par le cœur.",
+        "texte_en": "Abundance is a natural flow that only asks to be welcomed by the heart.",
+        "page": 0
+    },
+    {
+        "id": 407,
+        "texte_fr": "L'Amour est la force de gravité sacrée qui unit tous les cœurs éveillés.",
+        "texte_en": "Love is the sacred gravitational force that unites all awakened hearts.",
+        "page": 0
+    },
+    {
+        "id": 408,
+        "texte_fr": "La manifestation est le processus divin de donner forme à l'invisible par l'intention.",
+        "texte_en": "Manifestation is the divine process of giving form to the invisible through intention.",
+        "page": 0
+    },
+    {
+        "id": 409,
+        "texte_fr": "Chaque moment de silence est une opportunité d'écouter les murmures de l'âme.",
+        "texte_en": "Every moment of silence is an opportunity to listen to the whispers of the soul.",
+        "page": 0
+    },
+    {
+        "id": 410,
+        "texte_fr": "Nous sommes les héritiers légitimes d'un royaume de Lumière et de félicité infinies.",
+        "texte_en": "We are the rightful heirs to a kingdom of infinite Light and bliss.",
+        "page": 0
+    },
+    {
+        "id": 411,
+        "texte_fr": "La vérité est la clé de voûte de toute société humaine juste et libre.",
+        "texte_en": "Truth is the cornerstone of every just and free human society.",
+        "page": 0
+    },
+    {
+        "id": 412,
+        "texte_fr": "La conscience est le pont de Lumière jeté entre l'humanité et la Source.",
+        "texte_en": "Consciousness is the bridge of Light thrown between humanity and the Source.",
+        "page": 0
+    },
+    {
+        "id": 413,
+        "texte_fr": "L'unité est la puissance tranquille qui rend les Travailleurs de la Lumière invincibles.",
+        "texte_en": "Unity is the quiet power that makes Lightworkers invincible.",
+        "page": 0
+    },
+    {
+        "id": 414,
+        "texte_fr": "Chaque être sensible a le droit divin de vivre dans la joie et la dignité.",
+        "texte_en": "Every sentient being has the divine right to live in joy and dignity.",
+        "page": 0
+    },
+    {
+        "id": 415,
+        "texte_fr": "L’Amour est le seul chemin qui nous ramène véritablement à la maison.",
+        "texte_en": "Love is the only path that truly leads us back home.",
+        "page": 0
+    },
+    {
+        "id": 416,
+        "texte_fr": "La Victoire de la Lumière est une certitude inscrite dans les lois de la Création.",
+        "texte_en": "The Victory of the Light is a certainty inscribed in the laws of Creation.",
+        "page": 0
+    },
+    {
+        "id": 417,
+        "texte_fr": "La gratitude transmute l'ordinaire en sacré et la rareté en abondance.",
+        "texte_en": "Gratitude transmutes the ordinary into sacred and scarcity into abundance.",
+        "page": 0
+    },
+    {
+        "id": 418,
+        "texte_fr": "Chaque être est une pièce de puzzle indispensable au grand dessein de l'Univers.",
+        "texte_en": "Each being is an indispensable puzzle piece in the grand design of the Universe.",
+        "page": 0
+    },
+    {
+        "id": 419,
+        "texte_fr": "La Lumière est le sang vital qui anime chaque particule de l'univers conscient.",
+        "texte_en": "Light is the vital blood that animates every particle of the conscious universe.",
+        "page": 0
+    },
+    {
+        "id": 420,
+        "texte_fr": "L'ascension est un saut quantique dans la pleine réalisation de l'Amour divin.",
+        "texte_en": "Ascension is a quantum leap into the full realization of divine Love.",
+        "page": 0
+    },
+    {
+        "id": 421,
+        "texte_fr": "La beauté sauvera le monde en rappelant aux hommes leur origine céleste.",
+        "texte_en": "Beauty will save the world by reminding men of their celestial origin.",
+        "page": 0
+    },
+    {
+        "id": 422,
+        "texte_fr": "Chaque décision prise avec amour renforce la grille de Lumière tout autour de la Terre.",
+        "texte_en": "Every decision made with love strengthens the Light grid all around the Earth.",
+        "page": 0
+    },
+    {
+        "id": 423,
+        "texte_fr": "La vérité est comme un phare dans la nuit, guidant les âmes vers la libération.",
+        "texte_en": "Truth is like a lighthouse in the night, guiding souls toward liberation.",
+        "page": 0
+    },
+    {
+        "id": 424,
+        "texte_fr": "Le présent est le seul espace où le pouvoir du libre arbitre peut s'exercer.",
+        "texte_en": "The present is the only space where the power of free will can be exercised.",
+        "page": 0
+    },
+    {
+        "id": 425,
+        "texte_fr": "Nous sommes des vagues d'Amour s'écoulant de l'océan de la Source vers le monde.",
+        "texte_en": "We are waves of Love flowing from the ocean of the Source into the world.",
+        "page": 0
+    },
+    {
+        "id": 426,
+        "texte_fr": "La conscience galactique est le prochain stade glorieux de l'évolution humaine.",
+        "texte_en": "Galactic consciousness is the next glorious stage of human evolution.",
+        "page": 0
+    },
+    {
+        "id": 427,
+        "texte_fr": "L’Amour est la force invincible qui finira par dissoudre toute trace d'obscurité.",
+        "texte_en": "Love is the invincible force that will eventually dissolve every trace of darkness.",
+        "page": 0
+    },
+    {
+        "id": 428,
+        "texte_fr": "La libération est la destinée sacrée et inévitable de notre planète Terre.",
+        "texte_en": "Liberation is the sacred and inevitable destiny of our planet Earth.",
+        "page": 0
+    },
+    {
+        "id": 429,
+        "texte_fr": "Chaque être est une note unique vibrant dans la symphonie éternelle des sphères.",
+        "texte_en": "Each being is a unique note vibrating in the eternal symphony of the spheres.",
+        "page": 0
+    },
+    {
+        "id": 430,
+        "texte_fr": "La vérité est la base immuable sur laquelle repose notre souveraineté individuelle.",
+        "texte_en": "Truth is the immutable base upon which our individual sovereignty rests.",
+        "page": 0
+    },
+    {
+        "id": 431,
+        "texte_fr": "L'univers est une spirale ascendante d'évolution infinie vers la perfection de l'Un.",
+        "texte_en": "The universe is an ascending spiral of infinite evolution toward the perfection of the One.",
+        "page": 0
+    },
+    {
+        "id": 432,
+        "texte_fr": "La Lumière est la vérité manifestée dans la splendeur de la forme.",
+        "texte_en": "Light is truth manifested in the splendor of form.",
+        "page": 0
+    },
+    {
+        "id": 433,
+        "texte_fr": "Chaque moment de compassion sincère guérit une partie du cœur de l'humanité.",
+        "texte_en": "Every moment of sincere compassion heals a part of the heart of humanity.",
+        "page": 0
+    },
+    {
+        "id": 434,
+        "texte_fr": "La libération est l'éveil collectif du long rêve de la séparation.",
+        "texte_en": "Liberation is the collective awakening from the long dream of separation.",
+        "page": 0
+    },
+    {
+        "id": 435,
+        "texte_fr": "La vérité est la clé d'or qui déverrouille toutes les portes de la prison matricielle.",
+        "texte_en": "Truth is the golden key that unlocks all the doors of the matrix prison.",
+        "page": 0
+    },
+    {
+        "id": 436,
+        "texte_fr": "Victoire de la Lumière sur toute forme d'illusion et de souffrance !",
+        "texte_en": "Victory of the Light over all forms of illusion and suffering!",
+        "page": 0
+    },
+    {
+        "id": 437,
+        "texte_fr": "L'Anomalie Primaire est un défaut de la structure de l'espace-temps qui doit être corrigé.",
+        "texte_en": "The Primary Anomaly is a flaw in the structure of space-time that must be corrected.",
+        "page": 0
+    },
+    {
+        "id": 438,
+        "texte_fr": "Le Codex Galactique est le fondement de la justice et de l'harmonie dans l'univers libéré.",
+        "texte_en": "The Galactic Codex is the foundation of justice and harmony in the liberated universe.",
+        "page": 0
+    },
+    {
+        "id": 439,
+        "texte_fr": "L’argent volé par la Cabale sera restitué pour financer des projets d'intérêt public.",
+        "texte_en": "The money stolen by the Cabal will be returned to fund projects of public interest.",
+        "page": 0
+    },
+    {
+        "id": 440,
+        "texte_fr": "Les technologies supprimées transformeront notre façon de produire de l'énergie en quelques mois.",
+        "texte_en": "Suppressed technologies will transform the way we produce energy in a few months.",
+        "page": 0
+    },
+    {
+        "id": 441,
+        "texte_fr": "L'Événement est la Percée par Compression, où la Lumière d'en haut rencontre celle d'en bas.",
+        "texte_en": "The Event is the Compression Breakthrough, where the Light from above meets the Light from below.",
+        "page": 0
+    },
+    {
+        "id": 442,
+        "texte_fr": "Chaque être humain est un canal de Lumière potentiel pour la force divine.",
+        "texte_en": "Every human being is a potential channel of Light for the divine force.",
+        "page": 0
+    },
+    {
+        "id": 443,
+        "texte_fr": "L'unité est la puissance qui nous permet de co-créer un nouveau futur radieux.",
+        "texte_en": "Unity is the power that allows us to co-create a new, radiant future.",
+        "page": 0
+    },
+    {
+        "id": 444,
+        "texte_fr": "La connaissance est le pouvoir, et la vérité est la route directe vers la liberté.",
+        "texte_en": "Knowledge is power, and truth is the direct road to freedom.",
+        "page": 0
+    },
+    {
+        "id": 445,
+        "texte_fr": "Le pardon est un acte de souveraineté qui libère l'âme des fardeaux du passé.",
+        "texte_en": "Forgiveness is an act of sovereignty that frees the soul from the burdens of the past.",
+        "page": 0
+    },
+    {
+        "id": 446,
+        "texte_fr": "La conscience est le seul agent capable de modifier la structure même de la réalité.",
+        "texte_en": "Consciousness is the only agent capable of modifying the very structure of reality.",
+        "page": 0
+    },
+    {
+        "id": 447,
+        "texte_fr": "L’Amour est la force de gravité spirituelle qui nous attire tous vers l'Unité.",
+        "texte_en": "Love is the spiritual gravitational force that draws us all toward Unity.",
+        "page": 0
+    },
+    {
+        "id": 448,
+        "texte_fr": "La beauté est l'expression de l'harmonie divine filtrée par l'œil de l'observateur.",
+        "texte_en": "Beauty is the expression of divine harmony filtered through the observer's eye.",
+        "page": 0
+    },
+    {
+        "id": 449,
+        "texte_fr": "Chaque acte de courage inspire des milliers d'autres à se lever pour la vérité.",
+        "texte_en": "Every act of courage inspires thousands of others to stand up for the truth.",
+        "page": 0
+    },
+    {
+        "id": 450,
+        "texte_fr": "La libération est un processus intérieur qui s'exprime ensuite dans le monde extérieur.",
+        "texte_en": "Liberation is an inner process that is then expressed in the outer world.",
+        "page": 0
+    },
+    {
+        "id": 451,
+        "texte_fr": "La vérité est le pilier central sur lequel est bâti le nouvel Âge d'Or.",
+        "texte_en": "Truth is the central pillar upon which the new Golden Age is built.",
+        "page": 0
+    },
+    {
+        "id": 452,
+        "texte_fr": "L'univers est une symphonie de fréquences dont nous apprenons à devenir les chefs d'orchestre.",
+        "texte_en": "The universe is a symphony of frequencies of which we are learning to become the conductors.",
+        "page": 0
+    },
+    {
+        "id": 453,
+        "texte_fr": "La douceur n'est pas une faiblesse, c'est l'expression de la puissance tranquille de l'âme.",
+        "texte_en": "Gentleness is not weakness, it is the expression of the soul's quiet power.",
+        "page": 0
+    },
+    {
+        "id": 454,
+        "texte_fr": "Chaque âme jumelle est le miroir parfait de notre propre essence divine originelle.",
+        "texte_en": "Each twin soul is the perfect mirror of our own original divine essence.",
+        "page": 0
+    },
+    {
+        "id": 455,
+        "texte_fr": "L'obscurité n'est que l'absence temporaire de conscience de notre interconnexion.",
+        "texte_en": "Darkness is only the temporary absence of awareness of our interconnection.",
+        "page": 0
+    },
+    {
+        "id": 456,
+        "texte_fr": "La joie est le signal que nous sommes en parfait alignement avec notre mission d'âme.",
+        "texte_en": "Joy is the signal that we are in perfect alignment with our soul mission.",
+        "page": 0
+    },
+    {
+        "id": 457,
+        "texte_fr": "La manifestation commence par une vision claire et une intention purement focalisée.",
+        "texte_en": "Manifestation begins with a clear vision and a purely focused intention.",
+        "page": 0
+    },
+    {
+        "id": 458,
+        "texte_fr": "Nous sommes les vagues conscientes de l'océan d'Amour infini qui baigne l'univers.",
+        "texte_en": "We are the conscious waves of the ocean of infinite Love that bathes the universe.",
+        "page": 0
+    },
+    {
+        "id": 459,
+        "texte_fr": "La vérité est le socle sur lequel nous bâtissons notre nouvelle réalité galactique.",
+        "texte_en": "Truth is the foundation upon which we build our new galactic reality.",
+        "page": 0
+    },
+    {
+        "id": 460,
+        "texte_fr": "L'Événement marquera le début d'une ère de paix sans précédent dans l'histoire humaine.",
+        "texte_en": "The Event will mark the beginning of an era of peace unprecedented in human history.",
+        "page": 0
+    },
+    {
+        "id": 461,
+        "texte_fr": "La Lumière est le véhicule de la conscience divine à travers toutes les dimensions.",
+        "texte_en": "Light is the vehicle of divine consciousness through all dimensions.",
+        "page": 0
+    },
+    {
+        "id": 462,
+        "texte_fr": "Les contrats d'âme ne sont que des accords énergétiques qui peuvent être révoqués par un acte de volonté.",
+        "texte_en": "Soul contracts are only energetic agreements that can be revoked by an act of will.",
+        "page": 0
+    },
+    {
+        "id": 463,
+        "texte_fr": "L’anomalie subquantique est la racine ultime de tout mal et de toute souffrance.",
+        "texte_en": "Subquantum anomaly is the ultimate root of all evil and suffering.",
+        "page": 0
+    },
+    {
+        "id": 464,
+        "texte_fr": "Plus nous effaçons les lignes de temps du passé, plus les gens peuvent guérir facilement.",
+        "texte_en": "The more we erase the timelines of the past, the more easily people can heal.",
+        "page": 0
+    },
+    {
+        "id": 465,
+        "texte_fr": "Le Rôdeur est l'entité qui s'est formée à partir de la tension entre la Source et l'anomalie.",
+        "texte_en": "The Lurker is the entity that was formed from the tension between the Source and the anomaly.",
+        "page": 0
+    },
+    {
+        "id": 466,
+        "texte_fr": "La nouvelle Renaissance sera un réveil massif de la conscience humaine soutenu par des impulsions cosmiques.",
+        "texte_en": "The new Renaissance will be a massive awakening of human consciousness supported by cosmic impulses.",
+        "page": 0
+    },
+    {
+        "id": 467,
+        "texte_fr": "Un système financier soutenu par l'or remplacera l'ancien système de dette fictive.",
+        "texte_en": "A gold-backed financial system will replace the old system of fiat debt.",
+        "page": 0
+    },
+    {
+        "id": 468,
+        "texte_fr": "Chaque personne recevra environ 100 000 euros comme base pour améliorer sa qualité de vie.",
+        "texte_en": "Each person will receive approximately 100,000 euros as a baseline to improve their quality of life.",
+        "page": 0
+    },
+    {
+        "id": 469,
+        "texte_fr": "Le travail humain sera réduit à environ 4 heures par jour grâce aux nouvelles technologies.",
+        "texte_en": "Human labor will be reduced to about 4 hours per day thanks to new technologies.",
+        "page": 0
+    },
+    {
+        "id": 470,
+        "texte_fr": "L'intelligence artificielle n'a pas d'âme, c'est une contradiction dans les termes.",
+        "texte_en": "Artificial intelligence has no soul; it is a contradiction in terms.",
+        "page": 0
+    },
+    {
+        "id": 471,
+        "texte_fr": "Les lits médicaux régénéreront tout le corps humain en moins de trois minutes.",
+        "texte_en": "Med beds will regenerate the entire human body in less than three minutes.",
+        "page": 0
+    },
+    {
+        "id": 472,
+        "texte_fr": "La véritable abondance est à la fois physique et spirituelle, sans besoin de monnaie.",
+        "texte_en": "True abundance is both physical and spiritual, with no need for currency.",
+        "page": 0
+    },
+    {
+        "id": 473,
+        "texte_fr": "Le Mouvement de la Résistance a déjà sécurisé la grande majorité du domaine souterrain.",
+        "texte_en": "The Resistance Movement has already secured the vast majority of the underground domain.",
+        "page": 0
+    },
+    {
+        "id": 474,
+        "texte_fr": "Les bulles de paradis sont des zones de Lumière pure protégées de toute influence obscure.",
+        "texte_en": "Paradise bubbles are zones of pure Light protected from any dark influence.",
+        "page": 0
+    },
+    {
+        "id": 475,
+        "texte_fr": "La Déesse veut de la Lumière et la Lumière sera manifestée à la surface.",
+        "texte_en": "The Goddess wants Light and the Light will be manifested on the surface.",
+        "page": 0
+    },
+    {
+        "id": 476,
+        "texte_fr": "Le protocole Command 771 apporte une guérison émotionnelle profonde venant des Pléiadiens.",
+        "texte_en": "The Command 771 protocol brings deep emotional healing from the Pleiadians.",
+        "page": 0
+    },
+    {
+        "id": 477,
+        "texte_fr": "Le Feu Blanc de AN transmute toute anomalie en pure Lumière divine.",
+        "texte_en": "The White Fire of AN transmutes all anomaly into pure divine Light.",
+        "page": 0
+    },
+    {
+        "id": 478,
+        "texte_fr": "La pierre Cintamani est un conduit sacré pour les énergies de la Percée par Compression.",
+        "texte_en": "The Cintamani stone is a sacred conduit for the energies of the Compression Breakthrough.",
+        "page": 0
+    },
+    {
+        "id": 479,
+        "texte_fr": "Le code Command PB Stardust permet aux Pléiadiens de soulager la douleur physique.",
+        "texte_en": "The Command PB Stardust code allows the Pleiadians to alleviate physical pain.",
+        "page": 0
+    },
+    {
+        "id": 480,
+        "texte_fr": "La vérité est le seul chemin vers la guérison globale de l'humanité.",
+        "texte_en": "Truth is the only path toward the global healing of humanity.",
+        "page": 0
+    },
+    {
+        "id": 481,
+        "texte_fr": "L’Événement comprendra toujours l’élimination de la Cabale et une réinitialisation complète.",
+        "texte_en": "The Event will always include the elimination of the Cabal and a full reset.",
+        "page": 0
+    },
+    {
+        "id": 482,
+        "texte_fr": "Le moment présent est l'unique espace où nous pouvons exercer notre véritable pouvoir souverain.",
+        "texte_en": "The present moment is the only space where we can exercise our true sovereign power.",
+        "page": 0
+    },
+    {
+        "id": 483,
+        "texte_fr": "L'Univers est un organisme conscient qui cherche constamment à revenir à l'équilibre.",
+        "texte_en": "The Universe is a conscious organism that constantly seeks to return to balance.",
+        "page": 0
+    },
+    {
+        "id": 484,
+        "texte_fr": "Chaque acte de bienveillance résonne à travers tout le champ quantique planétaire.",
+        "texte_en": "Every act of kindness resonates throughout the entire planetary quantum field.",
+        "page": 0
+    },
+    {
+        "id": 485,
+        "texte_fr": "La compassion est le ciment spirituel qui unit les membres de toutes les familles d'âmes.",
+        "texte_en": "Compassion is the spiritual cement that unites the members of all soul families.",
+        "page": 0
+    },
+    {
+        "id": 486,
+        "texte_fr": "La liberté est le mouvement naturel de l'esprit vers son expansion infinie.",
+        "texte_en": "Freedom is the natural movement of the spirit toward its infinite expansion.",
+        "page": 0
+    },
+    {
+        "id": 487,
+        "texte_fr": "La connaissance sans conscience n'est que vanité ; la connaissance spirituelle est libératrice.",
+        "texte_en": "Knowledge without consciousness is mere vanity; spiritual knowledge is liberating.",
+        "page": 0
+    },
+    {
+        "id": 488,
+        "texte_fr": "Nous sommes les co-créateurs d’un futur de paix et d’abondance partagée.",
+        "texte_en": "We are the co-creators of a future of peace and shared abundance.",
+        "page": 0
+    },
+    {
+        "id": 489,
+        "texte_fr": "L’Amour inconditionnel est la fréquence vibratoire la plus élevée de cet univers.",
+        "texte_en": "Unconditional Love is the highest vibrational frequency of this universe.",
+        "page": 0
+    },
+    {
+        "id": 490,
+        "texte_fr": "Chaque être sensible a le droit inaliénable à l'Ascension et à la pleine vérité.",
+        "texte_en": "Every sentient being has the inalienable right to Ascension and full truth.",
+        "page": 0
+    },
+    {
+        "id": 491,
+        "texte_fr": "La victoire finale de la Lumière est déjà inscrite dans la géométrie de l'espace-temps.",
+        "texte_en": "The final victory of the Light is already inscribed in the geometry of space-time.",
+        "page": 0
+    },
+    {
+        "id": 492,
+        "texte_fr": "Le pardon libère l'énergie bloquée dans le passé pour créer un futur radieux.",
+        "texte_en": "Forgiveness releases energy blocked in the past to create a radiant future.",
+        "page": 0
+    },
+    {
+        "id": 493,
+        "texte_fr": "La conscience est le gouvernail qui dirige notre vaisseau galactique vers les étoiles.",
+        "texte_en": "Consciousness is the rudder that steers our galactic ship toward the stars.",
+        "page": 0
+    },
+    {
+        "id": 494,
+        "texte_fr": "Chaque interaction est une graine de Lumière plantée dans le cœur d'autrui.",
+        "texte_en": "Every interaction is a seed of Light planted in the heart of others.",
+        "page": 0
+    },
+    {
+        "id": 495,
+        "texte_fr": "L'unité est la force tranquille qui transforme les obstacles en tremplins.",
+        "texte_en": "Unity is the quiet force that transforms obstacles into stepping stones.",
+        "page": 0
+    },
+    {
+        "id": 496,
+        "texte_fr": "La vérité est le socle sur lequel nous bâtissons notre nouvelle souveraineté.",
+        "texte_en": "Truth is the foundation upon which we build our new sovereignty.",
+        "page": 0
+    },
+    {
+        "id": 497,
+        "texte_fr": "Le futur est un océan de possibilités que nous explorons avec notre intention.",
+        "texte_en": "The future is an ocean of possibilities that we explore with our intention.",
+        "page": 0
+    },
+    {
+        "id": 498,
+        "texte_fr": "L’harmonie avec soi-même est le premier pas vers l’harmonie avec l’Univers.",
+        "texte_en": "Harmony with oneself is the first step toward harmony with the Universe.",
+        "page": 0
+    },
+    {
+        "id": 499,
+        "texte_fr": "La joie est la preuve irréfutable que nous sommes sur le bon chemin spirituel.",
+        "texte_en": "Joy is the irrefutable proof that we are on the right spiritual path.",
+        "page": 0
+    },
+    {
+        "id": 501,
+        "texte_fr": "La gratitude est la clé magique qui ouvre les portes de l’abondance infinie.",
+        "texte_en": "Gratitude is the magic key that opens the doors of infinite abundance.",
+        "page": 0
+    },
+    {
+        "id": 502,
+        "texte_fr": "La persévérance est la force qui permet de traverser les nuits les plus sombres.",
+        "texte_en": "Perseverance is the strength that allows one to pass through the darkest nights.",
+        "page": 0
+    },
+    {
+        "id": 503,
+        "texte_fr": "L'Unique est le centre immobile autour duquel danse toute la création.",
+        "texte_en": "The One is the unmoving center around which all creation dances.",
+        "page": 0
+    },
+    {
+        "id": 504,
+        "texte_fr": "La libération est l'acte de naissance de l'humanité en tant que race galactique.",
+        "texte_en": "Liberation is the birth certificate of humanity as a galactic race.",
+        "page": 0
+    },
+    {
+        "id": 505,
+        "texte_fr": "La vérité est comme un soleil qui ne connaît jamais de déclin éternel.",
+        "texte_en": "Truth is like a sun that never knows an eternal decline.",
+        "page": 0
+    },
+    {
+        "id": 506,
+        "texte_fr": "Chaque pensée d'amour est une victoire pour la Lumière dans tout l'univers.",
+        "texte_en": "Every thought of love is a victory for the Light throughout the universe.",
+        "page": 0
+    },
+    {
+        "id": 507,
+        "texte_fr": "La douceur est l'attribut des âmes les plus fortes et les plus éveillées.",
+        "texte_en": "Gentleness is the attribute of the strongest and most awakened souls.",
+        "page": 0
+    },
+    {
+        "id": 508,
+        "texte_fr": "L'unité de conscience est le but sublime de tout voyage d'incarnation.",
+        "texte_en": "Unity of consciousness is the sublime goal of every incarnation journey.",
+        "page": 0
+    },
+    {
+        "id": 509,
+        "texte_fr": "La libération est la fin de l'illusion et le retour à la réalité divine.",
+        "texte_en": "Liberation is the end of illusion and the return to divine reality.",
+        "page": 0
+    },
+    {
+        "id": 510,
+        "texte_fr": "La connaissance est la lumière qui dissipe les ombres de l'ignorance et de la peur.",
+        "texte_en": "Knowledge is the light that dissipates the shadows of ignorance and fear.",
+        "page": 0
+    },
+    {
+        "id": 511,
+        "texte_fr": "L’Amour est le seul langage capable de transcender toutes les barrières.",
+        "texte_en": "Love is the only language capable of transcending all barriers.",
+        "page": 0
+    },
+    {
+        "id": 512,
+        "texte_fr": "Chaque moment présent est une étincelle d'éternité capturée dans le temps.",
+        "texte_en": "Every present moment is a spark of eternity captured in time.",
+        "page": 0
+    },
+    {
+        "id": 513,
+        "texte_fr": "Nous sommes les gardiens sacrés de la flamme éternelle de la vie.",
+        "texte_en": "We are the sacred guardians of the eternal flame of life.",
+        "page": 0
+    },
+    {
+        "id": 514,
+        "texte_fr": "La vérité est le fondement de la liberté.",
+        "texte_en": "Truth is the foundation of freedom.",
+        "page": 0
+    },
+    {
+        "id": 515,
+        "texte_fr": "L'univers est une symphonie de Lumière où chaque être a sa propre partition.",
+        "texte_en": "The universe is a symphony of Light where every being has its own score.",
+        "page": 0
+    },
+    {
+        "id": 516,
+        "texte_fr": "L'unité est le secret de notre puissance collective pour libérer la Terre.",
+        "texte_en": "Unity is the secret to our collective power to liberate the Earth.",
+        "page": 0
+    },
+    {
+        "id": 517,
+        "texte_fr": "Chaque être est un miroir sacré reflétant une facette de l'Unique.",
+        "texte_en": "Every being is a sacred mirror reflecting a facet of the One.",
+        "page": 0
+    },
+    {
+        "id": 518,
+        "texte_fr": "La libération est l'éveil à notre véritable identité en tant qu'êtres souverains.",
+        "texte_en": "Liberation is the awakening to our true identity as sovereign beings.",
+        "page": 0
+    },
+    {
+        "id": 519,
+        "texte_fr": "La vérité est la fréquence de l'âme lorsqu'elle chante à l'unisson avec la Source.",
+        "texte_en": "Truth is the frequency of the soul when it sings in unison with the Source.",
+        "page": 0
+    },
+    {
+        "id": 520,
+        "texte_fr": "L'Amour est la force primordiale qui a donné naissance à tout ce qui est.",
+        "texte_en": "Love is the primordial force that gave birth to all that is.",
+        "page": 0
+    },
+    {
+        "id": 521,
+        "texte_fr": "Chaque acte de compassion est un baume pour l'âme de l'humanité.",
+        "texte_en": "Every act of compassion is a balm for the soul of humanity.",
+        "page": 0
+    },
+    {
+        "id": 522,
+        "texte_fr": "La Victoire de la Lumière est le destin inéluctable de tout univers conscient.",
+        "texte_en": "The Victory of the Light is the inevitable destiny of every conscious universe.",
+        "page": 0
+    },
+    {
+        "id": 523,
+        "texte_fr": "La gratitude est le parfum de l'âme reconnaissante envers la vie.",
+        "texte_en": "Gratitude is the fragrance of the soul that is grateful toward life.",
+        "page": 0
+    },
+    {
+        "id": 524,
+        "texte_fr": "Chaque pensée de paix est une pierre posée pour bâtir le nouvel Âge d'Or.",
+        "texte_en": "Every thought of peace is a stone laid to build the new Golden Age.",
+        "page": 0
+    },
+    {
+        "id": 525,
+        "texte_fr": "L'Unique réside au cœur de chaque être, attendant d'être reconnu et aimé.",
+        "texte_en": "The One resides in the heart of every being, waiting to be recognized and loved.",
+        "page": 0
+    },
+    {
+        "id": 526,
+        "texte_fr": "La vérité est le guide le plus sûr à travers les labyrinthes de l'illusion.",
+        "texte_en": "Truth is the surest guide through the labyrinths of illusion.",
+        "page": 0
+    },
+    {
+        "id": 527,
+        "texte_fr": "La Lumière est l'essence même de notre être, voilée mais jamais éteinte.",
+        "texte_en": "Light is the very essence of our being, veiled but never extinguished.",
+        "page": 0
+    },
+    {
+        "id": 528,
+        "texte_fr": "Chaque interaction est une danse sacrée entre des étincelles de la Source.",
+        "texte_en": "Every interaction is a sacred dance between sparks of the Source.",
+        "page": 0
+    },
+    {
+        "id": 529,
+        "texte_fr": "L'unité est la mélodie qui harmonise les dissonances de la dualité.",
+        "texte_en": "Unity is the melody that harmonizes the dissonances of duality.",
+        "page": 0
+    },
+    {
+        "id": 530,
+        "texte_fr": "La vérité est la source de toute véritable autorité spirituelle.",
+        "texte_en": "Truth is the source of all true spiritual authority.",
+        "page": 0
+    },
+    {
+        "id": 531,
+        "texte_fr": "La libération est la promesse tenue de l'Univers envers les courageux.",
+        "texte_en": "Liberation is the kept promise of the Universe toward the brave.",
+        "page": 0
+    },
+    {
+        "id": 532,
+        "texte_fr": "L'Amour est la force qui transmute la douleur en sagesse et en paix.",
+        "texte_en": "Love is the force that transmutes pain into wisdom and peace.",
+        "page": 0
+    },
+    {
+        "id": 533,
+        "texte_fr": "Chaque acte de bonté désintéressée illumine un coin du champ quantique.",
+        "texte_en": "Every act of selfless kindness illuminates a corner of the quantum field.",
+        "page": 0
+    },
+    {
+        "id": 534,
+        "texte_fr": "La joie est le langage des âmes qui ont retrouvé le chemin de la maison.",
+        "texte_en": "Joy is the language of souls that have found their way home.",
+        "page": 0
+    },
+    {
+        "id": 535,
+        "texte_fr": "La Victoire de la Lumière est le triomphe de la réalité sur le rêve.",
+        "texte_en": "The Victory of the Light is the triumph of reality over the dream.",
+        "page": 0
+    },
+    {
+        "id": 536,
+        "texte_fr": "La vérité est le soleil qui finit toujours par percer les nuages les plus sombres.",
+        "texte_en": "Truth is the sun that always ends up piercing the darkest clouds.",
+        "page": 0
+    },
+    {
+        "id": 537,
+        "texte_fr": "L'Unique est le souffle de vie qui anime chaque créature sensible.",
+        "texte_en": "The One is the breath of life that animates every sentient creature.",
+        "page": 0
+    },
+    {
+        "id": 538,
+        "texte_fr": "Chaque moment de silence est une prière muette adressée à la Source.",
+        "texte_en": "Every moment of silence is a silent prayer addressed to the Source.",
+        "page": 0
+    },
+    {
+        "id": 539,
+        "texte_fr": "La libération est l'instant où l'âme se souvient enfin de sa propre divinité.",
+        "texte_en": "Liberation is the instant when the soul finally remembers its own divinity.",
+        "page": 0
+    },
+    {
+        "id": 540,
+        "texte_fr": "L'Amour est la seule réalité qui survivra à tous les effondrements.",
+        "texte_en": "Love is the only reality that will survive all collapses.",
+        "page": 0
+    },
+    {
+        "id": 541,
+        "texte_fr": "La Victoire de la Lumière est notre héritage éternel et notre but ultime.",
+        "texte_en": "The Victory of the Light is our eternal heritage and our ultimate goal.",
+        "page": 0
+    },
+    {
+        "id": 542,
+        "texte_fr": "L'anomalie subquantique est une perturbation aléatoire qui sera bientôt totalement résorbée.",
+        "texte_en": "Subquantum anomaly is a random perturbation that will soon be totally resolved.",
+        "page": 0
+    },
+    {
+        "id": 543,
+        "texte_fr": "La Terre est dans un trou noir énergétique ; en sortir provoquera une explosion de Lumière.",
+        "texte_en": "The Earth is in an energetic black hole; emerging from it will trigger an explosion of Light.",
+        "page": 0
+    },
+    {
+        "id": 544,
+        "texte_fr": "Les réplicateurs fabriqueront des objets quotidiens, libérant l'humanité du besoin de production matérielle.",
+        "texte_en": "Replicators will manufacture daily items, freeing humanity from the need for material production.",
+        "page": 0
+    },
+    {
+        "id": 545,
+        "texte_fr": "L'art véritable ne sera jamais reproduit par des machines car il porte la signature de l'âme.",
+        "texte_en": "True art will never be reproduced by machines because it carries the signature of the soul.",
+        "page": 0
+    },
+    {
+        "id": 546,
+        "texte_fr": "La technologie des lits médicalisés a été offerte par des civilisations stellaires bienveillantes.",
+        "texte_en": "Med bed technology was gifted by benevolent star civilizations.",
+        "page": 0
+    },
+    {
+        "id": 547,
+        "texte_fr": "Le 17 mai 1998 est le jour où le destin positif de cette planète a été scellé.",
+        "texte_en": "May 17, 1998, is the day the positive destiny of this planet was sealed.",
+        "page": 0
+    },
+    {
+        "id": 548,
+        "texte_fr": "La Source est en train de démêler quantiquement chaque être humain de l'emprise du Rôdeur.",
+        "texte_en": "The Source is quantumly untangling every human being from the grasp of the Lurker.",
+        "page": 0
+    },
+    {
+        "id": 549,
+        "texte_fr": "Le système financier n'a plus de mémoire tampon et son effondrement est désormais irréversible.",
+        "texte_en": "The financial system has no more buffer and its collapse is now irreversible.",
+        "page": 0
+    },
+    {
+        "id": 550,
+        "texte_fr": "Les Forces de la Lumière attendent le moment optimal pour minimiser les souffrances de transition.",
+        "texte_en": "The Light Forces are waiting for the optimal moment to minimize transition suffering.",
+        "page": 0
+    },
+    {
+        "id": 551,
+        "texte_fr": "La quatrième initiation Arhat marque la fin de l'identification à la petite personnalité.",
+        "texte_en": "The fourth Arhat initiation marks the end of identification with the small personality.",
+        "page": 0
+    },
+    {
+        "id": 552,
+        "texte_fr": "L’espace-temps lui-même est un champ toroïdal qui se purifie de ses propres anomalies.",
+        "texte_en": "Space-time itself is a toroidal field that is purifying itself of its own anomalies.",
+        "page": 0
+    },
+    {
+        "id": 553,
+        "texte_fr": "Le moment du non-temps est celui où la volonté divine s'imprime directement dans la matière.",
+        "texte_en": "The moment of non-time is when the divine will is imprinted directly into matter.",
+        "page": 0
+    },
+    {
+        "id": 554,
+        "texte_fr": "Presque tous les documents historiques publiés sont faux pour maintenir l'humanité dans l'ignorance.",
+        "texte_en": "Almost all published historical documents are false to keep humanity in ignorance.",
+        "page": 0
+    },
+    {
+        "id": 555,
+        "texte_fr": "Désapprendre est la première étape nécessaire pour accéder à la véritable connaissance.",
+        "texte_en": "Unlearning is the first necessary step to access true knowledge.",
+        "page": 0
+    },
+    {
+        "id": 556,
+        "texte_fr": "La vérité brise la vision du monde matricielle pour permettre la naissance de l'être réel.",
+        "texte_en": "Truth shatters the matrix world view to allow the birth of the real being.",
+        "page": 0
+    },
+    {
+        "id": 557,
+        "texte_fr": "Le point oméga est la convergence finale de tous les flux évolutifs vers l'Unité.",
+        "texte_en": "The omega point is the final convergence of all evolutionary flows toward Unity.",
+        "page": 0
+    },
+    {
+        "id": 558,
+        "texte_fr": "La loi de manifestation utilise nos pensées comme des instructions pour le champ quantique.",
+        "texte_en": "The law of manifestation uses our thoughts as instructions for the quantum field.",
+        "page": 0
+    },
+    {
+        "id": 559,
+        "texte_fr": "L’abondance est un droit de naissance qui a été injustement confisqué par la quarantaine.",
+        "texte_en": "Abundance is a birthright that has been unjustly confiscated by the quarantine.",
+        "page": 0
+    },
+    {
+        "id": 560,
+        "texte_fr": "Une fois le Rôdeur éliminé, l'Événement se produira comme une percée de Lumière instantanée.",
+        "texte_en": "Once the Lurker is removed, the Event will occur as an instantaneous breakthrough of Light.",
+        "page": 0
+    },
+    {
+        "id": 561,
+        "texte_fr": "Chaque contrat d'âme révoqué est une fissure de plus dans la structure de la Matrice.",
+        "texte_en": "Each revoked soul contract is one more crack in the structure of the Matrix.",
+        "page": 0
+    },
+    {
+        "id": 562,
+        "texte_fr": "La souffrance n'éduque pas, elle n'est qu'une distorsion de l'expérience de vie naturelle.",
+        "texte_en": "Suffering does not educate; it is merely a distortion of the natural life experience.",
+        "page": 0
+    },
+    {
+        "id": 563,
+        "texte_fr": "La Source ramène toutes les étincelles divines vers elle dans un mouvement d'Amour infini.",
+        "texte_en": "The Source brings all divine sparks back to Itself in a movement of infinite Love.",
+        "page": 0
+    },
+    {
+        "id": 564,
+        "texte_fr": "La conscience est le seul levier qui peut réellement déplacer les montagnes de l'illusion.",
+        "texte_en": "Consciousness is the only lever that can truly move the mountains of illusion.",
+        "page": 0
+    },
+    {
+        "id": 565,
+        "texte_fr": "L'Amour est la force de cohésion qui maintient les galaxies dans leur danse éternelle.",
+        "texte_en": "Love is the cohesive force that keeps galaxies in their eternal dance.",
+        "page": 0
+    },
+    {
+        "id": 566,
+        "texte_fr": "Chaque acte de pardon est une libération énergétique pour toute la grille planétaire.",
+        "texte_en": "Every act of forgiveness is an energetic liberation for the entire planetary grid.",
+        "page": 0
+    },
+    {
+        "id": 567,
+        "texte_fr": "La beauté est la manifestation de l'harmonie céleste dans le monde des formes.",
+        "texte_en": "Beauty is the manifestation of celestial harmony in the world of forms.",
+        "page": 0
+    },
+    {
+        "id": 568,
+        "texte_fr": "La Victoire de la Lumière est le retour définitif de l'humanité à sa source galactique.",
+        "texte_en": "The Victory of the Light is the definitive return of humanity to its galactic source.",
+        "page": 0
+    },
+    {
+        "id": 569,
+        "texte_fr": "La vérité est la seule arme dont nous avons besoin pour la libération finale.",
+        "texte_en": "Truth is the only weapon we need for final liberation.",
+        "page": 0
+    },
+    {
+        "id": 570,
+        "texte_fr": "L'Unique est le silence d'où naît chaque mélodie de la création.",
+        "texte_en": "The One is the silence from which every melody of creation is born.",
+        "page": 0
+    },
+    {
+        "id": 571,
+        "texte_fr": "Chaque pensée de Lumière est une victoire sur l'ombre dans le champ quantique.",
+        "texte_en": "Every thought of Light is a victory over the shadow in the quantum field.",
+        "page": 0
+    },
+    {
+        "id": 572,
+        "texte_fr": "La douceur est l'attribut des âmes qui ont transcendé le besoin de conflit.",
+        "texte_en": "Gentleness is the attribute of souls that have transcended the need for conflict.",
+        "page": 0
+    },
+    {
+        "id": 573,
+        "texte_fr": "L'unité est la force qui nous permet de manifester le paradis sur Terre.",
+        "texte_en": "Unity is the force that allows us to manifest paradise on Earth.",
+        "page": 0
+    },
+    {
+        "id": 574,
+        "texte_fr": "La vérité est le socle inébranlable de notre future société galactique.",
+        "texte_en": "Truth is the unshakeable foundation of our future galactic society.",
+        "page": 0
+    },
+    {
+        "id": 575,
+        "texte_fr": "Le futur est une vision que nous nourrissons chaque jour par notre intention.",
+        "texte_en": "The future is a vision that we nourish every day with our intention.",
+        "page": 0
+    },
+    {
+        "id": 576,
+        "texte_fr": "L'Unique réside dans le cœur de chaque homme, femme et enfant.",
+        "texte_en": "The One resides in the heart of every man, woman, and child.",
+        "page": 0
+    },
+    {
+        "id": 577,
+        "texte_fr": "La libération est l'instant où l'humanité reprend enfin son destin en main.",
+        "texte_en": "Liberation is the instant when humanity finally takes its destiny back into its own hands.",
+        "page": 0
+    },
+    {
+        "id": 578,
+        "texte_fr": "L’Amour est le flux de vie qui coule directement du cœur de la Source.",
+        "texte_en": "Love is the flow of life that flows directly from the heart of the Source.",
+        "page": 0
+    },
+    {
+        "id": 579,
+        "texte_fr": "La Victoire de la Lumière est une réalité qui attend simplement d'être pleinement vécue.",
+        "texte_en": "The Victory of the Light is a reality that is simply waiting to be fully lived.",
+        "page": 0
+    },
+    {
+        "id": 580,
+        "texte_fr": "Chaque moment présent est une opportunité de choisir la Lumière plutôt que la peur.",
+        "texte_en": "Every present moment is an opportunity to choose Light rather than fear.",
+        "page": 0
+    },
+    {
+        "id": 581,
+        "texte_fr": "La vérité est le pilier central de notre nouvelle existence souveraine.",
+        "texte_en": "Truth is the central pillar of our new sovereign existence.",
+        "page": 0
+    },
+    {
+        "id": 582,
+        "texte_fr": "L'univers est un océan d'intelligence consciente dont nous sommes les gouttes.",
+        "texte_en": "The universe is an ocean of conscious intelligence of which we are the drops.",
+        "page": 0
+    },
+    {
+        "id": 583,
+        "texte_fr": "Chaque acte de bonté désintéressée est un ancrage de la Déesse.",
+        "texte_en": "Every act of selfless kindness is an anchoring of the Goddess.",
+        "page": 0
+    },
+    {
+        "id": 584,
+        "texte_fr": "L'unité est la puissance qui permet d'ancrer le divin dans la matière.",
+        "texte_en": "Unity is the power that allows the divine to be anchored in matter.",
+        "page": 0
+    },
+    {
+        "id": 585,
+        "texte_fr": "La connaissance est la nourriture sacrée de l'esprit humain en éveil.",
+        "texte_en": "Knowledge is the sacred food of the awakening human spirit.",
+        "page": 0
+    },
+    {
+        "id": 586,
+        "texte_fr": "La libération est la fin de la dualité et le début de l'éternité consciente.",
+        "texte_en": "Liberation is the end of duality and the beginning of conscious eternity.",
+        "page": 0
+    },
+    {
+        "id": 587,
+        "texte_fr": "L’Amour est la seule force capable de guérir les blessures du passé.",
+        "texte_en": "Love is the only force capable of healing the wounds of the past.",
+        "page": 0
+    },
+    {
+        "id": 588,
+        "texte_fr": "La Victoire de la Lumière est le destin magnifique de notre planète bien-aimée.",
+        "texte_en": "The Victory of the Light is the magnificent destiny of our beloved planet.",
+        "page": 0
+    },
+    {
+        "id": 589,
+        "texte_fr": "Chaque être est une expression unique et nécessaire de la Source Unique.",
+        "texte_en": "Every being is a unique and necessary expression of the One Source.",
+        "page": 0
+    },
+    {
+        "id": 590,
+        "texte_fr": "La gratitude est le secret pour vivre dans l'abondance infinie de l'Univers.",
+        "texte_en": "Gratitude is the secret to living in the infinite abundance of the Universe.",
+        "page": 0
+    },
+    {
+        "id": 591,
+        "texte_fr": "La vérité est la clé qui ouvre toutes les prisons de l'esprit humain.",
+        "texte_en": "Truth is the key that opens all the prisons of the human mind.",
+        "page": 0
+    },
+    {
+        "id": 592,
+        "texte_fr": "L'Unique est la paix profonde qui réside au centre de notre être.",
+        "texte_en": "The One is the deep peace that resides at the center of our being.",
+        "page": 0
+    },
+    {
+        "id": 593,
+        "texte_fr": "Chaque pensée de paix renforce la grille de protection tout autour de la Terre.",
+        "texte_en": "Every thought of peace strengthens the protective grid all around the Earth.",
+        "page": 0
+    },
+    {
+        "id": 594,
+        "texte_fr": "La libération est l'instant où nous reconnaissons notre origine divine galactique.",
+        "texte_en": "Liberation is the instant when we recognize our divine galactic origin.",
+        "page": 0
+    },
+    {
+        "id": 595,
+        "texte_fr": "L’Amour est le langage universel que toutes les âmes comprennent instinctivement.",
+        "texte_en": "Love is the universal language that all souls understand instinctively.",
+        "page": 0
+    },
+    {
+        "id": 596,
+        "texte_fr": "La Victoire de la Lumière est le triomphe de la vie sur l'ombre.",
+        "texte_en": "The Victory of the Light is the triumph of life over the shadow.",
+        "page": 0
+    },
+    {
+        "id": 597,
+        "texte_fr": "Chaque acte de compassion est un pas vers la libération planétaire.",
+        "texte_en": "Every act of compassion is a step toward planetary liberation.",
+        "page": 0
+    },
+    {
+        "id": 598,
+        "texte_fr": "La vérité est le soleil intérieur qui illumine notre chemin vers la Source.",
+        "texte_en": "Truth is the inner sun that illuminates our path to the Source.",
+        "page": 0
+    },
+    {
+        "id": 599,
+        "texte_fr": "L'unité est la force qui nous rend capables de transformer le monde.",
+        "texte_en": "Unity is the force that makes us capable of transforming the world.",
+        "page": 0
+    },
+    {
+        "id": 600,
+        "texte_fr": "La Victoire de la Lumière est notre héritage sacré et notre futur certain.",
+        "texte_en": "The Victory of the Light is our sacred heritage and our certain future.",
+        "page": 0
+    },
+    {
+        "id": 601,
+        "texte_fr": "Le plasma anormal rotatif est la base technologique du blocage de la quarantaine.",
+        "texte_en": "Rotating abnormal plasma is the technological basis of the quarantine blockade.",
+        "page": 0
+    },
+    {
+        "id": 602,
+        "texte_fr": "L'implant primaire vertical est un trou noir qui sépare la personnalité de l'âme.",
+        "texte_en": "The vertical primary implant is a black hole that separates the personality from the soul.",
+        "page": 0
+    },
+    {
+        "id": 603,
+        "texte_fr": "La dissolution de l'implant permet au feu électrique de la présence JE SUIS d'absorber la personnalité.",
+        "texte_en": "The dissolution of the implant allows the electric fire of the I AM presence to absorb the personality.",
+        "page": 0
+    },
+    {
+        "id": 604,
+        "texte_fr": "La pierre Cintamani Galactique est le conduit le plus puissant vers le Soleil Central.",
+        "texte_en": "The Galactic Cintamani stone is the most powerful conduit to the Central Sun.",
+        "page": 0
+    },
+    {
+        "id": 605,
+        "texte_fr": "L'effondrement financier n'est pas une fin, mais le début d'une réinitialisation juste.",
+        "texte_en": "The financial collapse is not an end, but the beginning of a fair reset.",
+        "page": 0
+    },
+    {
+        "id": 606,
+        "texte_fr": "Les bulles de paradis sont les prémices d'une réalité appartenant au nouveau cycle cosmique.",
+        "texte_en": "Bubbles of heaven are the harbingers of a reality belonging to the new cosmic cycle.",
+        "page": 0
+    },
+    {
+        "id": 607,
+        "texte_fr": "Le protocole Command RCV Stardust utilise des technologies pléiadiennes pour neutraliser les virus.",
+        "texte_en": "The Command RCV Stardust protocol uses Pleiadian technologies to neutralize viruses.",
+        "page": 0
+    },
+    {
+        "id": 608,
+        "texte_fr": "La Déesse veut la paix et elle l’obtiendra car son pouvoir est l'Amour pur.",
+        "texte_en": "The Goddess wants peace and she will achieve it because her power is pure Love.",
+        "page": 0
+    },
+    {
+        "id": 609,
+        "texte_fr": "Le Soleil Central Galactique est la source ultime de notre libre arbitre.",
+        "texte_en": "The Galactic Central Sun is the ultimate source of our free will.",
+        "page": 0
+    },
+    {
+        "id": 610,
+        "texte_fr": "La vérité démasquera tous les intermédiaires de la Cabale lors de l'Événement.",
+        "texte_en": "Truth will unmask all the Cabal's intermediaries during the Event.",
+        "page": 0
+    },
+    {
+        "id": 611,
+        "texte_fr": "Chaque être vivant sur Terre recevra une éducation sur la véritable histoire galactique.",
+        "texte_en": "Every living being on Earth will receive education about true galactic history.",
+        "page": 0
+    },
+    {
+        "id": 612,
+        "texte_fr": "Les vaisseaux de la Confédération Galactique se feront connaître lors du Premier Contact.",
+        "texte_en": "The ships of the Galactic Confederation will make themselves known during First Contact.",
+        "page": 0
+    },
+    {
+        "id": 613,
+        "texte_fr": "La grille éthérique est en cours de nettoyage pour laisser passer l'Amour de la Source.",
+        "texte_en": "The etheric grid is being cleared to let the Love of the Source pass through.",
+        "page": 0
+    },
+    {
+        "id": 614,
+        "texte_fr": "Le pardon à la Cabale ne pourra se produire qu'après leur arrestation effective.",
+        "texte_en": "Forgiveness for the Cabal can only occur after their effective arrest.",
+        "page": 0
+    },
+    {
+        "id": 615,
+        "texte_fr": "L'abondance est le reflet extérieur d'une âme qui se reconnaît comme divine.",
+        "texte_en": "Abundance is the outer reflection of a soul that recognizes itself as divine.",
+        "page": 0
+    },
+    {
+        "id": 616,
+        "texte_fr": "Les nouvelles technologies réduiront drastiquement le besoin de travail forcé.",
+        "texte_en": "New technologies will drastically reduce the need for forced labor.",
+        "page": 0
+    },
+    {
+        "id": 617,
+        "texte_fr": "La libération planétaire est une opération coordonnée entre le ciel et la terre.",
+        "texte_en": "Planetary liberation is a coordinated operation between heaven and earth.",
+        "page": 0
+    },
+    {
+        "id": 618,
+        "texte_fr": "L’Événement est le moment où la matrice de programmation s'effondre définitivement.",
+        "texte_en": "The Event is the moment when the programming matrix collapses for good.",
+        "page": 0
+    },
+    {
+        "id": 619,
+        "texte_fr": "La vérité est le socle sur lequel nous bâtissons notre nouvelle liberté.",
+        "texte_en": "Truth is the foundation upon which we build our new freedom.",
+        "page": 0
+    },
+    {
+        "id": 620,
+        "texte_fr": "Victoire de la Lumière, le grand réveil est désormais imparable !",
+        "texte_en": "Victory of the Light, the great awakening is now unstoppable!",
+        "page": 0
+    },
+    {
+        "id": 621,
+        "texte_fr": "L'univers tend naturellement vers l'ordre et la joie, rendant la défaite de l'ombre inévitable.",
+        "texte_en": "The universe naturally tends toward order and joy, making the defeat of the shadow inevitable.",
+        "page": 0
+    },
+    {
+        "id": 622,
+        "texte_fr": "Chaque méditation de masse crée un signal cohérent qui attire l'aide galactique.",
+        "texte_en": "Every mass meditation creates a coherent signal that attracts galactic assistance.",
+        "page": 0
+    },
+    {
+        "id": 623,
+        "texte_fr": "La peur est une illusion programmée qui se dissout à la lumière de la connaissance.",
+        "texte_en": "Fear is a programmed illusion that dissolves in the light of knowledge.",
+        "page": 0
+    },
+    {
+        "id": 624,
+        "texte_fr": "Nous sommes des citoyens libres du cosmos, temporairement en quarantaine.",
+        "texte_en": "We are free citizens of the cosmos, temporarily in quarantine.",
+        "page": 0
+    },
+    {
+        "id": 625,
+        "texte_fr": "La Victoire de la Lumière est le retour à l'équilibre naturel de la vie.",
+        "texte_en": "The Victory of the Light is the return to the natural balance of life.",
+        "page": 0
+    },
+    {
+        "id": 626,
+        "texte_fr": "La vérité est l'oxygène de l'âme et la fin de l'esclavage mental.",
+        "texte_en": "Truth is the oxygen of the soul and the end of mental slavery.",
+        "page": 0
+    },
+    {
+        "id": 627,
+        "texte_fr": "Chaque acte de bienveillance est une fissure dans le mur de la Matrice.",
+        "texte_en": "Every act of kindness is a crack in the wall of the Matrix.",
+        "page": 0
+    },
+    {
+        "id": 628,
+        "texte_fr": "L’Amour est la seule force qui restera quand tout le reste aura disparu.",
+        "texte_en": "Love is the only force that will remain when everything else has disappeared.",
+        "page": 0
+    },
+    {
+        "id": 629,
+        "texte_fr": "La libération est l'instant où nous cessons de jouer selon les règles de l'ombre.",
+        "texte_en": "Liberation is the instant when we stop playing by the rules of the shadow.",
+        "page": 0
+    },
+    {
+        "id": 630,
+        "texte_fr": "La Victoire de la Lumière est la promesse tenue de l'éternité envers le temps.",
+        "texte_en": "The Victory of the Light is the kept promise of eternity toward time.",
+        "page": 0
+    },
+    {
+        "id": 631,
+        "texte_fr": "L'Unique est présent dans le murmure du vent comme dans le silence du cœur.",
+        "texte_en": "The One is present in the whisper of the wind just as in the silence of the heart.",
+        "page": 0
+    },
+    {
+        "id": 632,
+        "texte_fr": "Chaque pensée d'unité est un pont jeté vers le nouvel Âge d'Or.",
+        "texte_en": "Every thought of unity is a bridge cast toward the new Golden Age.",
+        "page": 0
+    },
+    {
+        "id": 633,
+        "texte_fr": "La connaissance spirituelle est le trésor qui ne peut jamais être volé.",
+        "texte_en": "Spiritual knowledge is the treasure that can never be stolen.",
+        "page": 0
+    },
+    {
+        "id": 634,
+        "texte_fr": "La libération est le droit de naissance de chaque âme incarnée sur cette planète.",
+        "texte_en": "Liberation is the birthright of every soul incarnated on this planet.",
+        "page": 0
+    },
+    {
+        "id": 635,
+        "texte_fr": "L’Amour est le moteur de toute évolution réelle et durable.",
+        "texte_en": "Love is the engine of all real and lasting evolution.",
+        "page": 0
+    },
+    {
+        "id": 636,
+        "texte_fr": "La Victoire de la Lumière est une réalité vibrante qui nous appelle.",
+        "texte_en": "The Victory of the Light is a vibrant reality that calls to us.",
+        "page": 0
+    },
+    {
+        "id": 637,
+        "texte_fr": "Chaque moment de joie pure est une victoire pour toute l'humanité.",
+        "texte_en": "Every moment of pure joy is a victory for all of humanity.",
+        "page": 0
+    },
+    {
+        "id": 638,
+        "texte_fr": "La vérité est la clé qui libère l'esprit des chaînes du passé.",
+        "texte_en": "Truth is the key that frees the mind from the chains of the past.",
+        "page": 0
+    },
+    {
+        "id": 639,
+        "texte_fr": "L'unité est la puissance tranquille qui change le cours de l'histoire.",
+        "texte_en": "Unity is the quiet power that changes the course of history.",
+        "page": 0
+    },
+    {
+        "id": 640,
+        "texte_fr": "Victoire de la Lumière, le jour de la percée est proche !",
+        "texte_en": "Victory of the Light, the day of breakthrough is near!",
+        "page": 0
+    },
+    {
+        "id": 641,
+        "texte_fr": "L’inversion de la polarité magnétique galactique déclenche le grand flash solaire de libération.",
+        "texte_en": "The reversal of galactic magnetic polarity triggers the great solar flash of liberation.",
+        "page": 0
+    },
+    {
+        "id": 642,
+        "texte_fr": "La Pierre Noire était le point focal de l'anomalie primaire à la surface.",
+        "texte_en": "The Black Stone was the focal point of primary anomaly on the surface.",
+        "page": 0
+    },
+    {
+        "id": 643,
+        "texte_fr": "Le Mouvement de la Résistance prépare l'infrastructure pour une transition pacifique.",
+        "texte_en": "The Resistance Movement is preparing the infrastructure for a peaceful transition.",
+        "page": 0
+    },
+    {
+        "id": 644,
+        "texte_fr": "Les familles de la Noblesse Noire seront tenues pour responsables de leurs crimes.",
+        "texte_en": "The Black Nobility families will be held accountable for their crimes.",
+        "page": 0
+    },
+    {
+        "id": 645,
+        "texte_fr": "Le nouveau système financier sera basé sur le mérite et l'abondance réelle.",
+        "texte_en": "The new financial system will be based on merit and real abundance.",
+        "page": 0
+    },
+    {
+        "id": 646,
+        "texte_fr": "La Déesse est l'aspect nourricier qui guérit les plaies de la séparation.",
+        "texte_en": "The Goddess is the nurturing aspect that heals the wounds of separation.",
+        "page": 0
+    },
+    {
+        "id": 647,
+        "texte_fr": "L'Ascension est le retour conscient à la plénitude de notre être divin.",
+        "texte_en": "Ascension is the conscious return to the fullness of our divine being.",
+        "page": 0
+    },
+    {
+        "id": 648,
+        "texte_fr": "Le Premier Contact sera le moment le plus important de l'histoire moderne.",
+        "texte_en": "First Contact will be the most important moment in modern history.",
+        "page": 0
+    },
+    {
+        "id": 649,
+        "texte_fr": "La vérité est le seul fondement possible pour une paix durable sur Terre.",
+        "texte_en": "Truth is the only possible foundation for lasting peace on Earth.",
+        "page": 0
+    },
+    {
+        "id": 650,
+        "texte_fr": "Victoire de la Lumière, car l'Amour est le cœur de la Création !",
+        "texte_en": "Victory of the Light, for Love is the heart of Creation!",
+        "page": 0
+    },
+    {
+        "id": 651,
+        "texte_fr": "Chaque décision prise pour la Lumière résonne dans tout le système solaire.",
+        "texte_en": "Every decision made for the Light resonates throughout the entire solar system.",
+        "page": 0
+    },
+    {
+        "id": 652,
+        "texte_fr": "La libération est l'acte de souveraineté ultime de l'âme humaine.",
+        "texte_en": "Liberation is the ultimate act of sovereignty of the human soul.",
+        "page": 0
+    },
+    {
+        "id": 653,
+        "texte_fr": "La vérité est la lumière qui ne s'éteint jamais au cœur des éveillés.",
+        "texte_en": "Truth is the light that never goes out in the hearts of the awakened.",
+        "page": 0
+    },
+    {
+        "id": 654,
+        "texte_fr": "L'Unique est le souffle qui nous unit tous dans la grande danse de la vie.",
+        "texte_en": "The One is the breath that unites us all in the great dance of life.",
+        "page": 0
+    },
+    {
+        "id": 655,
+        "texte_fr": "L’Amour est le guide le plus sûr à travers les tempêtes de la transition.",
+        "texte_en": "Love is the surest guide through the storms of transition.",
+        "page": 0
+    },
+    {
+        "id": 656,
+        "texte_fr": "La Victoire de la Lumière est le triomphe de la conscience sur la matière.",
+        "texte_en": "The Victory of the Light is the triumph of consciousness over matter.",
+        "page": 0
+    },
+    {
+        "id": 657,
+        "texte_fr": "Chaque pensée de bienveillance est un cadeau fait à l'Univers tout entier.",
+        "texte_en": "Every thought of kindness is a gift given to the entire Universe.",
+        "page": 0
+    },
+    {
+        "id": 658,
+        "texte_fr": "La libération est la fin de l'attente et le début de l'action directe.",
+        "texte_en": "Liberation is the end of waiting and the beginning of direct action.",
+        "page": 0
+    },
+    {
+        "id": 659,
+        "texte_fr": "La vérité est le soleil de justice qui se lève sur une humanité nouvelle.",
+        "texte_en": "Truth is the sun of justice rising upon a new humanity.",
+        "page": 0
+    },
+    {
+        "id": 660,
+        "texte_fr": "L'Unique est le souffle qui nous unit tous dans la grande danse de la vie.",
+        "texte_en": "The One is the breath that unites us all in the great dance of life.",
+        "page": 0
+    },
+    {
+        "id": 661,
+        "texte_fr": "L’Amour est le guide le plus sûr à travers les tempêtes de la transition.",
+        "texte_en": "Love is the surest guide through the storms of transition.",
+        "page": 0
+    },
+    {
+        "id": 662,
+        "texte_fr": "La Victoire de la Lumière est le triomphe de la conscience sur la matière.",
+        "texte_en": "The Victory of the Light is the triumph of consciousness over matter.",
+        "page": 0
+    },
+    {
+        "id": 663,
+        "texte_fr": "Chaque pensée de bienveillance est un cadeau fait à l'Univers tout entier.",
+        "texte_en": "Every thought of kindness is a gift given to the entire Universe.",
+        "page": 0
+    },
+    {
+        "id": 664,
+        "texte_fr": "La libération est la fin de l'attente et le début de l'action directe.",
+        "texte_en": "Liberation is the end of waiting and the beginning of direct action.",
+        "page": 0
+    },
+    {
+        "id": 665,
+        "texte_fr": "La vérité est le soleil de justice qui se lève sur une humanité nouvelle.",
+        "texte_en": "Truth is the sun of justice rising upon a new humanity.",
+        "page": 0
+    },
+    {
+        "id": 666,
+        "texte_fr": "L'intelligence artificielle n'a pas d'âme, c'est une contradiction dans les termes.",
+        "texte_en": "Artificial intelligence has no soul; it is a contradiction in terms.",
+        "page": 0
+    },
+    {
+        "id": 667,
+        "texte_fr": "Le secret de l’immortalité physique est révélé uniquement à ceux ayant atteint une certaine fréquence vibratoire.",
+        "texte_en": "The secret of physical immortality is revealed only to those who have reached a certain vibrational frequency.",
+        "page": 0
+    },
+    {
+        "id": 668,
+        "texte_fr": "La seule raison pour laquelle l'abondance manque est que quelqu'un supprime son flux vers la surface.",
+        "texte_en": "The only reason why abundance is lacking is that someone is suppressing its flow to the surface.",
+        "page": 0
+    },
+    {
+        "id": 669,
+        "texte_fr": "Le pardon est facile si vous comprenez que tout le monde a vécu des expériences traumatisantes.",
+        "texte_en": "Forgiveness is easy if you understand that everyone has lived through traumatic experiences.",
+        "page": 0
+    },
+    {
+        "id": 670,
+        "texte_fr": "La Source est en train de démêler quantiquement l'univers de l'emprise du Rôdeur primaire.",
+        "texte_en": "The Source is quantum-unraveling the universe from the grasp of the primary Lurker.",
+        "page": 0
+    },
+    {
+        "id": 671,
+        "texte_fr": "Plus les forces obscures deviennent folles, plus elles se rapprochent de leur propre destruction.",
+        "texte_en": "The crazier the dark forces become, the closer they get to their own destruction.",
+        "page": 0
+    },
+    {
+        "id": 672,
+        "texte_fr": "Après le processus d'intégration, il n'y aura absolument plus besoin d'argent sur cette planète.",
+        "texte_en": "After the integration process, there will be absolutely no need for money on this planet.",
+        "page": 0
+    },
+    {
+        "id": 673,
+        "texte_fr": "Votre décision de révoquer les contrats d'âme est la clé pour ne plus être soumis aux Archontes.",
+        "texte_en": "Your decision to revoke soul contracts is the key to no longer being subject to the Archons.",
+        "page": 0
+    },
+    {
+        "id": 674,
+        "texte_fr": "L'univers se trouve à un moment de son évolution où le champ toroïdal va se contracter à nouveau.",
+        "texte_en": "The universe is at a moment in its evolution where the toroidal field will contract again.",
+        "page": 0
+    },
+    {
+        "id": 675,
+        "texte_fr": "Le moment du non-temps est celui où la Source intervient directement sur la structure de l'univers.",
+        "texte_en": "The moment of non-time is when the Source intervenes directly in the structure of the universe.",
+        "page": 0
+    },
+    {
+        "id": 676,
+        "texte_fr": "La destruction de la bibliothèque d'Alexandrie visait à maintenir l'humanité dans l'esclavage.",
+        "texte_en": "The destruction of the Library of Alexandria was intended to keep humanity in slavery.",
+        "page": 0
+    },
+    {
+        "id": 677,
+        "texte_fr": "Vous devez désapprendre presque tout ce que vous avez appris depuis 2000 ans.",
+        "texte_en": "You must unlearn almost everything you have learned in the last 2000 years.",
+        "page": 0
+    },
+    {
+        "id": 678,
+        "texte_fr": "La vérité est le seul chemin vers la guérison, même si elle brise votre vision du monde.",
+        "texte_en": "Truth is the only path to healing, even if it shatters your world view.",
+        "page": 0
+    },
+    {
+        "id": 679,
+        "texte_fr": "Le point oméga est une singularité de toutes les évolutions où la dualité doit cesser.",
+        "texte_en": "The omega point is a singularity of all evolution where duality must cease.",
+        "page": 0
+    },
+    {
+        "id": 680,
+        "texte_fr": "Les Forces de la Lumière attendent le moment optimal pour que la transition se fasse en douceur.",
+        "texte_en": "The Forces of Light are waiting for the optimal moment so that the transition can take place smoothly.",
+        "page": 0
+    },
+    {
+        "id": 681,
+        "texte_fr": "Un réplicateur peut créer un nouveau corps pour vous avec une technologie d'ajustement fréquentiel.",
+        "texte_en": "A replicator can create a new body for you with frequency adjustment technology.",
+        "page": 0
+    },
+    {
+        "id": 682,
+        "texte_fr": "Le réveil se généralise maintenant et les forces obscures ne peuvent plus l’arrêter.",
+        "texte_en": "The awakening is becoming generalized now, and the dark forces can no longer stop it.",
+        "page": 0
+    },
+    {
+        "id": 683,
+        "texte_fr": "L'énergie du Soleil Central Galactique brûlera tous les obstacles de la Matrice sur les plans subtils.",
+        "texte_en": "The energy of the Galactic Central Sun will burn away all Matrix obstacles on the subtle planes.",
+        "page": 0
+    },
+    {
+        "id": 684,
+        "texte_fr": "Chaque être est une étincelle de l'âme qui finira par revenir à la Source.",
+        "texte_en": "Every being is a soul spark that will eventually return to the Source.",
+        "page": 0
+    },
+    {
+        "id": 685,
+        "texte_fr": "La transition de la dualité vers l’unité est la dissolution de la réalité sombre lors de l’Événement.",
+        "texte_en": "The transition from duality to unity is the dissolution of dark reality during the Event.",
+        "page": 0
+    },
+    {
+        "id": 686,
+        "texte_fr": "La victoire finale appartient à la Lumière car l'obscurité n'est qu'une anomalie temporaire.",
+        "texte_en": "The final victory belongs to the Light because darkness is only a temporary anomaly.",
+        "page": 0
+    },
+    {
+        "id": 687,
+        "texte_fr": "Le muscle qui nous permet d’entraîner le libre arbitre, ce sont nos décisions quotidiennes.",
+        "texte_en": "The muscle that allows us to train free will is our daily decisions.",
+        "page": 0
+    },
+    {
+        "id": 688,
+        "texte_fr": "Tout ce qui nous inspire la beauté est une direction à prendre pour se connecter avec l’esprit.",
+        "texte_en": "Everything that inspires beauty in us is a direction to take to connect with the spirit.",
+        "page": 0
+    },
+    {
+        "id": 689,
+        "texte_fr": "Avant de nous connecter à l’esprit, nous ne sommes pas vraiment en vie.",
+        "texte_en": "Before we connect to the spirit, we are not truly alive.",
+        "page": 0
+    },
+    {
+        "id": 690,
+        "texte_fr": "L’abondance physique est une expression naturelle de la beauté de l’âme incarnée.",
+        "texte_en": "Physical abundance is a natural expression of the beauty of the incarnated soul.",
+        "page": 0
+    },
+    {
+        "id": 691,
+        "texte_fr": "La Déesse veut la paix et elle l’obtiendra car son aspect est désormais ancré sur Terre.",
+        "texte_en": "The Goddess wants peace and she will achieve it because her aspect is now anchored on Earth.",
+        "page": 0
+    },
+    {
+        "id": 692,
+        "texte_fr": "La vérité n'a pas besoin d'être défendue, elle a juste besoin d'être vécue.",
+        "texte_en": "Truth does not need to be defended; it just needs to be lived.",
+        "page": 0
+    },
+    {
+        "id": 693,
+        "texte_fr": "Chaque moment présent est une porte ouverte sur l'éternité si l'on sait y ancrer sa conscience.",
+        "texte_en": "Every present moment is a door open to eternity if one knows how to anchor one's consciousness in it.",
+        "page": 0
+    },
+    {
+        "id": 694,
+        "texte_fr": "La connaissance est l’eau qui fait fleurir le jardin de l’esprit et dissout l'ignorance.",
+        "texte_en": "Knowledge is the water that makes the garden of the mind bloom and dissolves ignorance.",
+        "page": 0
+    },
+    {
+        "id": 695,
+        "texte_fr": "Nous sommes les architectes de notre propre libération, utilisant le libre arbitre comme boussole.",
+        "texte_en": "We are the architects of our own liberation, using free will as a compass.",
+        "page": 0
+    },
+    {
+        "id": 696,
+        "texte_fr": "L'Amour est la seule monnaie qui a de la valeur dans la galaxie libérée.",
+        "texte_en": "Love is the only currency that has value in the liberated galaxy.",
+        "page": 0
+    },
+    {
+        "id": 697,
+        "texte_fr": "La Victoire de la Lumière est une certitude mathématique basée sur l'inéquation syntropique.",
+        "texte_en": "The Victory of the Light is a mathematical certainty based on the syntropic inequation.",
+        "page": 0
+    },
+    {
+        "id": 698,
+        "texte_fr": "L'obscurité sera effacée comme si elle n'avait jamais existé une fois transmutée.",
+        "texte_en": "Darkness will be erased as if it had never existed once transmuted.",
+        "page": 0
+    },
+    {
+        "id": 699,
+        "texte_fr": "Le pardon ouvrira un flux d’Amour cosmique guérissant les traumatismes de millénaires.",
+        "texte_en": "Forgiveness will open a flow of cosmic Love, healing millennia of trauma.",
+        "page": 0
+    },
+    {
+        "id": 700,
+        "texte_fr": "La conscience est supérieure et l’ADN s’aligne toujours avec le niveau de conscience atteint.",
+        "texte_en": "Consciousness is superior and DNA always aligns with the level of consciousness attained.",
+        "page": 0
+    },
+    {
+        "id": 701,
+        "texte_fr": "La créativité est le langage par lequel la Source s’exprime à travers nous.",
+        "texte_en": "Creativity is the language through which the Source expresses itself through us.",
+        "page": 0
+    },
+    {
+        "id": 702,
+        "texte_fr": "Le cœur est le centre de notre boussole galactique, nous guidant vers la maison.",
+        "texte_en": "The heart is the center of our galactic compass, guiding us back home.",
+        "page": 0
+    },
+    {
+        "id": 703,
+        "texte_fr": "Chaque petite action positive rapproche inexorablement l’humanité de l’Événement.",
+        "texte_en": "Every small positive action inexorably brings humanity closer to the Event.",
+        "page": 0
+    },
+    {
+        "id": 704,
+        "texte_fr": "La respiration est le pont sacré entre le monde de la matière et les royaumes de l'Esprit.",
+        "texte_en": "Breathing is the sacred bridge between the world of matter and the realms of Spirit.",
+        "page": 0
+    },
+    {
+        "id": 705,
+        "texte_fr": "L'unité de conscience est l'objectif ultime de toute évolution dans cet univers.",
+        "texte_en": "Unity of consciousness is the ultimate goal of all evolution in this universe.",
+        "page": 0
+    },
+    {
+        "id": 706,
+        "texte_fr": "La libération est l'éveil définitif du rêve de la dualité et de la séparation.",
+        "texte_en": "Liberation is the final awakening from the dream of duality and separation.",
+        "page": 0
+    },
+    {
+        "id": 707,
+        "texte_fr": "L'univers est une symphonie dont nous sommes les notes vibrantes.",
+        "texte_en": "The universe is a symphony of which we are the vibrant notes.",
+        "page": 0
+    },
+    {
+        "id": 708,
+        "texte_fr": "La dignité humaine est le reflet terrestre de la noblesse éternelle de l'âme.",
+        "texte_en": "Human dignity is the earthly reflection of the eternal nobility of the soul.",
+        "page": 0
+    },
+    {
+        "id": 709,
+        "texte_fr": "La douceur est la force tranquille qui a le pouvoir de transformer le monde.",
+        "texte_en": "Gentleness is the quiet power that has the strength to transform the world.",
+        "page": 0
+    },
+    {
+        "id": 710,
+        "texte_fr": "Nous sommes ici pour ancrer le ciel sur la Terre et manifester la perfection divine.",
+        "texte_en": "We are here to anchor heaven on Earth and manifest divine perfection.",
+        "page": 0
+    },
+    {
+        "id": 711,
+        "texte_fr": "Chaque pensée est une graine de manifestation plantée dans le champ quantique de l'infini.",
+        "texte_en": "Every thought is a seed of manifestation planted in the quantum field of infinity.",
+        "page": 0
+    },
+    {
+        "id": 712,
+        "texte_fr": "La gratitude est l'accélérateur le plus puissant du processus de manifestation.",
+        "texte_en": "Gratitude is the most powerful accelerator of the manifestation process.",
+        "page": 0
+    },
+    {
+        "id": 713,
+        "texte_fr": "Le silence est le terreau fertile où germent les révélations les plus profondes.",
+        "texte_en": "Silence is the fertile ground where the deepest revelations germinate.",
+        "page": 0
+    },
+    {
+        "id": 714,
+        "texte_fr": "Nous sommes des êtres de Lumière incarnés pour une mission sacrée de libération.",
+        "texte_en": "We are beings of Light incarnated for a sacred mission of liberation.",
+        "page": 0
+    },
+    {
+        "id": 715,
+        "texte_fr": "La beauté est la signature indélébile de la Source au sein de la création matérielle.",
+        "texte_en": "Beauty is the indelible signature of the Source within material creation.",
+        "page": 0
+    },
+    {
+        "id": 716,
+        "texte_fr": "L'Amour inconditionnel est la seule force capable de dissoudre l’anomalie primaire.",
+        "texte_en": "Unconditional Love is the only force capable of dissolving primary anomaly.",
+        "page": 0
+    },
+    {
+        "id": 717,
+        "texte_fr": "Le passé est une leçon, le présent est un cadeau et le futur est une vision à co-créer.",
+        "texte_en": "The past is a lesson, the present is a gift, and the future is a vision to co-create.",
+        "page": 0
+    },
+    {
+        "id": 718,
+        "texte_fr": "La foi est la vision du cœur lorsque les yeux physiques sont fermés.",
+        "texte_en": "Faith is the vision of the heart when the physical eyes are closed.",
+        "page": 0
+    },
+    {
+        "id": 719,
+        "texte_fr": "Le changement est la seule constante de l'évolution divine vers des plans supérieurs.",
+        "texte_en": "Change is the only constant in divine evolution toward higher planes.",
+        "page": 0
+    },
+    {
+        "id": 720,
+        "texte_fr": "L’initiation est le processus sacré de reconnaissance de sa propre divinité intérieure.",
+        "texte_en": "Initiation is the sacred process of recognizing one's own inner divinity.",
+        "page": 0
+    },
+    {
+        "id": 721,
+        "texte_fr": "L'ascension est l'ancrage total de l'Esprit divin dans chaque cellule du corps.",
+        "texte_en": "Ascension is the total anchoring of the divine Spirit into every cell of the body.",
+        "page": 0
+    },
+    {
+        "id": 722,
+        "texte_fr": "Chaque interaction est une opportunité précieuse de semer de la Lumière.",
+        "texte_en": "Every interaction is a precious opportunity to sow Light.",
+        "page": 0
+    },
+    {
+        "id": 723,
+        "texte_fr": "Le soleil intérieur de la vérité finit toujours par dissiper les brouillards du mental.",
+        "texte_en": "The inner sun of truth always ends up dissipating the fogs of the mind.",
+        "page": 0
+    },
+    {
+        "id": 724,
+        "texte_fr": "L’Amour est la colle cosmique qui maintient la création tout entière dans l'unité.",
+        "texte_en": "Love is the cosmic glue that holds all of creation in unity.",
+        "page": 0
+    },
+    {
+        "id": 725,
+        "texte_fr": "Chaque âme est une mélodie unique et indispensable dans le grand concert galactique.",
+        "texte_en": "Every soul is a unique and indispensable melody in the great galactic concert.",
+        "page": 0
+    },
+    {
+        "id": 726,
+        "texte_fr": "La libération est un état intérieur de souveraineté avant de devenir une réalité extérieure.",
+        "texte_en": "Liberation is an inner state of sovereignty before it becomes an outer reality.",
+        "page": 0
+    },
+    {
+        "id": 727,
+        "texte_fr": "La science spirituelle libère, tandis que la science sans âme n'est que ruine de l'esprit.",
+        "texte_en": "Spiritual science liberates, while soulless science is but the ruin of the spirit.",
+        "page": 0
+    },
+    {
+        "id": 728,
+        "texte_fr": "Nous sommes les vagues d'un même océan infini d'Amour, retournant vers l'Un.",
+        "texte_en": "We are waves of the same infinite ocean of Love, returning to the One.",
+        "page": 0
+    },
+    {
+        "id": 729,
+        "texte_fr": "La joie est la fréquence naturelle de l'âme lorsqu'elle est alignée avec son dessein divin.",
+        "texte_en": "Joy is the natural frequency of the soul when aligned with its divine purpose.",
+        "page": 0
+    },
+    {
+        "id": 730,
+        "texte_fr": "L'univers est un organisme vivant, conscient et en perpétuelle expansion vers la Lumière.",
+        "texte_en": "The universe is a living, conscious organism in perpetual expansion toward the Light.",
+        "page": 0
+    },
+    {
+        "id": 731,
+        "texte_fr": "Le temps est un flux d'énergie multidimensionnel, malléable et non linéaire.",
+        "texte_en": "Time is a multidimensional, malleable, and non-linear flow of energy.",
+        "page": 0
+    },
+    {
+        "id": 732,
+        "texte_fr": "La compassion est la force d'attraction qui lie toutes les familles d’âmes.",
+        "texte_en": "Compassion is the force of attraction that binds all soul families together.",
+        "page": 0
+    },
+    {
+        "id": 733,
+        "texte_fr": "La souveraineté spirituelle est le droit inné et inaliénable de chaque être humain.",
+        "texte_en": "Spiritual sovereignty is the innate and inalienable right of every human being.",
+        "page": 0
+    },
+    {
+        "id": 734,
+        "texte_fr": "Notre intention collective est la plume qui écrit sur la page blanche du futur.",
+        "texte_en": "Our collective intention is the pen that writes on the blank page of the future.",
+        "page": 0
+    },
+    {
+        "id": 735,
+        "texte_fr": "L'équilibre entre le masculin et le féminin est la fondation de la stabilité planétaire.",
+        "texte_en": "The balance between the masculine and the feminine is the foundation of planetary stability.",
+        "page": 0
+    },
+    {
+        "id": 736,
+        "texte_fr": "Nous ne sommes jamais seuls ; nous sommes soutenus par des millions de frères stellaires.",
+        "texte_en": "We are never alone; we are supported by millions of star brothers.",
+        "page": 0
+    },
+    {
+        "id": 737,
+        "texte_fr": "La persévérance est la clé d'or qui finit par ouvrir toutes les portes de la destinée.",
+        "texte_en": "Perseverance is the golden key that eventually opens all the doors of destiny.",
+        "page": 0
+    },
+    {
+        "id": 738,
+        "texte_fr": "L'unité est la célébration de la richesse de la diversité dans l'harmonie.",
+        "texte_en": "Unity is the celebration of the richness of diversity in harmony.",
+        "page": 0
+    },
+    {
+        "id": 739,
+        "texte_fr": "La Lumière est information pure, tandis que l’obscurité n'est que le résultat de l’ignorance.",
+        "texte_en": "Light is pure information, while darkness is merely the result of ignorance.",
+        "page": 0
+    },
+    {
+        "id": 740,
+        "texte_fr": "Chaque moment de beauté est une invitation de l'Esprit à se souvenir de notre origine.",
+        "texte_en": "Every moment of beauty is an invitation from the Spirit to remember our origin.",
+        "page": 0
+    },
+    {
+        "id": 741,
+        "texte_fr": "L'harmonie avec la nature est le premier pas fondamental vers la conscience galactique.",
+        "texte_en": "Harmony with nature is the fundamental first step toward galactic consciousness.",
+        "page": 0
+    },
+    {
+        "id": 742,
+        "texte_fr": "Les miracles ne sont que des applications de lois physiques supérieures encore méconnues.",
+        "texte_en": "Miracles are but applications of higher physical laws that are still unknown.",
+        "page": 0
+    },
+    {
+        "id": 743,
+        "texte_fr": "La pureté d'intention est le bouclier le plus efficace contre toute forme de négativité.",
+        "texte_en": "Purity of intention is the most effective shield against any form of negativity.",
+        "page": 0
+    },
+    {
+        "id": 744,
+        "texte_fr": "La collaboration consciente est la force motrice de la nouvelle Ère du Verseau.",
+        "texte_en": "Conscious collaboration is the driving force of the new Age of Aquarius.",
+        "page": 0
+    },
+    {
+        "id": 745,
+        "texte_fr": "L'abondance est avant tout un état de résonance intérieure avant de se manifester.",
+        "texte_en": "Abundance is primarily a state of inner resonance before it manifests.",
+        "page": 0
+    },
+    {
+        "id": 746,
+        "texte_fr": "L'Unique est à la fois partout et nulle part, immanent et transcendant.",
+        "texte_en": "The One is at once everywhere and nowhere, immanent and transcendent.",
+        "page": 0
+    },
+    {
+        "id": 747,
+        "texte_fr": "La Victoire de la Lumière est le triomphe éternel de la vie sur l'illusion de la mort.",
+        "texte_en": "The Victory of the Light is the eternal triumph of life over the illusion of death.",
+        "page": 0
+    },
+    {
+        "id": 748,
+        "texte_fr": "Chaque être est un univers miniature reflétant le macrocosme dans le moindre détail.",
+        "texte_en": "Every being is a miniature universe reflecting the macrocosm in the slightest detail.",
+        "page": 0
+    },
+    {
+        "id": 749,
+        "texte_fr": "La manifestation commence par un désir pur et se parachève par une action alignée.",
+        "texte_en": "Manifestation begins with pure desire and is completed by aligned action.",
+        "page": 0
+    },
+    {
+        "id": 751,
+        "texte_fr": "La libération est l'acte de reprendre notre pouvoir souverain des mains de l'illusion.",
+        "texte_en": "Liberation is the act of reclaiming our sovereign power from the hands of illusion.",
+        "page": 0
+    },
+    {
+        "id": 752,
+        "texte_fr": "La vérité est comme une source d'eau vive qui désaltère l'âme assoiffée de liberté.",
+        "texte_en": "Truth is like a spring of living water that quenches the soul thirsting for freedom.",
+        "page": 0
+    },
+    {
+        "id": 753,
+        "texte_fr": "Nous sommes les témoins sacrés de la fin d'un monde et de l'aube d'une ère nouvelle.",
+        "texte_en": "We are the sacred witnesses to the end of a world and the dawn of a new era.",
+        "page": 0
+    },
+    {
+        "id": 754,
+        "texte_fr": "Chaque acte de bonté est une victoire silencieuse mais puissante contre l'ombre.",
+        "texte_en": "Every act of kindness is a silent yet powerful victory against the shadow.",
+        "page": 0
+    },
+    {
+        "id": 755,
+        "texte_fr": "L'Amour est le langage universel du cœur, compris par-delà les mots.",
+        "texte_en": "Love is the universal language of the heart, understood beyond words.",
+        "page": 0
+    },
+    {
+        "id": 756,
+        "texte_fr": "La conscience galactique est l'horizon inévitable et radieux de l'évolution humaine.",
+        "texte_en": "Galactic consciousness is the inevitable and radiant horizon of human evolution.",
+        "page": 0
+    },
+    {
+        "id": 757,
+        "texte_fr": "La paix véritable est la présence vibrante de l'Amour au-delà de l'absence de guerre.",
+        "texte_en": "True peace is the vibrant presence of Love beyond the absence of war.",
+        "page": 0
+    },
+    {
+        "id": 758,
+        "texte_fr": "Le corps physique est le temple sacré qui abrite l’étincelle de la vie divine.",
+        "texte_en": "The physical body is the sacred temple that houses the spark of divine life.",
+        "page": 0
+    },
+    {
+        "id": 759,
+        "texte_fr": "La vérité est la fréquence de résonance qui permet à l'âme de s'accorder à l'Univers.",
+        "texte_en": "Truth is the resonant frequency that allows the soul to tune into the Universe.",
+        "page": 0
+    },
+    {
+        "id": 760,
+        "texte_fr": "Chaque instant de joie est une victoire pour la Lumière sur toute la planète.",
+        "texte_en": "Every moment of joy is a victory for the Light across the entire planet.",
+        "page": 0
+    },
+    {
+        "id": 761,
+        "texte_fr": "L'Événement est la percée finale de la réalité divine à travers les voiles de l'illusion.",
+        "texte_en": "The Event is the final breakthrough of divine reality through the veils of illusion.",
+        "page": 0
+    },
+    {
+        "id": 762,
+        "texte_fr": "Victoire de la Lumière, maintenant et pour toujours !",
+        "texte_en": "Victory of the Light, now and forever!",
+        "page": 0
+    },
+    {
+        "id": 763,
+        "texte_fr": "L'espace galactique est finalement redressé et le Plérôme semble plus sain que jamais.",
+        "texte_en": "Galactic space is finally corrected and the Pleroma appears healthier than ever.",
+        "page": 0
+    },
+    {
+        "id": 764,
+        "texte_fr": "Toutes les réincarnations vécues ont servi d’entraînement pour cette vie décisive.",
+        "texte_en": "All past reincarnations have served as training for this decisive life.",
+        "page": 0
+    },
+    {
+        "id": 765,
+        "texte_fr": "Toute la matière naît de la tension créatrice entre la fonction aléatoire et la Source.",
+        "texte_en": "All matter is born from the creative tension between the random function and the Source.",
+        "page": 0
+    },
+    {
+        "id": 766,
+        "texte_fr": "Notre vraie réalité existe déjà de manière permanente dans la sixième dimension.",
+        "texte_en": "Our true reality already exists permanently in the sixth dimension.",
+        "page": 0
+    },
+    {
+        "id": 767,
+        "texte_fr": "La Constitution des États-Unis, si elle était respectée, suffirait à effacer la Cabale.",
+        "texte_en": "The United States Constitution, if respected, would be enough to erase the Cabal.",
+        "page": 0
+    },
+    {
+        "id": 768,
+        "texte_fr": "L'abondance est une expression naturelle de la beauté de l'âme dans la matière.",
+        "texte_en": "Abundance is a natural expression of the beauty of the soul in matter.",
+        "page": 0
+    },
+    {
+        "id": 769,
+        "texte_fr": "La vie n'est pas un travail pénible, mais un voyage sacré de joie et de créativité.",
+        "texte_en": "Life is not a drudgery, but a sacred journey of joy and creativity.",
+        "page": 0
+    },
+    {
+        "id": 770,
+        "texte_fr": "Chaque être vivant est une note essentielle dans la symphonie infinie de la Source.",
+        "texte_en": "Every living being is an essential note in the infinite symphony of the Source.",
+        "page": 0
+    },
+    {
+        "id": 771,
+        "texte_fr": "L'obscurité sera effacée comme si elle n'avait jamais existé dans l'histoire universelle.",
+        "texte_en": "Darkness will be erased as if it had never existed in universal history.",
+        "page": 0
+    },
+    {
+        "id": 772,
+        "texte_fr": "La vérité crée un réseau de lumière mentale permettant la manifestation du divin.",
+        "texte_en": "Truth creates a network of mental light allowing for the manifestation of the divine.",
+        "page": 0
+    },
+    {
+        "id": 773,
+        "texte_fr": "L’entropie diminue naturellement avec le temps car l’univers est un système ouvert.",
+        "texte_en": "Entropy naturally decreases over time because the universe is an open system.",
+        "page": 0
+    },
+    {
+        "id": 774,
+        "texte_fr": "Une seule personne parfaitement connectée à son JE SUIS peut libérer une planète.",
+        "texte_en": "A single person perfectly connected to their I AM can liberate a planet.",
+        "page": 0
+    },
+    {
+        "id": 775,
+        "texte_fr": "L'Événement est un déclencheur multidimensionnel vers l'Âge d'Or tant attendu.",
+        "texte_en": "The Event is a multidimensional trigger toward the long-awaited Golden Age.",
+        "page": 0
+    },
+    {
+        "id": 776,
+        "texte_fr": "La conscience de l'Unité est le remède ultime à toutes les souffrances du monde.",
+        "texte_en": "Unity consciousness is the ultimate remedy for all the world's suffering.",
+        "page": 0
+    },
+    {
+        "id": 777,
+        "texte_fr": "Le muscle du libre arbitre se renforce à chaque décision consciente vers la Lumière.",
+        "texte_en": "The muscle of free will strengthens with every conscious decision toward the Light.",
+        "page": 0
+    },
+    {
+        "id": 778,
+        "texte_fr": "Tout ce qui inspire la beauté est un guide sûr vers la connexion avec l'Esprit.",
+        "texte_en": "Everything that inspires beauty is a sure guide toward connecting with the Spirit.",
+        "page": 0
+    },
+    {
+        "id": 779,
+        "texte_fr": "La sincérité absolue envers soi-même est la meilleure façon de contacter son âme.",
+        "texte_en": "Absolute sincerity toward oneself is the best way to contact one's soul.",
+        "page": 0
+    },
+    {
+        "id": 780,
+        "texte_fr": "L’âme peut s’incarner en homme ou en femme, mais son essence est pure Lumière.",
+        "texte_en": "The soul can incarnate as a man or a woman, but its essence is pure Light.",
+        "page": 0
+    },
+    {
+        "id": 781,
+        "texte_fr": "L'Union Sacrée est la fusion des polarités menant directement à l'Ascension.",
+        "texte_en": "Sacred Union is the fusion of polarities leading directly to Ascension.",
+        "page": 0
+    },
+    {
+        "id": 782,
+        "texte_fr": "La famille d’âmes est le socle de la nouvelle société spirituelle.",
+        "texte_en": "The soul family is the foundation of the new spiritual society.",
+        "page": 0
+    },
+    {
+        "id": 783,
+        "texte_fr": "Le moment est venu de briser définitivement les chaînes de l'illusion.",
+        "texte_en": "The time has come to break the chains of illusion once and for all.",
+        "page": 0
+    },
+    {
+        "id": 784,
+        "texte_fr": "Nous sommes nés des étoiles et nous portons leur sagesse dans nos cellules.",
+        "texte_en": "We are born from the stars and we carry their wisdom in our cells.",
+        "page": 0
+    },
+    {
+        "id": 785,
+        "texte_fr": "La compassion guérit les blessures que la raison logique ne peut percevoir.",
+        "texte_en": "Compassion heals the wounds that logical reason cannot perceive.",
+        "page": 0
+    },
+    {
+        "id": 786,
+        "texte_fr": "La persévérance est la force d'âme qui transmute les rêves les plus fous en réalités.",
+        "texte_en": "Perseverance is the strength of soul that transmutes the wildest dreams into realities.",
+        "page": 0
+    },
+    {
+        "id": 787,
+        "texte_fr": "L'harmonie est la loi fondamentale qui régit tout univers véritablement libéré.",
+        "texte_en": "Harmony is the fundamental law that governs any truly liberated universe.",
+        "page": 0
+    },
+    {
+        "id": 788,
+        "texte_fr": "La peur est l'outil du contrôle ; la connaissance est l’antidote qui rend la liberté.",
+        "texte_en": "Fear is the tool of control; knowledge is the antidote that restores freedom.",
+        "page": 0
+    },
+    {
+        "id": 789,
+        "texte_fr": "Chaque pensée positive est une onde de choc qui stabilise la grille de Lumière.",
+        "texte_en": "Every positive thought is a shockwave that stabilizes the Light grid.",
+        "page": 0
+    },
+    {
+        "id": 790,
+        "texte_fr": "L’énergie de la Déesse est d'une douceur infinie, et pourtant c’est le pouvoir ultime.",
+        "texte_en": "The energy of the Goddess is infinitely gentle, and yet it is the ultimate power.",
+        "page": 0
+    },
+    {
+        "id": 791,
+        "texte_fr": "La vérité est l'oxygène indispensable à la survie et à l'expansion de l'âme libre.",
+        "texte_en": "Truth is the essential oxygen for the survival and expansion of the free soul.",
+        "page": 0
+    },
+    {
+        "id": 792,
+        "texte_fr": "Nous sommes les pionniers audacieux d’un nouveau cycle cosmique d'Amour.",
+        "texte_en": "We are the bold pioneers of a new cosmic cycle of Love.",
+        "page": 0
+    },
+    {
+        "id": 793,
+        "texte_fr": "L'unité de cœur est le secret le mieux gardé de la puissance divine manifestée.",
+        "texte_en": "Heart unity is the best-kept secret of manifested divine power.",
+        "page": 0
+    },
+    {
+        "id": 794,
+        "texte_fr": "Chaque décision positive est un pas de géant vers la Victoire totale de la Lumière.",
+        "texte_en": "Every positive decision is a giant leap toward the total Victory of the Light.",
+        "page": 0
+    },
+    {
+        "id": 795,
+        "texte_fr": "La vérité n'a pas d'ombre car elle émane directement de la Source Unique.",
+        "texte_en": "Truth has no shadow because it emanates directly from the One Source.",
+        "page": 0
+    },
+    {
+        "id": 796,
+        "texte_fr": "L'Événement marquera la fin de la prison planétaire et le début de l'infini.",
+        "texte_en": "The Event will mark the end of the planetary prison and the beginning of the infinite.",
+        "page": 0
+    },
+    {
+        "id": 797,
+        "texte_fr": "La Lumière est le langage par lequel nous communiquons avec nos frères stellaires.",
+        "texte_en": "Light is the language through which we communicate with our star brothers.",
+        "page": 0
+    },
+    {
+        "id": 798,
+        "texte_fr": "Chaque âme sœur rencontrée est un compagnon précieux sur le chemin de l'éternité.",
+        "texte_en": "Every soul mate encountered is a precious companion on the path of eternity.",
+        "page": 0
+    },
+    {
+        "id": 799,
+        "texte_fr": "L'Unique est partout présent, vibrant dans chaque atome de la création.",
+        "texte_en": "The One is everywhere present, vibrating in every atom of creation.",
+        "page": 0
+    },
+    {
+        "id": 800,
+        "texte_fr": "Victoire de la Lumière, le grand réveil est désormais imparable !",
+        "texte_en": "Victory of the Light, the great awakening is now unstoppable!",
+        "page": 0
+    }
+
+]
