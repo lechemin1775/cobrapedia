@@ -1,7 +1,6 @@
 name: Écosystème Rituel Quotidien
+
 on:
-  schedule:
-    - cron: '0 6,8,18 * * *' 
   workflow_dispatch:
 
 jobs:
