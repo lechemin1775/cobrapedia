@@ -4,7 +4,7 @@ const fs = require('fs');
 // 1. CONFIGURATION DU BOT 
 // ==========================================
 const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN; // La clé du BotFather
-const CHAT_ID = "-1001707713364"; // ⚠️ Pensez à remettre vos chiffres complets à la place des points
+const CHAT_ID = "-1001707713364"; // 
 const THREAD_ID = "13963"; // L'ID de votre sujet "Quête Quotidienne"
 
 async function executerRituelQuotidien() {
