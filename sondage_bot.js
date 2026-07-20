@@ -4,7 +4,8 @@ const fs = require('fs');
 // 1. CONFIGURATION DU BOT 
 // ==========================================
 const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN; // La clé du BotFather
-const CHAT_ID = "-1001707713364"; // Votre ID avec le tiret récupéré via l'astuce web
+const CHAT_ID = "-1001707713364"; // ⚠️ Pensez à remettre vos chiffres complets à la place des points
+const THREAD_ID = "13963"; // L'ID de votre sujet "Quête Quotidienne"
 
 async function executerRituelQuotidien() {
     try {
@@ -91,6 +92,7 @@ async function executerRituelQuotidien() {
             
             const paramsQuiz = {
                 chat_id: CHAT_ID,
+                message_thread_id: THREAD_ID, // Redirection vers le sujet
                 question: questionChoisie.texte.substring(0, 300),
                 options: JSON.stringify(optionsSafe),
                 type: 'quiz',
@@ -110,7 +112,7 @@ async function executerRituelQuotidien() {
         // Cible le CRON de 08:00 UTC (10:00 Paris). Fenêtre active de 08h00 à 13h59 UTC.
         } else if (heureUTC >= 8 && heureUTC < 14) {
             
-            const titreCentre = `⚡ <b>— LA PENSÉE DU JOUR —</b>`;
+            const titreCentre = `⚡ <b>— LA PENSÉE DU ROYAGE —</b>`;
             
             const messageCitation = titreCentre + `\n\n` +
                                     `<i>"${citationChoisie.texte_fr}"</i>\n\n` +
@@ -119,6 +121,7 @@ async function executerRituelQuotidien() {
 
             const paramsCitation = {
                 chat_id: CHAT_ID,
+                message_thread_id: THREAD_ID, // Redirection vers le sujet
                 text: messageCitation,
                 parse_mode: 'HTML',
                 disable_web_page_preview: true 
@@ -141,6 +144,7 @@ async function executerRituelQuotidien() {
 
             const paramsResolution = {
                 chat_id: CHAT_ID,
+                message_thread_id: THREAD_ID, // Redirection vers le sujet
                 text: messageResolution,
                 parse_mode: 'HTML',
                 disable_web_page_preview: true 
