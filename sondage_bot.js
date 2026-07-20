@@ -4,7 +4,7 @@ const fs = require('fs');
 // 1. CONFIGURATION DU BOT 
 // ==========================================
 const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN; // La clé du BotFather
-const CHAT_ID = "-1004485957788"; // Votre ID avec le tiret récupéré via l'astuce web
+const CHAT_ID = "-1001707713364"; // Votre ID avec le tiret récupéré via l'astuce web
 
 async function executerRituelQuotidien() {
     try {
