@@ -2556,7 +2556,7 @@
             "Le 7 juillet 2025.",
             "Le 1er janvier 2030."
         ],
-        "explication": "Cette fenêtre temporelle de 50 ans, mathématiquement définie par la dynamique des ondes galactiques, se terminera le 7 juillet 2025, date limite fixée par la Lumière pour résoudre la quarantaine terrestre.",
+        "explication": "Cette fenêtre temporelle de 50 ans, mathématiquement définie par la dynamique des ondes galactiques, se termine le 7 juillet 2025, date limite fixée par la Lumière pour résoudre la quarantaine terrestre.",
         "reponse": "Le 7 juillet 2025.",
         "categorie": "stellaire"
     },
@@ -2720,13 +2720,13 @@
         "id": "210 / 508",
         "texte": "Lors des négociations avant la date limite du 31 mars 2012, quelle offre financière piégée les Fédéraux ont-ils présentée au Japon et à la Société du Dragon Blanc ?",
         "propositions": [
-            "10 billions pour le Japon et 590 billions pour le reste du monde, sans contrôle de la Cabale.",
-            "10 billions pour le reste du monde et 590 billions pour la Cabale, afin qu'elle reste aux commandes.",
+            "10 milliards pour le Japon et 590 milliards pour le reste du monde, sans contrôle de la Cabale.",
+            "10 milliards pour le reste du monde et 590 milliards pour la Cabale, afin qu'elle reste aux commandes.",
             "Une annulation totale de la dette mondiale en échange de la technologie extraterrestre.",
             "500 milliards d'or physique transférés de Fort Knox vers l'Asie."
         ],
-        "explication": "Les Fédéraux ont proposé 10 billions de dollars pour le reste du monde et 590 billions pour eux-mêmes, cherchant ainsi à conserver le contrôle total de la planète et du système financier.",
-        "reponse": "10 billions pour le reste du monde et 590 billions pour la Cabale, afin qu'elle reste aux commandes.",
+        "explication": "Les Fédéraux ont proposé 10 milliards de dollars pour le reste du monde et 590 milliards pour eux-mêmes, cherchant ainsi à conserver le contrôle total de la planète et du système financier.",
+        "reponse": "10 milliards pour le reste du monde et 590 milliards pour la Cabale, afin qu'elle reste aux commandes.",
         "categorie": "planetaire"
     },
     {
@@ -4395,7 +4395,7 @@
     },
     {
         "id": "339 / 508",
-        "texte": "Pourquoi les bombes Toplet créées par le groupe Chimera sont-elles le principal obstacle physique à l'Événement ?",
+        "texte": "Pourquoi les bombes Toplet créées par le groupe Chimera étaient elles le principal obstacle physique à l'Événement ?",
         "propositions": [
             "Elles produisent des radiations qui durent éternellement.",
             "Elles utilisent un condensat de plasma quarks-gluons liés à l'anomalie primaire pour générer des mécanismes de représailles à l'échelle quantique.",
@@ -4824,14 +4824,14 @@
     },
     {
         "id": "372 / 508",
-        "texte": "Quel est l'objectif de l'opération Mjolnir menée par les Forces de la Lumière ?",
+        "texte": "Quel est l'objectif de l'opération Mjölnir menée par les Forces de la Lumière ?",
         "propositions": [
             "Construire une nouvelle station spatiale internationale avec l'Agartha.",
             "Appliquer la mise en œuvre du Codex Galactique sur la Terre en quarantaine en utilisant la technologie du canon quantique.",
             "Forer des tunnels profonds sous l'Antarctique pour déloger la Cabale.",
             "Diffuser des messages télépathiques de reddition aux dirigeants du monde."
         ],
-        "explication": "L'opération Mjolnir est une opération spéciale visant à appliquer la mise en œuvre du Codex Galactique sur la Terre en quarantaine à l'aide de la technologie Mjölnir (canon quantique).",
+        "explication": "L'opération Mjölnir est une opération spéciale visant à appliquer la mise en œuvre du Codex Galactique sur la Terre en quarantaine à l'aide de la technologie Mjölnir (canon quantique).",
         "reponse": "Appliquer la mise en œuvre du Codex Galactique sur la Terre en quarantaine en utilisant la technologie du canon quantique.",
         "categorie": "stellaire"
     },
