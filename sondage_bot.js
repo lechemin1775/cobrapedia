@@ -112,7 +112,7 @@ async function executerRituelQuotidien() {
         // Cible le CRON de 08:00 UTC (10:00 Paris). Fenêtre active de 08h00 à 13h59 UTC.
         } else if (heureUTC >= 8 && heureUTC < 14) {
             
-            const titreCentre = `⚡ <b>— LA PENSÉE DU ROYAGE —</b>`;
+            const titreCentre = `⚡ <b>— LA PENSÉE DU JOUR —</b>`;
             
             const messageCitation = titreCentre + `\n\n` +
                                     `<i>"${citationChoisie.texte_fr}"</i>\n\n` +
