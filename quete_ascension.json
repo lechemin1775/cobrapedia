@@ -2523,19 +2523,6 @@
     },
     {
         "id": "195 / 508",
-        "texte": "Lors de l'examen des données publiques de la sonde Cassini par la NASA, pourquoi la lune Pan de Saturne a-t-elle attiré l'attention des cercles de divulgation ?",
-        "propositions": [
-            "Elle émettait des signaux radio en morse.",
-            "Sa forme inhabituelle de « ravioli » (avec une arête équatoriale parfaite) ne ressemble absolument pas à un objet naturel, suggérant une structure artificielle.",
-            "Elle orbitait en sens inverse de toutes les autres lunes.",
-            "Elle absorbait entièrement la lumière du Soleil."
-        ],
-        "explication": "Cobra a pointé cette découverte publique de la NASA comme une divulgation douce évidente, la géométrie parfaite de cette lune trahissant son origine comme gigantesque vaisseau ou base artificielle.",
-        "reponse": "Sa forme inhabituelle de « ravioli » (avec une arête équatoriale parfaite) ne ressemble absolument pas à un objet naturel, suggérant une structure artificielle.",
-        "categorie": "stellaire"
-    },
-    {
-        "id": "196 / 508",
         "texte": "Sur l'Échelle de Kardashev, quel indice numérique de maturité spirituelle de la population éveillée la Confédération attend-elle pour déclencher le Premier Contact ?",
         "propositions": [
             "0,25",
@@ -2548,7 +2535,7 @@
         "categorie": "stellaire"
     },
     {
-        "id": "197 / 508",
+        "id": "196 / 508",
         "texte": "Dans le vaste cycle d'Ascension planétaire, à quelle date exacte se ferme la grande fenêtre cosmique ouverte le 25 mai 1975 ?",
         "propositions": [
             "Le 21 décembre 2012.",
@@ -2558,6 +2545,19 @@
         ],
         "explication": "Cette fenêtre temporelle de 50 ans, mathématiquement définie par la dynamique des ondes galactiques, se termine le 7 juillet 2025, date limite fixée par la Lumière pour résoudre la quarantaine terrestre.",
         "reponse": "Le 7 juillet 2025.",
+        "categorie": "stellaire"
+    },
+     {
+        "id": "197 / 508",
+        "texte": "Lors de l'examen des données publiques de la sonde Cassini par la NASA, pourquoi la lune Pan de Saturne a-t-elle attiré l'attention des cercles de divulgation ?",
+        "propositions": [
+            "Elle émettait des signaux radio en morse.",
+            "Sa forme inhabituelle de « ravioli » (avec une arête équatoriale parfaite) ne ressemble absolument pas à un objet naturel, suggérant une structure artificielle.",
+            "Elle orbitait en sens inverse de toutes les autres lunes.",
+            "Elle absorbait entièrement la lumière du Soleil."
+        ],
+        "explication": "Cobra a pointé cette découverte publique de la NASA comme une divulgation douce évidente, la géométrie parfaite de cette lune trahissant son origine comme gigantesque vaisseau ou base artificielle.",
+        "reponse": "Sa forme inhabituelle de « ravioli » (avec une arête équatoriale parfaite) ne ressemble absolument pas à un objet naturel, suggérant une structure artificielle.",
         "categorie": "stellaire"
     },
     {
