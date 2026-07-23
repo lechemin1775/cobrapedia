@@ -70,7 +70,7 @@ async function executerRituelQuotidien() {
 
         // Signatures communes
         const urlSite = "https://leportaildelumiere.com";
-        const urlApp = "https://play.google.com/store/apps/details?id=votre.id.app"; 
+        const urlApp = "https://play.google.com/store/apps/details?id=com.leportaildelumiere.encyclopedie"; 
         const footerHTML = `\n\n🌐 <a href="${urlSite}">Le Portail de Lumière</a>\n📱 <a href="${urlApp}">Application Cobrapédia pour Android</a>`;
 
         // ==========================================
