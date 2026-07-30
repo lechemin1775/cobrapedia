@@ -1,11 +1,23 @@
 const fs = require('fs');
 
 // ==========================================
+// 0. OUTIL DE MÉLANGE (Algorithme Fisher-Yates)
+// ==========================================
+function melangerTableau(tableau) {
+    let tab = [...tableau]; // Crée une copie pour ne pas modifier l'original
+    for (let i = tab.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [tab[i], tab[j]] = [tab[j], tab[i]];
+    }
+    return tab;
+}
+
+// ==========================================
 // 1. CONFIGURATION DU BOT 
 // ==========================================
-const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN; // La clé du BotFather
-const CHAT_ID = "-1001707713364"; // 
-const THREAD_ID = "13963"; // L'ID de votre sujet "Quête Quotidienne"
+const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN; 
+const CHAT_ID = "-1001707713364";  
+const THREAD_ID = "13963"; 
 
 async function executerRituelQuotidien() {
     try {
@@ -38,7 +50,8 @@ async function executerRituelQuotidien() {
                 let rIdx = Math.floor(Math.random() * distractors.length);
                 props.push(distractors.splice(rIdx, 1)[0]);
             }
-            props.sort();
+            
+            // 🛑 SUPPRESSION DU props.sort() QUI FAUSSAIT L'ALÉATOIRE
 
             let extrait = definition.length > 240 ? definition.substring(0, 240) + "..." : definition;
             return {
@@ -52,15 +65,21 @@ async function executerRituelQuotidien() {
         const full_db = [...quiz_db, ...cobrapedia_db];
 
         // ==========================================
-        // 3. SÉLECTION DÉTERMINISTE (JOUR UNIQUE)
+        // 3. SÉLECTION ET MÉLANGE ABSOLU
         // ==========================================
         const joursEcoules = Math.floor(Date.now() / (1000 * 60 * 60 * 24));
         
         // Sélection de la question du jour
         const indexDuJour = joursEcoules % full_db.length;
         const questionChoisie = full_db[indexDuJour];
-        const indexBonneReponse = questionChoisie.propositions.indexOf(questionChoisie.reponse);
-        const optionsSafe = questionChoisie.propositions.map(prop => 
+        
+        // ✨ LE MÉLANGE EST EFFECTUÉ ICI ✨
+        const propositionsMelangees = melangerTableau(questionChoisie.propositions);
+        
+        // On récupère le NOUVEL index de la bonne réponse (A=0, B=1, C=2, D=3)
+        const indexBonneReponse = propositionsMelangees.indexOf(questionChoisie.reponse);
+        
+        const optionsSafe = propositionsMelangees.map(prop => 
             prop.length > 100 ? prop.substring(0, 97) + "..." : prop
         );
 
@@ -78,8 +97,6 @@ async function executerRituelQuotidien() {
         // ==========================================
         const heureUTC = new Date().getUTCHours(); 
         
-        // --- MARCHE 1 : MATIN (Sondage) ---
-        // Cible le CRON de 06:00 UTC (08:00 Paris). Fenêtre active de 04h00 à 07h59 UTC.
         if (heureUTC >= 4 && heureUTC < 8) {
             const footerMatin = `\n\n<a href="${urlSite}">🌐 Le Portail</a> | <a href="${urlApp}">📱 Appli Android</a>`;
             const longueurFooterVisible = 35;
@@ -92,24 +109,22 @@ async function executerRituelQuotidien() {
             
             const paramsQuiz = {
                 chat_id: CHAT_ID,
-                message_thread_id: THREAD_ID, // Redirection vers le sujet
+                message_thread_id: THREAD_ID, 
                 question: questionChoisie.texte.substring(0, 300),
                 options: JSON.stringify(optionsSafe),
                 type: 'quiz',
-                correct_option_id: indexBonneReponse,
+                correct_option_id: indexBonneReponse, // L'index correspondra parfaitement à l'affichage Telegram
                 explanation: explicationFinale,
                 explanation_parse_mode: 'HTML'
             };
 
             const reponseTelegram = await envoyerAITelegram('sendPoll', paramsQuiz);
             if (reponseTelegram.ok) {
-                console.log("✨ Succès : Épreuve du matin publiée !");
+                console.log("✨ Succès : Épreuve du matin publiée avec des options mélangées !");
             } else {
                 console.error("🕸️ Erreur Telegram (Matin) :", reponseTelegram.description);
             }
 
-        // --- MARCHE 2 : MIDI (Citation) ---
-        // Cible le CRON de 08:00 UTC (10:00 Paris). Fenêtre active de 08h00 à 13h59 UTC.
         } else if (heureUTC >= 8 && heureUTC < 14) {
             
             const titreCentre = `⚡ <b>— LA PENSÉE DU JOUR —</b>`;
@@ -121,7 +136,7 @@ async function executerRituelQuotidien() {
 
             const paramsCitation = {
                 chat_id: CHAT_ID,
-                message_thread_id: THREAD_ID, // Redirection vers le sujet
+                message_thread_id: THREAD_ID, 
                 text: messageCitation,
                 parse_mode: 'HTML',
                 disable_web_page_preview: true 
@@ -134,8 +149,6 @@ async function executerRituelQuotidien() {
                 console.error("🕸️ Erreur Telegram (Citation) :", reponseTelegram.description);
             }
 
-        // --- MARCHE 3 : SOIR (Résolution) ---
-        // Cible le CRON de 18:00 UTC (20:00 Paris). Fenêtre active à partir de 14h00 UTC.
         } else {
             const messageResolution = `✨ <b>Résolution de l'Épreuve du Jour</b>\n\n` +
                                       `La bonne réponse était : <b>${questionChoisie.reponse}</b>\n\n` +
@@ -144,7 +157,7 @@ async function executerRituelQuotidien() {
 
             const paramsResolution = {
                 chat_id: CHAT_ID,
-                message_thread_id: THREAD_ID, // Redirection vers le sujet
+                message_thread_id: THREAD_ID, 
                 text: messageResolution,
                 parse_mode: 'HTML',
                 disable_web_page_preview: true 
