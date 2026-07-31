@@ -4,7 +4,7 @@ const fs = require('fs');
 // 0. OUTIL DE MÉLANGE (Algorithme Fisher-Yates)
 // ==========================================
 function melangerTableau(tableau) {
-    let tab = [...tableau]; // Crée une copie pour ne pas modifier l'original
+    let tab = [...tableau]; 
     for (let i = tab.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [tab[i], tab[j]] = [tab[j], tab[i]];
@@ -51,8 +51,6 @@ async function executerRituelQuotidien() {
                 props.push(distractors.splice(rIdx, 1)[0]);
             }
             
-            // 🛑 SUPPRESSION DU props.sort() QUI FAUSSAIT L'ALÉATOIRE
-
             let extrait = definition.length > 240 ? definition.substring(0, 240) + "..." : definition;
             return {
                 texte: `Quel concept correspond à cette transmission ?\n\n"${extrait}"`,
@@ -65,21 +63,51 @@ async function executerRituelQuotidien() {
         const full_db = [...quiz_db, ...cobrapedia_db];
 
         // ==========================================
-        // 3. SÉLECTION ET MÉLANGE ABSOLU
+        // 3. SÉLECTION ET GESTION DES FORMATS VRAI/FAUX
         // ==========================================
         const joursEcoules = Math.floor(Date.now() / (1000 * 60 * 60 * 24));
         
         // Sélection de la question du jour
         const indexDuJour = joursEcoules % full_db.length;
-        const questionChoisie = full_db[indexDuJour];
+        let questionChoisie = Object.assign({}, full_db[indexDuJour]); 
+
+        // 🕸️ DÉTECTION D'INTERFÉRENCE DÉTERMINISTE (Synchronisée Matin/Soir)
+        const chanceInterference = (joursEcoules * 13) % 100; 
+        const isInterference = (chanceInterference < 25);     
         
-        // ✨ LE MÉLANGE EST EFFECTUÉ ICI ✨
-        const propositionsMelangees = melangerTableau(questionChoisie.propositions);
+        let reponseOriginale = questionChoisie.reponse || "";
+        let texteQuestionTelegram = "";
+
+        if (isInterference) {
+            let vraieReponseNorm = reponseOriginale.trim().toLowerCase();
+            
+            let estVrai = ((joursEcoules * 17) % 2 === 0); 
+            let texteAffirme = "";
+
+            if (estVrai) {
+                texteAffirme = reponseOriginale;
+            } else {
+                let faussesPropositions = questionChoisie.propositions.filter(p => 
+                    p.trim().toLowerCase() !== vraieReponseNorm
+                );
+                let indexFausse = (joursEcoules * 7) % faussesPropositions.length;
+                texteAffirme = faussesPropositions[indexFausse] || "Illusion de la Matrice.";
+            }
+
+            // Titre doux et rassurant pour la communauté
+            texteQuestionTelegram = `✨ **ÉPREUVE DU JOUR** ✨\n\n*L'affirmation suivante est-elle VRAIE ou FAUSSE ?*\n\n${questionChoisie.texte}\n\n« ${texteAffirme} »`;
+            questionChoisie.propositions = ["VRAI", "FAUX"];
+            questionChoisie.reponse = estVrai ? "VRAI" : "FAUX";
+            questionChoisie.estVrai = estVrai;
+        } else {
+            // Titre classique pour les questions à 4 choix
+            texteQuestionTelegram = `✨ **ÉPREUVE DU JOUR** ✨\n\n${questionChoisie.texte}`;
+        }
         
-        // On récupère le NOUVEL index de la bonne réponse (A=0, B=1, C=2, D=3)
-        const indexBonneReponse = propositionsMelangees.indexOf(questionChoisie.reponse);
+        // Mélange des réponses (uniquement pour les QCM 4 choix)
+        const propositionsFinales = isInterference ? questionChoisie.propositions : melangerTableau(questionChoisie.propositions);
         
-        const optionsSafe = propositionsMelangees.map(prop => 
+        const optionsSafe = propositionsFinales.map(prop => 
             prop.length > 100 ? prop.substring(0, 97) + "..." : prop
         );
 
@@ -97,34 +125,26 @@ async function executerRituelQuotidien() {
         // ==========================================
         const heureUTC = new Date().getUTCHours(); 
         
+        // --- MARCHE 1 : MATIN (08h00 Paris / 06h00 UTC) ---
         if (heureUTC >= 4 && heureUTC < 8) {
-            const footerMatin = `\n\n<a href="${urlSite}">🌐 Le Portail</a> | <a href="${urlApp}">📱 Appli Android</a>`;
-            const longueurFooterVisible = 35;
-
-            let texteBrut = questionChoisie.explication.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-            let maxTexte = 200 - longueurFooterVisible - 3;
-            let explicationFinale = texteBrut.length > maxTexte 
-                ? texteBrut.substring(0, maxTexte) + "..." + footerMatin 
-                : texteBrut + footerMatin;
             
-            const paramsQuiz = {
+            const paramsPoll = {
                 chat_id: CHAT_ID,
                 message_thread_id: THREAD_ID, 
-                question: questionChoisie.texte.substring(0, 300),
+                question: texteQuestionTelegram.substring(0, 300),
                 options: JSON.stringify(optionsSafe),
-                type: 'quiz',
-                correct_option_id: indexBonneReponse, // L'index correspondra parfaitement à l'affichage Telegram
-                explanation: explicationFinale,
-                explanation_parse_mode: 'HTML'
+                type: 'regular', 
+                is_anonymous: true
             };
 
-            const reponseTelegram = await envoyerAITelegram('sendPoll', paramsQuiz);
+            const reponseTelegram = await envoyerAITelegram('sendPoll', paramsPoll);
             if (reponseTelegram.ok) {
-                console.log("✨ Succès : Épreuve du matin publiée avec des options mélangées !");
+                console.log(`✨ Succès : Épreuve du matin publiée (Réponse cachée jusqu'à 20h) !`);
             } else {
                 console.error("🕸️ Erreur Telegram (Matin) :", reponseTelegram.description);
             }
 
+        // --- MARCHE 2 : MIDI (Citation à 10h00 Paris) ---
         } else if (heureUTC >= 8 && heureUTC < 14) {
             
             const titreCentre = `⚡ <b>— LA PENSÉE DU JOUR —</b>`;
@@ -149,10 +169,20 @@ async function executerRituelQuotidien() {
                 console.error("🕸️ Erreur Telegram (Citation) :", reponseTelegram.description);
             }
 
+        // --- MARCHE 3 : SOIR (20h00 Paris / 18h00 UTC - Révélation de la Réponse) ---
         } else {
-            const messageResolution = `✨ <b>Résolution de l'Épreuve du Jour</b>\n\n` +
-                                      `La bonne réponse était : <b>${questionChoisie.reponse}</b>\n\n` +
-                                      `📚 <b>Transmission complète :</b>\n<i>${questionChoisie.explication}</i>` + 
+            let blocVerite = "";
+            let texteReponse = `La bonne réponse était : <b>${questionChoisie.reponse}</b>`;
+            
+            // Si c'est une Interférence Vrai/Faux ET que c'était un mensonge
+            if (isInterference && questionChoisie.estVrai === false) {
+                blocVerite = `\n\n🛡️ <b>VÉRITÉ COSMIQUE :</b>\n<i>"${reponseOriginale}"</i>`;
+            }
+
+            const messageResolution = `✨ <b>RÉSOLUTION DE L'ÉPREUVE DU JOUR</b>\n\n` +
+                                      `${texteReponse}` + 
+                                      blocVerite + `\n\n` +
+                                      `📚 <b>Transmission Akashique :</b>\n<i>${questionChoisie.explication}</i>` + 
                                       footerHTML;
 
             const paramsResolution = {
