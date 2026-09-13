@@ -13,11 +13,23 @@ function melangerTableau(tableau) {
 }
 
 // ==========================================
-// 1. CONFIGURATION DU BOT 
+// 1. CONFIGURATION DU BOT ET DES CIBLES
 // ==========================================
 const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN; 
-const CHAT_ID = "-1001707713364";  
-const THREAD_ID = "13963"; 
+
+// On définit ici tous les groupes et sujets où le bot doit publier
+const CIBLES = [
+    { 
+        nom: "Ancien Groupe",
+        chat_id: "-1001707713364", 
+        thread_id: "13963" 
+    },
+    { 
+        nom: "Nouveau Global Hub",
+        chat_id: "-1004411153937", // L'ID extrait de ton lien avec -100 devant
+        thread_id: "6"            // Le numéro du sujet extrait de ton lien
+    }
+];
 
 async function executerRituelQuotidien() {
     try {
@@ -25,7 +37,10 @@ async function executerRituelQuotidien() {
         // 1. CHARGEMENT DES BASES
         // ==========================================
         const quiz_db_raw = JSON.parse(fs.readFileSync('quete_ascension.json', 'utf8'));
-        const cobrapedia_db_raw = JSON.parse(fs.readFileSync('cobrapedia.json', 'utf8'));
+        let cobrapedia_db_raw = [];
+        if (fs.existsSync('cobrapedia.json')) {
+            cobrapedia_db_raw = JSON.parse(fs.readFileSync('cobrapedia.json', 'utf8'));
+        }
         const citations_db_raw = JSON.parse(fs.readFileSync('citations_cobrapedia.json', 'utf8'));
 
         // ==========================================
@@ -47,8 +62,10 @@ async function executerRituelQuotidien() {
             let distractors = cobra_terms.filter(t => t !== terme);
             let props = [terme];
             for(let i=0; i<3; i++) {
-                let rIdx = Math.floor(Math.random() * distractors.length);
-                props.push(distractors.splice(rIdx, 1)[0]);
+                if (distractors.length > 0) {
+                    let rIdx = Math.floor(Math.random() * distractors.length);
+                    props.push(distractors.splice(rIdx, 1)[0]);
+                }
             }
             
             let extrait = definition.length > 240 ? definition.substring(0, 240) + "..." : definition;
@@ -94,17 +111,15 @@ async function executerRituelQuotidien() {
                 texteAffirme = faussesPropositions[indexFausse] || "Illusion de la Matrice.";
             }
 
-            // Titre doux et rassurant pour la communauté
             texteQuestionTelegram = `✨ **ÉPREUVE DU JOUR** ✨\n\n*L'affirmation suivante est-elle VRAIE ou FAUSSE ?*\n\n${questionChoisie.texte}\n\n« ${texteAffirme} »`;
             questionChoisie.propositions = ["VRAI", "FAUX"];
             questionChoisie.reponse = estVrai ? "VRAI" : "FAUX";
             questionChoisie.estVrai = estVrai;
         } else {
-            // Titre classique pour les questions à 4 choix
             texteQuestionTelegram = `✨ **ÉPREUVE DU JOUR** ✨\n\n${questionChoisie.texte}`;
         }
         
-        // Mélange des réponses (uniquement pour les QCM 4 choix)
+        // Mélange des réponses
         const propositionsFinales = isInterference ? questionChoisie.propositions : melangerTableau(questionChoisie.propositions);
         
         const optionsSafe = propositionsFinales.map(prop => 
@@ -121,85 +136,82 @@ async function executerRituelQuotidien() {
         const footerHTML = `\n\n🌐 <a href="${urlSite}">Le Portail de Lumière</a>\n📱 <a href="${urlApp}">Application Cobrapédia pour Android</a>`;
 
         // ==========================================
-        // 4. DÉTERMINATION DU MOMENT (FENÊTRES UTC)
+        // 4. DÉTERMINATION DU MOMENT ET ENVOI AUX CIBLES
         // ==========================================
         const heureUTC = new Date().getUTCHours(); 
         
-        // --- MARCHE 1 : MATIN (08h00 Paris / 06h00 UTC) ---
-        if (heureUTC >= 4 && heureUTC < 8) {
+        // On boucle sur nos deux groupes pour envoyer le message correspondant à l'heure
+        for (const cible of CIBLES) {
             
-            const paramsPoll = {
-                chat_id: CHAT_ID,
-                message_thread_id: THREAD_ID, 
-                question: texteQuestionTelegram.substring(0, 300),
-                options: JSON.stringify(optionsSafe),
-                type: 'regular', 
-                is_anonymous: true
-            };
+            // --- MARCHE 1 : MATIN ---
+            if (heureUTC >= 4 && heureUTC < 8) {
+                const paramsPoll = {
+                    chat_id: cible.chat_id,
+                    message_thread_id: cible.thread_id, 
+                    question: texteQuestionTelegram.substring(0, 300),
+                    options: JSON.stringify(optionsSafe),
+                    type: 'regular', 
+                    is_anonymous: true
+                };
 
-            const reponseTelegram = await envoyerAITelegram('sendPoll', paramsPoll);
-            if (reponseTelegram.ok) {
-                console.log(`✨ Succès : Épreuve du matin publiée (Réponse cachée jusqu'à 20h) !`);
+                const reponseTelegram = await envoyerAITelegram('sendPoll', paramsPoll);
+                if (reponseTelegram.ok) {
+                    console.log(`✨ Succès : Épreuve du matin publiée sur [${cible.nom}] !`);
+                } else {
+                    console.error(`🕸️ Erreur Telegram Matin sur [${cible.nom}] :`, reponseTelegram.description);
+                }
+
+            // --- MARCHE 2 : MIDI ---
+            } else if (heureUTC >= 8 && heureUTC < 14) {
+                const messageCitation = `⚡ <b>— LA PENSÉE DU JOUR —</b>\n\n` +
+                                        `<i>"${citationChoisie.texte_fr}"</i>\n\n` +
+                                        `\u2003\u2003<b>✍️ — Cobrapédia —</b>` +
+                                        footerHTML;
+
+                const paramsCitation = {
+                    chat_id: cible.chat_id,
+                    message_thread_id: cible.thread_id, 
+                    text: messageCitation,
+                    parse_mode: 'HTML',
+                    disable_web_page_preview: true 
+                };
+
+                const reponseTelegram = await envoyerAITelegram('sendMessage', paramsCitation);
+                if (reponseTelegram.ok) {
+                    console.log(`📜 Succès : Pensée du jour publiée sur [${cible.nom}] !`);
+                } else {
+                    console.error(`🕸️ Erreur Telegram Citation sur [${cible.nom}] :`, reponseTelegram.description);
+                }
+
+            // --- MARCHE 3 : SOIR ---
             } else {
-                console.error("🕸️ Erreur Telegram (Matin) :", reponseTelegram.description);
+                let blocVerite = "";
+                if (isInterference && questionChoisie.estVrai === false) {
+                    blocVerite = `\n\n🛡️ <b>VÉRITÉ COSMIQUE :</b>\n<i>"${reponseOriginale}"</i>`;
+                }
+
+                const messageResolution = `✨ <b>RÉSOLUTION DE L'ÉPREUVE DU JOUR</b>\n\n` +
+                                          `La bonne réponse était : <b>${questionChoisie.reponse}</b>` + 
+                                          blocVerite + `\n\n` +
+                                          `📚 <b>Transmission Akashique :</b>\n<i>${questionChoisie.explication}</i>` + 
+                                          footerHTML;
+
+                const paramsResolution = {
+                    chat_id: cible.chat_id,
+                    message_thread_id: cible.thread_id, 
+                    text: messageResolution,
+                    parse_mode: 'HTML',
+                    disable_web_page_preview: true 
+                };
+
+                const reponseTelegram = await envoyerAITelegram('sendMessage', paramsResolution);
+                if (reponseTelegram.ok) {
+                    console.log(`🌌 Succès : Résolution du soir publiée sur [${cible.nom}] !`);
+                } else {
+                    console.error(`🕸️ Erreur Telegram Soir sur [${cible.nom}] :`, reponseTelegram.description);
+                }
             }
-
-        // --- MARCHE 2 : MIDI (Citation à 10h00 Paris) ---
-        } else if (heureUTC >= 8 && heureUTC < 14) {
-            
-            const titreCentre = `⚡ <b>— LA PENSÉE DU JOUR —</b>`;
-            
-            const messageCitation = titreCentre + `\n\n` +
-                                    `<i>"${citationChoisie.texte_fr}"</i>\n\n` +
-                                    `\u2003\u2003<b>✍️ — Cobrapédia —</b>` +
-                                    footerHTML;
-
-            const paramsCitation = {
-                chat_id: CHAT_ID,
-                message_thread_id: THREAD_ID, 
-                text: messageCitation,
-                parse_mode: 'HTML',
-                disable_web_page_preview: true 
-            };
-
-            const reponseTelegram = await envoyerAITelegram('sendMessage', paramsCitation);
-            if (reponseTelegram.ok) {
-                console.log("📜 Succès : Pensée du jour publiée !");
-            } else {
-                console.error("🕸️ Erreur Telegram (Citation) :", reponseTelegram.description);
-            }
-
-        // --- MARCHE 3 : SOIR (20h00 Paris / 18h00 UTC - Révélation de la Réponse) ---
-        } else {
-            let blocVerite = "";
-            let texteReponse = `La bonne réponse était : <b>${questionChoisie.reponse}</b>`;
-            
-            // Si c'est une Interférence Vrai/Faux ET que c'était un mensonge
-            if (isInterference && questionChoisie.estVrai === false) {
-                blocVerite = `\n\n🛡️ <b>VÉRITÉ COSMIQUE :</b>\n<i>"${reponseOriginale}"</i>`;
-            }
-
-            const messageResolution = `✨ <b>RÉSOLUTION DE L'ÉPREUVE DU JOUR</b>\n\n` +
-                                      `${texteReponse}` + 
-                                      blocVerite + `\n\n` +
-                                      `📚 <b>Transmission Akashique :</b>\n<i>${questionChoisie.explication}</i>` + 
-                                      footerHTML;
-
-            const paramsResolution = {
-                chat_id: CHAT_ID,
-                message_thread_id: THREAD_ID, 
-                text: messageResolution,
-                parse_mode: 'HTML',
-                disable_web_page_preview: true 
-            };
-
-            const reponseTelegram = await envoyerAITelegram('sendMessage', paramsResolution);
-            if (reponseTelegram.ok) {
-                console.log("🌌 Succès : Résolution du soir publiée !");
-            } else {
-                console.error("🕸️ Erreur Telegram (Soir) :", reponseTelegram.description);
-            }
-        }
+        } // Fin de la boucle CIBLES
 
     } catch (error) {
         console.error("Interférence majeure :", error);
@@ -210,6 +222,7 @@ async function executerRituelQuotidien() {
 // 5. MOTEUR DE COMMUNICATION TELEGRAM
 // ==========================================
 async function envoyerAITelegram(methode, corps) {
+    // Remplacement par fetch natif standard
     const url = `https://api.telegram.org/bot${TELEGRAM_TOKEN}/${methode}`;
     const response = await fetch(url, {
         method: 'POST',
